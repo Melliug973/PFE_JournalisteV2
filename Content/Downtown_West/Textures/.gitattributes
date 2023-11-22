@@ -1,2 +1,6 @@
 T_asphalt_base_normal.uasset filter=lfs diff=lfs merge=lfs -text
 T_asphalt_damaged_normal.uasset filter=lfs diff=lfs merge=lfs -text
+T_asphalt_damaged_rough.uasset filter=lfs diff=lfs merge=lfs -text
+T_Bricks_a_normal.uasset filter=lfs diff=lfs merge=lfs -text
+T_bricks_b_v2_normal.uasset filter=lfs diff=lfs merge=lfs -text
+T_plaster_a_normal.uasset filter=lfs diff=lfs merge=lfs -text
