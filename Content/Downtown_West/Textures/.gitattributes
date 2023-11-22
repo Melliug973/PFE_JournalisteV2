@@ -1,3 +1,2 @@
-#Meidin_FaceMesh.uasset filter=lfs diff=lfs merge=lfs -text
 T_asphalt_base_normal.uasset filter=lfs diff=lfs merge=lfs -text
 T_asphalt_damaged_normal.uasset filter=lfs diff=lfs merge=lfs -text
