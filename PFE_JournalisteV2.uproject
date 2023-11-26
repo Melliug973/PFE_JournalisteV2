@@ -57,6 +57,38 @@
 		{
 			"Name": "GameplayBehaviorSmartObjects",
 			"Enabled": true
+		},
+		{
+			"Name": "GameplayStateTree",
+			"Enabled": true
+		},
+		{
+			"Name": "MetaHuman",
+			"Enabled": true
+		},
+		{
+			"Name": "CitySampleMassCrowd",
+			"Enabled": true
+		},
+		{
+			"Name": "CitySampleSensorGrid",
+			"Enabled": true
+		},
+		{
+			"Name": "HoverDrone",
+			"Enabled": false
+		},
+		{
+			"Name": "WorldAudioDataSystem",
+			"Enabled": false
+		},
+		{
+			"Name": "Crossfader",
+			"Enabled": false
+		},
+		{
+			"Name": "ChaosCarGlass",
+			"Enabled": false
 		}
 	]
 }
