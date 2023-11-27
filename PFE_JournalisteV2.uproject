@@ -67,14 +67,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "CitySampleMassCrowd",
-			"Enabled": true
-		},
-		{
-			"Name": "CitySampleSensorGrid",
-			"Enabled": true
-		},
-		{
 			"Name": "HoverDrone",
 			"Enabled": false
 		},
