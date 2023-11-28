@@ -81,6 +81,10 @@
 		{
 			"Name": "ChaosCarGlass",
 			"Enabled": false
+		},
+		{
+			"Name": "AnimToTexture",
+			"Enabled": true
 		}
 	]
 }
