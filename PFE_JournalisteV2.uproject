@@ -89,6 +89,10 @@
 		{
 			"Name": "AnimationBudgetAllocator",
 			"Enabled": true
+		},
+		{
+			"Name": "SkeletalMeshModelingTools",
+			"Enabled": true
 		}
 	]
 }
