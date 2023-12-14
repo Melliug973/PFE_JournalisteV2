@@ -95,14 +95,6 @@
 		{
 			"Name": "PCGGeometryScriptInterop",
 			"Enabled": true
-		},
-		{
-			"Name": "NeuronLiveLink",
-			"Enabled": true
-		},
-		{
-			"Name": "NeuronRetargeting",
-			"Enabled": true
 		}
 	]
 }
