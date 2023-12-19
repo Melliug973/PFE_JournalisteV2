@@ -95,6 +95,10 @@
 		{
 			"Name": "PCGGeometryScriptInterop",
 			"Enabled": true
+		},
+		{
+			"Name": "CitySampleMassCrowd",
+			"Enabled": true
 		}
 	]
 }
