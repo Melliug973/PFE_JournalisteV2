@@ -99,6 +99,10 @@
 		{
 			"Name": "CitySampleMassCrowd",
 			"Enabled": true
+		},
+		{
+			"Name": "CitySampleSensorGrid",
+			"Enabled": true
 		}
 	]
 }
