@@ -101,8 +101,20 @@
 			"Enabled": true
 		},
 		{
-			"Name": "CitySampleSensorGrid",
-			"Enabled": true
+			"Name": "ChaosCarGlass",
+			"Enabled": false
+		},
+		{
+			"Name": "WorldAudioDataSystem",
+			"Enabled": false
+		},
+		{
+			"Name": "Crossfader",
+			"Enabled": false
+		},
+		{
+			"Name": "HoverDrone",
+			"Enabled": false
 		}
 	]
 }
