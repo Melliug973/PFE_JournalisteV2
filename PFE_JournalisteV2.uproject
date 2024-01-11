@@ -115,6 +115,10 @@
 		{
 			"Name": "HoverDrone",
 			"Enabled": false
+		},
+		{
+			"Name": "MetaHuman",
+			"Enabled": true
 		}
 	]
 }
