@@ -1,1 +1,2 @@
 SK_NewMetaHumanIdentity.uasset filter=lfs diff=lfs merge=lfs -text
+SK_Head_F.uasset filter=lfs diff=lfs merge=lfs -text
