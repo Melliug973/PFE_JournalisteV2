@@ -119,10 +119,6 @@
 		{
 			"Name": "MetaHuman",
 			"Enabled": true
-		},
-		{
-			"Name": "GPULightmass",
-			"Enabled": true
 		}
 	]
 }
