@@ -97,10 +97,6 @@
 			"Enabled": true
 		},
 		{
-			"Name": "CitySampleMassCrowd",
-			"Enabled": true
-		},
-		{
 			"Name": "ChaosCarGlass",
 			"Enabled": false
 		},
@@ -119,6 +115,10 @@
 		{
 			"Name": "MetaHuman",
 			"Enabled": true
+		},
+		{
+			"Name": "RuleProcessor",
+			"Enabled": false
 		}
 	]
 }
