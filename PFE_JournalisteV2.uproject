@@ -115,6 +115,13 @@
 		{
 			"Name": "HoverDrone",
 			"Enabled": false
+		},
+		{
+			"Name": "MetaHuman",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
 		}
 	]
 }
