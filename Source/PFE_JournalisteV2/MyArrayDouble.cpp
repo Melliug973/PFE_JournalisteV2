@@ -37,9 +37,9 @@ void UMyArrayDouble::AddDoubleArrayString(TArray<FString> ListString)
 {
 	
 	DoubleListString.Add(ListString);
-	UE_LOG(LogTemp, Warning, TEXT("NONONONONO"));
+	//UE_LOG(LogTemp, Warning, TEXT("NONONONONO"));
 	
-	GEngine->AddOnScreenDebugMessage(-1, 30.f, FColor::White, TEXT("NONONONONO"));
+	//GEngine->AddOnScreenDebugMessage(-1, 30.f, FColor::White, TEXT("NONONONONO"));
 	
 }
 
@@ -50,16 +50,16 @@ void UMyArrayDouble::AddDoubleArrayString(TArray<FString> ListString)
 TArray<FString> UMyArrayDouble::GetDoubleArrayString(int ArrayIndex)
 {
 	TArray<FString> ArrayString;
-	UE_LOG(LogTemp, Warning, TEXT("GetDoubleArray"));
+	//UE_LOG(LogTemp, Warning, TEXT("GetDoubleArray"));
 	// Vérifiez si l'index est valide
 	if (ArrayIndex >= 0 && ArrayIndex <= DoubleListString.Num())
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Index invalide"));
+		//UE_LOG(LogTemp, Warning, TEXT("Index invalide"));
 		for (int32 i = 0; i < DoubleListString.Num(); i++)
 		{
 			if (i == ArrayIndex)
 			{
-					UE_LOG(LogTemp, Warning, TEXT("OUIOUIOUI"));
+					//UE_LOG(LogTemp, Warning, TEXT("OUIOUIOUI"));
 					ArrayString = DoubleListString[i];
 
 			}
@@ -68,7 +68,7 @@ TArray<FString> UMyArrayDouble::GetDoubleArrayString(int ArrayIndex)
 	else
 	{
 		// Gérez le cas où l'index n'est pas valide 
-		UE_LOG(LogTemp, Warning, TEXT("Index invalide"));
+		//UE_LOG(LogTemp, Warning, TEXT("Index invalide"));
 	}
 	
 	return ArrayString;
@@ -77,16 +77,16 @@ TArray<FString> UMyArrayDouble::GetDoubleArrayString(int ArrayIndex)
 TArray<FText> UMyArrayDouble::GetDoubleArrayText(int Index)
 {
 	TArray<FText> ArrayText;
-	UE_LOG(LogTemp, Warning, TEXT("GetDoubleArray"));
+	//UE_LOG(LogTemp, Warning, TEXT("GetDoubleArray"));
 	// Vérifiez si l'index est valide
 	if (Index >= 0 && Index <= DoubleListText.Num())
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Index invalide"));
+		//UE_LOG(LogTemp, Warning, TEXT("Index invalide"));
 		for (int32 i = 0; i < DoubleListText.Num(); i++)
 		{
 			if (i == Index)
 			{
-				UE_LOG(LogTemp, Warning, TEXT("OUIOUIOUI"));
+				//UE_LOG(LogTemp, Warning, TEXT("OUIOUIOUI"));
 				ArrayText = DoubleListText[i];
 
 			}
@@ -95,7 +95,7 @@ TArray<FText> UMyArrayDouble::GetDoubleArrayText(int Index)
 	else
 	{
 		// Gérez le cas où l'index n'est pas valide 
-		UE_LOG(LogTemp, Warning, TEXT("Index invalide"));
+		//UE_LOG(LogTemp, Warning, TEXT("Index invalide"));
 	}
 
 	return ArrayText;
