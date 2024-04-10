@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+ï»¿// Fill out your copyright notice in the Description page of Project Settings.
 
 
 #include "MyArrayDouble.h"
@@ -49,9 +49,9 @@ void UMyArrayDouble::AddDoubleArrayString(TArray<FString> ListString)
 
 TArray<FString> UMyArrayDouble::GetDoubleArrayString(int ArrayIndex)
 {
-	TArray<FString> ArrayString;
+	/*TArray<FString> ArrayString;
 	//UE_LOG(LogTemp, Warning, TEXT("GetDoubleArray"));
-	// Vérifiez si l'index est valide
+	// VÃ©rifiez si l'index est valide
 	if (ArrayIndex >= 0 && ArrayIndex <= DoubleListString.Num())
 	{
 		//UE_LOG(LogTemp, Warning, TEXT("Index invalide"));
@@ -67,18 +67,29 @@ TArray<FString> UMyArrayDouble::GetDoubleArrayString(int ArrayIndex)
 	}
 	else
 	{
-		// Gérez le cas où l'index n'est pas valide 
+		// GÃ©rez le cas oÃ¹ l'index n'est pas valide 
 		//UE_LOG(LogTemp, Warning, TEXT("Index invalide"));
 	}
 	
 	return ArrayString;
+	*/
+
+	if (ArrayIndex >= 0 && ArrayIndex < DoubleListString.Num())
+	{
+		return DoubleListString[ArrayIndex];
+	}
+	else
+	{
+		// TrateazÄƒ cazul Ã®n care indexul nu este valid
+		return TArray<FString>();
+	}
 }
 
 TArray<FText> UMyArrayDouble::GetDoubleArrayText(int Index)
 {
 	TArray<FText> ArrayText;
 	//UE_LOG(LogTemp, Warning, TEXT("GetDoubleArray"));
-	// Vérifiez si l'index est valide
+	// VÃ©rifiez si l'index est valide
 	if (Index >= 0 && Index <= DoubleListText.Num())
 	{
 		//UE_LOG(LogTemp, Warning, TEXT("Index invalide"));
@@ -94,7 +105,7 @@ TArray<FText> UMyArrayDouble::GetDoubleArrayText(int Index)
 	}
 	else
 	{
-		// Gérez le cas où l'index n'est pas valide 
+		// GÃ©rez le cas oÃ¹ l'index n'est pas valide 
 		//UE_LOG(LogTemp, Warning, TEXT("Index invalide"));
 	}
 
