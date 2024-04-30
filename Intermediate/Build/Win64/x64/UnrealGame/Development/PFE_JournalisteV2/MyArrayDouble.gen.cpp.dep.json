@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\pfe_journalistev2\\intermediate\\build\\win64\\unrealgame\\inc\\pfe_journalistev2\\uht\\myarraydouble.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\pfe_journalistev2\\intermediate\\build\\win64\\x64\\pfe_journalistev2\\development\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "e:\\pfe_journalistev2\\intermediate\\build\\win64\\x64\\unrealgame\\development\\pfe_journalistev2\\definitions.pfe_journalistev2.h",
+            "e:\\pfe_journalistev2\\source\\pfe_journalistev2\\myarraydouble.h",
+            "e:\\pfe_journalistev2\\intermediate\\build\\win64\\unrealgame\\inc\\pfe_journalistev2\\uht\\myarraydouble.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

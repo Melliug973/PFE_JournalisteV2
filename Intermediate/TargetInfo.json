@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "PFE_JournalisteV2",
+			"Path": "..\\Source\\PFE_JournalisteV2.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "PFE_JournalisteV2Editor",
+			"Path": "..\\Source\\PFE_JournalisteV2Editor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
