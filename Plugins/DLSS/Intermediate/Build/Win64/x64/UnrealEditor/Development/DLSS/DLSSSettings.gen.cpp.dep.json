@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\pfe\\pfe_journalistev2\\plugins\\dlss\\intermediate\\build\\win64\\unrealeditor\\inc\\dlss\\uht\\dlsssettings.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\pfe\\pfe_journalistev2\\intermediate\\build\\win64\\x64\\pfe_journalistev2editor\\development\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\pfe\\pfe_journalistev2\\plugins\\dlss\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dlss\\definitions.dlss.h",
+            "d:\\pfe\\pfe_journalistev2\\plugins\\dlss\\source\\dlss\\public\\dlsssettings.h",
+            "d:\\pfe\\pfe_journalistev2\\plugins\\dlss\\intermediate\\build\\win64\\unrealeditor\\inc\\dlss\\uht\\dlsssettings.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

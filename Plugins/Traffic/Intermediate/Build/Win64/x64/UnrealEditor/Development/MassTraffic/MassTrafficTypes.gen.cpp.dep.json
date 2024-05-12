@@ -1,0 +1,42 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\pfe\\pfe_journalistev2\\plugins\\traffic\\intermediate\\build\\win64\\unrealeditor\\inc\\masstraffic\\uht\\masstraffictypes.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\pfe\\pfe_journalistev2\\intermediate\\build\\win64\\x64\\pfe_journalistev2editor\\development\\unrealed\\sharedpch.unrealed.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\pfe\\pfe_journalistev2\\plugins\\traffic\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\masstraffic\\definitions.masstraffic.h",
+            "d:\\pfe\\pfe_journalistev2\\plugins\\traffic\\source\\masstraffic\\public\\masstraffictypes.h",
+            "d:\\pfe\\pfe_journalistev2\\plugins\\traffic\\source\\masstraffic\\public\\masstraffic.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\runtime\\massgameplay\\source\\masscommon\\public\\masscommontypes.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\runtime\\massentity\\source\\massentity\\public\\massentitytypes.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\experimental\\structutils\\source\\structutils\\public\\structtypebitset.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\experimental\\structutils\\source\\structutils\\public\\structutilstypes.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\experimental\\structutils\\source\\structutils\\public\\instancedstruct.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\experimental\\structutils\\source\\structutils\\public\\structutils.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\experimental\\structutils\\intermediate\\build\\win64\\unrealeditor\\inc\\structutils\\uht\\instancedstruct.generated.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\runtime\\massentity\\source\\massentity\\public\\massprocessingtypes.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\runtime\\massentity\\intermediate\\build\\win64\\unrealeditor\\inc\\massentity\\uht\\massprocessingtypes.generated.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\experimental\\structutils\\source\\structutils\\public\\structarrayview.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\experimental\\structutils\\source\\structutils\\public\\structview.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\experimental\\structutils\\source\\structutils\\public\\sharedstruct.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\experimental\\structutils\\intermediate\\build\\win64\\unrealeditor\\inc\\structutils\\uht\\sharedstruct.generated.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\runtime\\massentity\\source\\massentity\\public\\massexternalsubsystemtraits.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\runtime\\massentity\\intermediate\\build\\win64\\unrealeditor\\inc\\massentity\\uht\\massentitytypes.generated.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\source\\runtime\\aimodule\\public\\sequentialid.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\aimodule\\uht\\sequentialid.generated.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\runtime\\massgameplay\\intermediate\\build\\win64\\unrealeditor\\inc\\masscommon\\uht\\masscommontypes.generated.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\runtime\\zonegraph\\source\\zonegraph\\public\\zonegraphtypes.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\runtime\\zonegraph\\source\\zonegraph\\public\\zonegraphbvtree.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\runtime\\zonegraph\\intermediate\\build\\win64\\unrealeditor\\inc\\zonegraph\\uht\\zonegraphbvtree.generated.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\runtime\\zonegraph\\intermediate\\build\\win64\\unrealeditor\\inc\\zonegraph\\uht\\zonegraphtypes.generated.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\source\\runtime\\aimodule\\public\\hierarchicalhashgrid2d.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\runtime\\massentity\\source\\massentity\\public\\massentityview.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\runtime\\massentity\\source\\massentity\\public\\massarchetypetypes.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\runtime\\massentity\\intermediate\\build\\win64\\unrealeditor\\inc\\massentity\\uht\\massentityview.generated.h",
+            "d:\\pfe\\pfe_journalistev2\\plugins\\traffic\\intermediate\\build\\win64\\unrealeditor\\inc\\masstraffic\\uht\\masstraffictypes.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

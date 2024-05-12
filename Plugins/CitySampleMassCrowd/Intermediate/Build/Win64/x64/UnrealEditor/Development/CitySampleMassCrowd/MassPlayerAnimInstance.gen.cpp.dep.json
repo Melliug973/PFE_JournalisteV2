@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\pfe\\pfe_journalistev2\\plugins\\citysamplemasscrowd\\intermediate\\build\\win64\\unrealeditor\\inc\\citysamplemasscrowd\\uht\\massplayeraniminstance.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\pfe\\pfe_journalistev2\\intermediate\\build\\win64\\x64\\pfe_journalistev2editor\\development\\unrealed\\sharedpch.unrealed.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\pfe\\pfe_journalistev2\\plugins\\citysamplemasscrowd\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\citysamplemasscrowd\\definitions.citysamplemasscrowd.h",
+            "d:\\pfe\\pfe_journalistev2\\plugins\\citysamplemasscrowd\\source\\citysamplemasscrowd\\public\\animation\\massplayeraniminstance.h",
+            "d:\\pfe\\pfe_journalistev2\\plugins\\citysamplemasscrowd\\source\\citysamplemasscrowd\\public\\animation\\masscharacterproximity_animinput.h",
+            "d:\\pfe\\pfe_journalistev2\\plugins\\citysamplemasscrowd\\intermediate\\build\\win64\\unrealeditor\\inc\\citysamplemasscrowd\\uht\\masscharacterproximity_animinput.generated.h",
+            "d:\\pfe\\pfe_journalistev2\\plugins\\citysamplemasscrowd\\intermediate\\build\\win64\\unrealeditor\\inc\\citysamplemasscrowd\\uht\\massplayeraniminstance.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

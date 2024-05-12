@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\pfe\\pfe_journalistev2\\plugins\\dlssmoviepipelinesupport\\intermediate\\build\\win64\\unrealeditor\\inc\\dlssmps\\uht\\moviepipelinedlsssetting.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\pfe\\pfe_journalistev2\\intermediate\\build\\win64\\x64\\pfe_journalistev2editor\\development\\unrealed\\sharedpch.unrealed.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\pfe\\pfe_journalistev2\\plugins\\dlssmoviepipelinesupport\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\dlssmps\\definitions.dlssmps.h",
+            "d:\\pfe\\pfe_journalistev2\\plugins\\dlssmoviepipelinesupport\\source\\dlssmoviepipelinesupport\\public\\moviepipelinedlsssetting.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\moviescene\\movierenderpipeline\\source\\movierenderpipelinecore\\public\\moviepipelineviewfamilysetting.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\moviescene\\movierenderpipeline\\source\\movierenderpipelinecore\\public\\moviepipelinesetting.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\moviescene\\movierenderpipeline\\intermediate\\build\\win64\\unrealeditor\\inc\\movierenderpipelinecore\\uht\\moviepipelinesetting.generated.h",
+            "d:\\games\\epic\\ue_5.3\\engine\\plugins\\moviescene\\movierenderpipeline\\intermediate\\build\\win64\\unrealeditor\\inc\\movierenderpipelinecore\\uht\\moviepipelineviewfamilysetting.generated.h",
+            "d:\\pfe\\pfe_journalistev2\\plugins\\dlssmoviepipelinesupport\\intermediate\\build\\win64\\unrealeditor\\inc\\dlssmps\\uht\\moviepipelinedlsssetting.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

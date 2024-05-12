@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\pfe\\pfe_journalistev2\\plugins\\traffic\\intermediate\\build\\win64\\unrealeditor\\inc\\masstraffic\\uht\\masstrafficvehiclecomponent.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\pfe\\pfe_journalistev2\\intermediate\\build\\win64\\x64\\pfe_journalistev2editor\\development\\unrealed\\sharedpch.unrealed.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\pfe\\pfe_journalistev2\\plugins\\traffic\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\masstraffic\\definitions.masstraffic.h",
+            "d:\\pfe\\pfe_journalistev2\\plugins\\traffic\\source\\masstraffic\\public\\masstrafficvehiclecomponent.h",
+            "d:\\pfe\\pfe_journalistev2\\plugins\\traffic\\intermediate\\build\\win64\\unrealeditor\\inc\\masstraffic\\uht\\masstrafficvehiclecomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
