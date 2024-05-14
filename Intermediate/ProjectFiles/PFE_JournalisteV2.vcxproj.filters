@@ -11,14 +11,21 @@
     <None Include="..\..\Source\PFE_JournalisteV2Editor.Target.cs">
       <Filter>Source</Filter>
     </None>
-    <None Include="..\..\.gitignore" />
-    <None Include="..\..\README.md" />
     <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <None Include="..\..\.vsconfig" />
+    <None Include="..\..\README.md" />
+    <None Include="..\..\Tuto_Playtest.umap" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
     <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultGame.ini">
@@ -28,12 +35,6 @@
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultPlugins.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
     </None>
     <Filter Include="Plugins">
@@ -69,13 +70,13 @@
     <ClCompile Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private\MassCharacterProximity_AnimInput.cpp">
       <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private\MassCrowdAnimInstance.cpp">
-      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private\MassCrowdAnimationProcessor.cpp">
       <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private\MassCrowdAnimationTypes.cpp">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private\MassCrowdAnimInstance.cpp">
       <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private\MassCrowdUpdateISMVertexAnimationProcessor.cpp">
@@ -138,10 +139,10 @@
     <ClInclude Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassCharacterStopPrediction_AnimInput.h">
       <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassCrowdAnimInstance.h">
+    <ClInclude Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassCrowdAnimationSettings.h">
       <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassCrowdAnimationSettings.h">
+    <ClInclude Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassCrowdAnimInstance.h">
       <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassCrowdContextualAnimTypes.h">
@@ -1239,12 +1240,6 @@
     <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudQuery.h">
       <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSQLExtensions.cpp">
-      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSQLExtensions.h">
-      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSchema.h">
       <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
     </ClInclude>
@@ -1293,6 +1288,12 @@
     <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSliceAndDiceShared.cpp">
       <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSQLExtensions.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSQLExtensions.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSqliteHelpers.cpp">
       <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
     </ClCompile>
@@ -1428,16 +1429,22 @@
     <Filter Include="Plugins\SoundScape\Source\SoundScapeEditor\Private">
       <UniqueIdentifier>{146D4B06-2E85-3DF1-9FDC-47BDEFC2E8AB}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScapeEditor\Private\AssetTypeActions_SoundscapeColor.cpp">
+      <Filter>Plugins\SoundScape\Source\SoundScapeEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScapeEditor\Private\AssetTypeActions_SoundscapeColor.h">
+      <Filter>Plugins\SoundScape\Source\SoundScapeEditor\Private</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScapeEditor\Private\AssetTypeActions_SoundScapePalette.cpp">
       <Filter>Plugins\SoundScape\Source\SoundScapeEditor\Private</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScapeEditor\Private\AssetTypeActions_SoundScapePalette.h">
       <Filter>Plugins\SoundScape\Source\SoundScapeEditor\Private</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScapeEditor\Private\AssetTypeActions_SoundscapeColor.cpp">
+    <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScapeEditor\Private\SoundscapeColorFactory.cpp">
       <Filter>Plugins\SoundScape\Source\SoundScapeEditor\Private</Filter>
     </ClCompile>
-    <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScapeEditor\Private\AssetTypeActions_SoundscapeColor.h">
+    <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScapeEditor\Private\SoundscapeColorFactory.h">
       <Filter>Plugins\SoundScape\Source\SoundScapeEditor\Private</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScapeEditor\Private\SoundScapeEditorModule.cpp">
@@ -1447,12 +1454,6 @@
       <Filter>Plugins\SoundScape\Source\SoundScapeEditor\Private</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScapeEditor\Private\SoundScapePaletteFactory.h">
-      <Filter>Plugins\SoundScape\Source\SoundScapeEditor\Private</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScapeEditor\Private\SoundscapeColorFactory.cpp">
-      <Filter>Plugins\SoundScape\Source\SoundScapeEditor\Private</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScapeEditor\Private\SoundscapeColorFactory.h">
       <Filter>Plugins\SoundScape\Source\SoundScapeEditor\Private</Filter>
     </ClInclude>
     <Filter Include="Plugins\SoundScape\Source\SoundScapeEditor\Public">
@@ -1473,16 +1474,16 @@
     <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScape\Private\SoundScape.cpp">
       <Filter>Plugins\SoundScape\Source\SoundScape\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScape\Private\SoundScapeModule.cpp">
-      <Filter>Plugins\SoundScape\Source\SoundScape\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScape\Private\SoundScapePalette.cpp">
-      <Filter>Plugins\SoundScape\Source\SoundScape\Private</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScape\Private\SoundscapeColor.cpp">
       <Filter>Plugins\SoundScape\Source\SoundScape\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScape\Private\SoundscapeColorPoint.cpp">
+      <Filter>Plugins\SoundScape\Source\SoundScape\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScape\Private\SoundScapeModule.cpp">
+      <Filter>Plugins\SoundScape\Source\SoundScape\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScape\Private\SoundScapePalette.cpp">
       <Filter>Plugins\SoundScape\Source\SoundScape\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScape\Private\SoundscapeSettings.cpp">
@@ -1497,16 +1498,16 @@
     <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScape\Public\SoundScape.h">
       <Filter>Plugins\SoundScape\Source\SoundScape\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScape\Public\SoundScapeModule.h">
-      <Filter>Plugins\SoundScape\Source\SoundScape\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScape\Public\SoundScapePalette.h">
-      <Filter>Plugins\SoundScape\Source\SoundScape\Public</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScape\Public\SoundscapeColor.h">
       <Filter>Plugins\SoundScape\Source\SoundScape\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScape\Public\SoundscapeColorPoint.h">
+      <Filter>Plugins\SoundScape\Source\SoundScape\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScape\Public\SoundScapeModule.h">
+      <Filter>Plugins\SoundScape\Source\SoundScape\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScape\Public\SoundScapePalette.h">
       <Filter>Plugins\SoundScape\Source\SoundScape\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScape\Public\SoundscapeSettings.h">
@@ -1917,13 +1918,13 @@
     <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficInterpolationProcessor.cpp">
       <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficIntersections.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficIntersectionSimulationTrait.cpp">
       <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficIntersectionSpawnDataGenerator.cpp">
-      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficIntersections.cpp">
       <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficLaneChange.cpp">
@@ -1935,13 +1936,13 @@
     <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficLightRepresentationActorManagement.cpp">
       <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficLights.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficLightVisualizationProcessor.cpp">
       <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficLightVisualizationTrait.cpp">
-      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficLights.cpp">
       <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficLightweightMontageInstance.cpp">
@@ -1959,6 +1960,9 @@
     <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficParkedVehicleRepresentationActorManagement.cpp">
       <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficParkedVehicles.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficParkedVehicleSpawnDataGenerator.cpp">
       <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
     </ClCompile>
@@ -1966,9 +1970,6 @@
       <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficParkedVehicleVisualizationTrait.cpp">
-      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficParkedVehicles.cpp">
       <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficPhysics.cpp">
@@ -2103,13 +2104,13 @@
     <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficDelegates.h">
       <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficDrivers.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficDriverVisualizationProcessor.h">
       <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficDriverVisualizationTrait.h">
-      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficDrivers.h">
       <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficEvaluateSequenceAnimInstance.h">
@@ -2169,13 +2170,13 @@
     <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficInterpolationProcessor.h">
       <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficIntersections.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficIntersectionSimulationTrait.h">
       <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficIntersectionSpawnDataGenerator.h">
-      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficIntersections.h">
       <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficLaneChange.h">
@@ -2187,13 +2188,13 @@
     <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficLightRepresentationActorManagement.h">
       <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficLights.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficLightVisualizationProcessor.h">
       <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficLightVisualizationTrait.h">
-      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficLights.h">
       <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficLightweightMontageInstance.h">
@@ -2208,10 +2209,10 @@
     <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficOverseerProcessor.h">
       <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficPIDController.h">
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficParkedVehicleRepresentationActorManagement.h">
       <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficParkedVehicleRepresentationActorManagement.h">
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficParkedVehicles.h">
       <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficParkedVehicleSpawnDataGenerator.h">
@@ -2223,10 +2224,10 @@
     <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficParkedVehicleVisualizationTrait.h">
       <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficParkedVehicles.h">
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficPhysics.h">
       <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficPhysics.h">
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficPIDController.h">
       <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficPlayerVehicleLODProcessor.h">
@@ -2442,6 +2443,9 @@
     <Filter Include="Source\PFE_JournalisteV2">
       <UniqueIdentifier>{502A2D2F-FF8A-33F2-9E43-724754888A6F}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\PFE_JournalisteV2\MyArrayDouble.cpp">
+      <Filter>Source\PFE_JournalisteV2</Filter>
+    </ClCompile>
     <ClInclude Include="..\..\Source\PFE_JournalisteV2\MyArrayDouble.h">
       <Filter>Source\PFE_JournalisteV2</Filter>
     </ClInclude>
@@ -2454,8 +2458,5 @@
     <ClInclude Include="..\..\Source\PFE_JournalisteV2\PFE_JournalisteV2.h">
       <Filter>Source\PFE_JournalisteV2</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\PFE_JournalisteV2\MyArrayDouble.cpp">
-      <Filter>Source\PFE_JournalisteV2</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

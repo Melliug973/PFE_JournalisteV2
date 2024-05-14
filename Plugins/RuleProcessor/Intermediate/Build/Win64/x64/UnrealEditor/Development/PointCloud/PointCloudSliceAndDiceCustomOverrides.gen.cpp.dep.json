@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\plugins\\ruleprocessor\\intermediate\\build\\win64\\unrealeditor\\inc\\pointcloud\\uht\\pointcloudsliceanddicecustomoverrides.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\intermediate\\build\\win64\\x64\\pfe_journalistev2editor\\development\\unrealed\\sharedpch.unrealed.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\plugins\\ruleprocessor\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\pointcloud\\definitions.pointcloud.h",
+            "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\plugins\\ruleprocessor\\source\\pointcloud\\public\\pointcloudsliceanddicecustomoverrides.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\plugins\\experimental\\structutils\\source\\structutils\\public\\instancedstruct.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\plugins\\experimental\\structutils\\source\\structutils\\public\\structutils.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\plugins\\experimental\\structutils\\intermediate\\build\\win64\\unrealeditor\\inc\\structutils\\uht\\instancedstruct.generated.h",
+            "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\plugins\\ruleprocessor\\intermediate\\build\\win64\\unrealeditor\\inc\\pointcloud\\uht\\pointcloudsliceanddicecustomoverrides.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -85,6 +85,32 @@ TArray<FString> UMyArrayDouble::GetDoubleArrayString(int ArrayIndex)
 	}
 }
 
+TArray<int32> UMyArrayDouble::GetDoubleArrayIntIndex(int Index)
+{
+	if (Index >= 0 && Index < DoubleListInt.Num())
+	{
+		return DoubleListInt[Index];
+	}
+	else
+	{
+		// Tratează cazul în care indexul nu este valid
+		return TArray<int32>();
+	}
+	
+}
+
+int32 UMyArrayDouble::GetDoubleArrayInt()
+{
+	return DoubleListInt.Num();
+}
+
+void UMyArrayDouble::AddDoubleArrayInt(TArray<int32> ListInt)
+{
+	DoubleListInt.Add(ListInt);
+}
+
+
+
 TArray<FText> UMyArrayDouble::GetDoubleArrayText(int Index)
 {
 	TArray<FText> ArrayText;

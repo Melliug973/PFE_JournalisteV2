@@ -1,13 +1,13 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\pfe_journalistev2\\plugins\\dlss\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ngxvulkanrhipreinit\\module.ngxvulkanrhipreinit.cpp",
+        "Source": "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\plugins\\dlss\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ngxvulkanrhipreinit\\module.ngxvulkanrhipreinit.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\pfe_journalistev2\\intermediate\\build\\win64\\x64\\pfe_journalistev2editor\\development\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
+        "PCH": "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\intermediate\\build\\win64\\x64\\pfe_journalistev2editor\\development\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
         "Includes": [
-            "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\pfe_journalistev2\\plugins\\dlss\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ngxvulkanrhipreinit\\definitions.ngxvulkanrhipreinit.h",
-            "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\pfe_journalistev2\\plugins\\dlss\\source\\ngxvulkanrhipreinit\\private\\ngxvulkanrhipreinit.cpp",
-            "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\pfe_journalistev2\\plugins\\dlss\\source\\ngxvulkanrhipreinit\\public\\ngxvulkanrhipreinit.h",
+            "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\plugins\\dlss\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ngxvulkanrhipreinit\\definitions.ngxvulkanrhipreinit.h",
+            "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\plugins\\dlss\\source\\ngxvulkanrhipreinit\\private\\ngxvulkanrhipreinit.cpp",
+            "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\plugins\\dlss\\source\\ngxvulkanrhipreinit\\public\\ngxvulkanrhipreinit.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\vulkanrhi\\public\\ivulkandynamicrhi.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\core\\public\\microsoft\\allowmicrosoftplatformtypes.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\core\\public\\windows\\allowwindowsplatformtypes.h",
@@ -121,9 +121,9 @@
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\thirdparty\\vulkan\\include\\vk_video\\vulkan_video_codec_h265std.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\thirdparty\\vulkan\\include\\vk_video\\vulkan_video_codec_h265std_decode.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\thirdparty\\vulkan\\include\\vulkan\\vulkan_win32.h",
-            "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\pfe_journalistev2\\plugins\\dlss\\source\\thirdparty\\ngx\\include\\nvsdk_ngx_vk.h",
-            "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\pfe_journalistev2\\plugins\\dlss\\source\\thirdparty\\ngx\\include\\nvsdk_ngx_defs.h",
-            "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\pfe_journalistev2\\plugins\\dlss\\source\\thirdparty\\ngx\\include\\nvsdk_ngx_params.h"
+            "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\plugins\\dlss\\source\\thirdparty\\ngx\\include\\nvsdk_ngx_vk.h",
+            "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\plugins\\dlss\\source\\thirdparty\\ngx\\include\\nvsdk_ngx_defs.h",
+            "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\plugins\\dlss\\source\\thirdparty\\ngx\\include\\nvsdk_ngx_params.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
