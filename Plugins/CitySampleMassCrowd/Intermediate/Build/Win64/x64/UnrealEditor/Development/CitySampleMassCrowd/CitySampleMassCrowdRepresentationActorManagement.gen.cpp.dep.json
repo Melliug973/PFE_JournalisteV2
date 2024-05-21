@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\plugins\\citysamplemasscrowd\\intermediate\\build\\win64\\unrealeditor\\inc\\citysamplemasscrowd\\uht\\citysamplemasscrowdrepresentationactormanagement.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\intermediate\\build\\win64\\x64\\pfe_journalistev2editor\\development\\unrealed\\sharedpch.unrealed.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\plugins\\citysamplemasscrowd\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\citysamplemasscrowd\\definitions.citysamplemasscrowd.h",
+            "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\plugins\\citysamplemasscrowd\\source\\citysamplemasscrowd\\public\\citysamplemasscrowdrepresentationactormanagement.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\plugins\\ai\\masscrowd\\source\\masscrowd\\public\\masscrowdrepresentationactormanagement.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\plugins\\runtime\\massgameplay\\source\\massrepresentation\\public\\massrepresentationactormanagement.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\plugins\\runtime\\massgameplay\\intermediate\\build\\win64\\unrealeditor\\inc\\massrepresentation\\uht\\massrepresentationactormanagement.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\plugins\\ai\\masscrowd\\intermediate\\build\\win64\\unrealeditor\\inc\\masscrowd\\uht\\masscrowdrepresentationactormanagement.generated.h",
+            "c:\\users\\dudas\\onedrive\\desktop\\pfe_journalistev2\\plugins\\citysamplemasscrowd\\intermediate\\build\\win64\\unrealeditor\\inc\\citysamplemasscrowd\\uht\\citysamplemasscrowdrepresentationactormanagement.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

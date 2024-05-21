@@ -1,0 +1,2462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\PFE_JournalisteV2.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PFE_JournalisteV2.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PFE_JournalisteV2Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\README.md" />
+    <None Include="..\..\Tuto_Playtest.umap" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultPlugins.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Plugins">
+      <UniqueIdentifier>{BB38096A-B391-30DC-A0D4-4F3EA6B44507}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CitySampleMassCrowd">
+      <UniqueIdentifier>{46A1ED94-3802-32D4-83F7-F33AB2C18F6E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CitySampleMassCrowd\Source">
+      <UniqueIdentifier>{4BEDBDAE-EFD8-3383-B753-D96B53F55223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd">
+      <UniqueIdentifier>{8E834F7F-3866-3088-A213-F5FEAA72DCBD}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\CitySampleMassCrowd.Build.cs">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd</Filter>
+    </None>
+    <Filter Include="Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private">
+      <UniqueIdentifier>{B01DB3D4-D574-371F-B936-8A27F7F9AA81}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private\CitySampleDebugVisualization.cpp">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private\CitySampleDisplayEntitiesProcessor.cpp">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private\CitySampleMassCrowdModule.cpp">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private\CitySampleMassCrowdRepresentationActorManagement.cpp">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private\MassCharacterProximity_AnimInput.cpp">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private\MassCrowdAnimationProcessor.cpp">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private\MassCrowdAnimationTypes.cpp">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private\MassCrowdAnimInstance.cpp">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private\MassCrowdUpdateISMVertexAnimationProcessor.cpp">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private\MassPlayerAnimInstance.cpp">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private\SmartObjectMassInteractionDefinition.cpp">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private\Tasks">
+      <UniqueIdentifier>{210BEBDB-26D4-3C43-9CF6-E4C74EA759EA}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private\Tasks\MassContextualAnimTask.cpp">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private\Tasks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private\Tasks\MassContextualAnimTask.h">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private\Tasks</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public">
+      <UniqueIdentifier>{0FD05019-6DF6-3230-8C23-0E29E4023510}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\CitySampleDebugVisualization.h">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\CitySampleDisplayEntitiesProcessor.h">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\CitySampleMassCrowdRepresentationActorManagement.h">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\ICitySampleMassCrowdModule.h">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\IMassCrowdActor.h">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\MassCrowdAnimationProcessor.h">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\MassCrowdAnimationTypes.h">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\MassCrowdUpdateISMVertexAnimationProcessor.h">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\SmartObjectMassInteractionDefinition.h">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation">
+      <UniqueIdentifier>{B26F0D3F-85E8-359A-94CC-7BF5E4240D50}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassCharacterMovementInfo_AnimInput.h">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassCharacterProximity_AnimInput.h">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassCharacterStopPrediction_AnimInput.h">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassCrowdAnimationSettings.h">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassCrowdAnimInstance.h">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassCrowdContextualAnimTypes.h">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassPlayerAnimInstance.h">
+      <Filter>Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\BrokenGlassEffects">
+      <UniqueIdentifier>{C1725677-ACB4-3630-AB57-83C830FEA1A7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\BrokenGlassEffects\ChaosCarGlass.uplugin">
+      <Filter>Plugins\BrokenGlassEffects</Filter>
+    </None>
+    <Filter Include="Plugins\BrokenGlassEffects\Resources">
+      <UniqueIdentifier>{CB787D12-5D8D-3DB9-9FE9-5A69CD928337}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\BrokenGlassEffects\Resources\Icon128.png">
+      <Filter>Plugins\BrokenGlassEffects\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\CitySampleMassCrowd\CitySampleMassCrowd.uplugin">
+      <Filter>Plugins\CitySampleMassCrowd</Filter>
+    </None>
+    <Filter Include="Plugins\CitySampleMassCrowd\Config">
+      <UniqueIdentifier>{0A2F6F91-23C1-37CE-A6A7-FDEE738C279B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CitySampleMassCrowd\Config\BaseCitySampleMassCrowd.ini">
+      <Filter>Plugins\CitySampleMassCrowd\Config</Filter>
+    </None>
+    <Filter Include="Plugins\CitySampleSensorGrid">
+      <UniqueIdentifier>{03E029AA-7255-399B-BC1A-49B4957E16FA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CitySampleSensorGrid\CitySampleSensorGrid.uplugin">
+      <Filter>Plugins\CitySampleSensorGrid</Filter>
+    </None>
+    <Filter Include="Plugins\CitySampleSensorGrid\Shaders">
+      <UniqueIdentifier>{74AA6181-E3ED-3DCE-B8FB-D62D0F40F5E6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CitySampleSensorGrid\Shaders\CitySampleSensorGridBvh.usf">
+      <Filter>Plugins\CitySampleSensorGrid\Shaders</Filter>
+    </None>
+    <None Include="..\..\Plugins\CitySampleSensorGrid\Shaders\CitySampleSensorGridCommon.ush">
+      <Filter>Plugins\CitySampleSensorGrid\Shaders</Filter>
+    </None>
+    <None Include="..\..\Plugins\CitySampleSensorGrid\Shaders\NiagaraDataInterfaceCitySampleSensorGrid.ush">
+      <Filter>Plugins\CitySampleSensorGrid\Shaders</Filter>
+    </None>
+    <None Include="..\..\Plugins\CitySampleSensorGrid\Shaders\NiagaraDataInterfaceCitySampleSensorGridTemplate.ush">
+      <Filter>Plugins\CitySampleSensorGrid\Shaders</Filter>
+    </None>
+    <Filter Include="Plugins\Crossfader">
+      <UniqueIdentifier>{015A76C0-3F1A-39FF-9326-63EFB48DB7F6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Crossfader\Crossfader.uplugin">
+      <Filter>Plugins\Crossfader</Filter>
+    </None>
+    <Filter Include="Plugins\Crossfader\Resources">
+      <UniqueIdentifier>{E54754B6-0F50-38C0-AD94-60FAF2518241}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Crossfader\Resources\Icon128.png">
+      <Filter>Plugins\Crossfader\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\DLSSMoviePipelineSupport">
+      <UniqueIdentifier>{ED1C908E-B181-3ED2-BB28-5025FB5D491D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DLSSMoviePipelineSupport\DLSSMoviePipelineSupport.uplugin">
+      <Filter>Plugins\DLSSMoviePipelineSupport</Filter>
+    </None>
+    <Filter Include="Plugins\DLSSMoviePipelineSupport\Resources">
+      <UniqueIdentifier>{ACF023EC-6B65-35E0-96B7-941BA1E90157}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DLSSMoviePipelineSupport\Resources\Icon128.png">
+      <Filter>Plugins\DLSSMoviePipelineSupport\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\DLSS">
+      <UniqueIdentifier>{2A4FACC8-4400-312A-973A-252726C1F41F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DLSS\DLSS.uplugin">
+      <Filter>Plugins\DLSS</Filter>
+    </None>
+    <Filter Include="Plugins\DLSS\Config">
+      <UniqueIdentifier>{802B5328-A79F-3D82-B20D-506FBD7B6F81}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DLSS\Config\FilterPlugin.ini">
+      <Filter>Plugins\DLSS\Config</Filter>
+    </None>
+    <Filter Include="Plugins\DLSS\Resources">
+      <UniqueIdentifier>{4801242E-AAEF-3AD9-8CDF-17782BA703FE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DLSS\Resources\Icon128.png">
+      <Filter>Plugins\DLSS\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\DLSS\Shaders">
+      <UniqueIdentifier>{6B3E8AED-3546-3FC6-9859-9BC2145B3ADB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\DLSS\Shaders\Private">
+      <UniqueIdentifier>{12AC913D-BFDC-39FA-A970-8C787C8BFC9C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DLSS\Shaders\Private\GBufferResolve.usf">
+      <Filter>Plugins\DLSS\Shaders\Private</Filter>
+    </None>
+    <None Include="..\..\Plugins\DLSS\Shaders\Private\VelocityCombine.usf">
+      <Filter>Plugins\DLSS\Shaders\Private</Filter>
+    </None>
+    <Filter Include="Plugins\HoverDrone">
+      <UniqueIdentifier>{5D213BF4-A673-3854-8702-998D689F50AC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\HoverDrone\HoverDrone.uplugin">
+      <Filter>Plugins\HoverDrone</Filter>
+    </None>
+    <Filter Include="Plugins\NIS">
+      <UniqueIdentifier>{4EC0E70D-6DF1-31C6-AE17-D02250419CE5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\NIS\NIS.uplugin">
+      <Filter>Plugins\NIS</Filter>
+    </None>
+    <Filter Include="Plugins\NIS\Config">
+      <UniqueIdentifier>{5C97C22D-6E6E-3E65-9039-B620F1CBC8FF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\NIS\Config\FilterPlugin.ini">
+      <Filter>Plugins\NIS\Config</Filter>
+    </None>
+    <Filter Include="Plugins\NIS\Resources">
+      <UniqueIdentifier>{815D55CF-85CE-3261-AE8A-FE5F8F86487A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\NIS\Resources\Icon128.png">
+      <Filter>Plugins\NIS\Resources</Filter>
+    </None>
+    <None Include="..\..\Plugins\NIS\Resources\Icon256.png">
+      <Filter>Plugins\NIS\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\NIS\Shaders">
+      <UniqueIdentifier>{A96A290F-39E4-3CC6-82C5-8121F86D284B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\NIS\Shaders\Private">
+      <UniqueIdentifier>{C142555F-89E5-3D6D-8F81-ABE1EF24A02A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\NIS\Shaders\Private\NISUpscaler.usf">
+      <Filter>Plugins\NIS\Shaders\Private</Filter>
+    </None>
+    <Filter Include="Plugins\NIS\Shaders\ThirdParty">
+      <UniqueIdentifier>{C0D748A7-AD78-34C6-8778-2560D3781107}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\NIS\Shaders\ThirdParty\NIS_Main.glsl">
+      <Filter>Plugins\NIS\Shaders\ThirdParty</Filter>
+    </None>
+    <None Include="..\..\Plugins\NIS\Shaders\ThirdParty\NIS_Main.hlsl">
+      <Filter>Plugins\NIS\Shaders\ThirdParty</Filter>
+    </None>
+    <ClInclude Include="..\..\Plugins\NIS\Shaders\ThirdParty\NIS_Scaler.h">
+      <Filter>Plugins\NIS\Shaders\ThirdParty</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\RuleProcessor">
+      <UniqueIdentifier>{5E209389-B4CA-3DE6-8663-CFEAAB13C882}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\RuleProcessor\RuleProcessor.uplugin">
+      <Filter>Plugins\RuleProcessor</Filter>
+    </None>
+    <Filter Include="Plugins\RuleProcessor\Config">
+      <UniqueIdentifier>{54FEE549-450F-3A82-A1BD-66AF7D94DFDE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\RuleProcessor\Config\DefaultRuleProcessor.ini">
+      <Filter>Plugins\RuleProcessor\Config</Filter>
+    </None>
+    <Filter Include="Plugins\SoundScape">
+      <UniqueIdentifier>{D1AA5761-8689-31A0-9C72-B10317784851}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\SoundScape\Soundscape.uplugin">
+      <Filter>Plugins\SoundScape</Filter>
+    </None>
+    <Filter Include="Plugins\SoundScape\Config">
+      <UniqueIdentifier>{B50525F1-64C7-3838-A7DE-34A1D8475049}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\SoundScape\Config\FilterPlugin.ini">
+      <Filter>Plugins\SoundScape\Config</Filter>
+    </None>
+    <Filter Include="Plugins\SoundScape\Resources">
+      <UniqueIdentifier>{E2D47AC3-83CB-30CF-AAB8-DB164D7A8F52}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\SoundScape\Resources\Icon128.png">
+      <Filter>Plugins\SoundScape\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\Streamline">
+      <UniqueIdentifier>{F6D2EC7F-118A-3D8A-8903-B4736C8D399E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Streamline\Streamline.uplugin">
+      <Filter>Plugins\Streamline</Filter>
+    </None>
+    <Filter Include="Plugins\Streamline\Config">
+      <UniqueIdentifier>{E5DEA78F-2312-3916-ADE2-C7A4D6E305B1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Streamline\Config\FilterPlugin.ini">
+      <Filter>Plugins\Streamline\Config</Filter>
+    </None>
+    <Filter Include="Plugins\Streamline\Resources">
+      <UniqueIdentifier>{8FAC9EA4-63CD-37C1-8C8F-3EAE37F49945}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Streamline\Resources\Icon128.png">
+      <Filter>Plugins\Streamline\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\Streamline\Shaders">
+      <UniqueIdentifier>{29FE6A9C-0F9C-3CDC-96D0-50BC0734A108}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Streamline\Shaders\Private">
+      <UniqueIdentifier>{5A1B08CC-8DA9-3D18-A2A2-82ADA103DDCC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Streamline\Shaders\Private\UIHintExtraction.usf">
+      <Filter>Plugins\Streamline\Shaders\Private</Filter>
+    </None>
+    <None Include="..\..\Plugins\Streamline\Shaders\Private\VelocityCombine.usf">
+      <Filter>Plugins\Streamline\Shaders\Private</Filter>
+    </None>
+    <Filter Include="Plugins\Traffic">
+      <UniqueIdentifier>{361E823E-722D-3F36-B711-CC4538B15B9B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Traffic\Traffic.uplugin">
+      <Filter>Plugins\Traffic</Filter>
+    </None>
+    <Filter Include="Plugins\Traffic\Config">
+      <UniqueIdentifier>{91F8CE85-D1EC-3580-B240-60C6EC099606}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Traffic\Config\BaseTraffic.ini">
+      <Filter>Plugins\Traffic\Config</Filter>
+    </None>
+    <None Include="..\..\Plugins\Traffic\Config\DefaultTraffic.ini">
+      <Filter>Plugins\Traffic\Config</Filter>
+    </None>
+    <Filter Include="Plugins\WorldAudioDataSystem">
+      <UniqueIdentifier>{ECB62EC4-978F-3828-B09C-AB79AC29FA6C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\WorldAudioDataSystem\WorldAudioDataSystem.uplugin">
+      <Filter>Plugins\WorldAudioDataSystem</Filter>
+    </None>
+    <Filter Include="Plugins\WorldAudioDataSystem\Resources">
+      <UniqueIdentifier>{2B4B5BA2-AB1D-3875-AE39-A0AA59EAAEC7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\WorldAudioDataSystem\Resources\Icon128.png">
+      <Filter>Plugins\WorldAudioDataSystem\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\CitySampleSensorGrid\Source">
+      <UniqueIdentifier>{0FBCA6B2-1635-39B3-AB45-496177D5DE88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\CitySampleSensorGrid\Source\CitySampleSensorGridShaders">
+      <UniqueIdentifier>{7F4E0984-0697-3A3D-9EA3-5E086AAD8331}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CitySampleSensorGrid\Source\CitySampleSensorGridShaders\CitySampleSensorGridShaders.Build.cs">
+      <Filter>Plugins\CitySampleSensorGrid\Source\CitySampleSensorGridShaders</Filter>
+    </None>
+    <Filter Include="Plugins\CitySampleSensorGrid\Source\CitySampleSensorGridShaders\Private">
+      <UniqueIdentifier>{44926B31-D09C-34C3-A32D-E160043E757C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\CitySampleSensorGrid\Source\CitySampleSensorGridShaders\Private\CitySampleSensorGridShaders.cpp">
+      <Filter>Plugins\CitySampleSensorGrid\Source\CitySampleSensorGridShaders\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CitySampleSensorGrid\Source\CitySampleSensorGridShaders\Private\CitySampleSensorGridShadersModule.cpp">
+      <Filter>Plugins\CitySampleSensorGrid\Source\CitySampleSensorGridShaders\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\CitySampleSensorGrid\Source\CitySampleSensorGridShaders\Public">
+      <UniqueIdentifier>{93596C5F-BEE8-31A6-B5B9-C1CFC30D2A3B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CitySampleSensorGrid\Source\CitySampleSensorGridShaders\Public\CitySampleSensorGridShaders.h">
+      <Filter>Plugins\CitySampleSensorGrid\Source\CitySampleSensorGridShaders\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\CitySampleSensorGrid\Source\CitySampleSensorGridShaders\Public\CitySampleSensorGridShadersModule.h">
+      <Filter>Plugins\CitySampleSensorGrid\Source\CitySampleSensorGridShaders\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CitySampleSensorGrid\Source\CitySampleSensorGrid">
+      <UniqueIdentifier>{897B47CC-E388-3C64-B3D1-26098353ADBE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\CitySampleSensorGrid\Source\CitySampleSensorGrid\CitySampleSensorGrid.Build.cs">
+      <Filter>Plugins\CitySampleSensorGrid\Source\CitySampleSensorGrid</Filter>
+    </None>
+    <Filter Include="Plugins\CitySampleSensorGrid\Source\CitySampleSensorGrid\Private">
+      <UniqueIdentifier>{DF51FF51-DB64-3915-A855-4609BA7F7D49}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\CitySampleSensorGrid\Source\CitySampleSensorGrid\Private\CitySampleSensorGrid.cpp">
+      <Filter>Plugins\CitySampleSensorGrid\Source\CitySampleSensorGrid\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\CitySampleSensorGrid\Source\CitySampleSensorGrid\Private\NiagaraDataInterfaceCitySampleSensorGrid.cpp">
+      <Filter>Plugins\CitySampleSensorGrid\Source\CitySampleSensorGrid\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\CitySampleSensorGrid\Source\CitySampleSensorGrid\Private\NiagaraDataInterfaceCitySampleSensorGrid.h">
+      <Filter>Plugins\CitySampleSensorGrid\Source\CitySampleSensorGrid\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\CitySampleSensorGrid\Source\CitySampleSensorGrid\Public">
+      <UniqueIdentifier>{9D16F430-44DA-3A11-B93B-A8A76FDF2B60}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\CitySampleSensorGrid\Source\CitySampleSensorGrid\Public\CitySampleSensorGrid.h">
+      <Filter>Plugins\CitySampleSensorGrid\Source\CitySampleSensorGrid\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Crossfader\Source">
+      <UniqueIdentifier>{DBE157AA-BE48-39B8-97FE-F74F11717D92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Crossfader\Source\CrossfaderEditor">
+      <UniqueIdentifier>{89444F93-C50C-3011-A3F4-955270C55F9F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Crossfader\Source\CrossfaderEditor\CrossfaderEditor.Build.cs">
+      <Filter>Plugins\Crossfader\Source\CrossfaderEditor</Filter>
+    </None>
+    <Filter Include="Plugins\Crossfader\Source\CrossfaderEditor\Private">
+      <UniqueIdentifier>{E946B7D9-AC45-3808-BAA9-BE4A0B59ADB6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Crossfader\Source\CrossfaderEditor\Private\AssetTypeActions_MixStateBank.cpp">
+      <Filter>Plugins\Crossfader\Source\CrossfaderEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Crossfader\Source\CrossfaderEditor\Private\AssetTypeActions_MixStateBank.h">
+      <Filter>Plugins\Crossfader\Source\CrossfaderEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Crossfader\Source\CrossfaderEditor\Private\CrossfaderEditor.cpp">
+      <Filter>Plugins\Crossfader\Source\CrossfaderEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Crossfader\Source\CrossfaderEditor\Private\MixStateBankFactory.cpp">
+      <Filter>Plugins\Crossfader\Source\CrossfaderEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Crossfader\Source\CrossfaderEditor\Private\MixStateBankFactory.h">
+      <Filter>Plugins\Crossfader\Source\CrossfaderEditor\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Crossfader\Source\CrossfaderEditor\Public">
+      <UniqueIdentifier>{BF283501-BEF3-3376-8A41-59D0F2C4B9DC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Crossfader\Source\CrossfaderEditor\Public\CrossfaderEditor.h">
+      <Filter>Plugins\Crossfader\Source\CrossfaderEditor\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Crossfader\Source\Crossfader">
+      <UniqueIdentifier>{ED7F3E31-3E14-3A94-936E-5D19B36875E9}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Crossfader\Source\Crossfader\Crossfader.Build.cs">
+      <Filter>Plugins\Crossfader\Source\Crossfader</Filter>
+    </None>
+    <Filter Include="Plugins\Crossfader\Source\Crossfader\Private">
+      <UniqueIdentifier>{B21FD462-1C6D-3D87-817E-0931F3339FF7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Crossfader\Source\Crossfader\Private\Crossfader.cpp">
+      <Filter>Plugins\Crossfader\Source\Crossfader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Crossfader\Source\Crossfader\Private\CrossfaderSubsystem.cpp">
+      <Filter>Plugins\Crossfader\Source\Crossfader\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Crossfader\Source\Crossfader\Private\MixStateBank.cpp">
+      <Filter>Plugins\Crossfader\Source\Crossfader\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Crossfader\Source\Crossfader\Public">
+      <UniqueIdentifier>{A09123F3-90AC-343B-A3C9-71830B7FB33A}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Crossfader\Source\Crossfader\Public\Crossfader.h">
+      <Filter>Plugins\Crossfader\Source\Crossfader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Crossfader\Source\Crossfader\Public\CrossfaderSubsystem.h">
+      <Filter>Plugins\Crossfader\Source\Crossfader\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Crossfader\Source\Crossfader\Public\MixStateBank.h">
+      <Filter>Plugins\Crossfader\Source\Crossfader\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\DLSSMoviePipelineSupport\Source">
+      <UniqueIdentifier>{C0C48181-0D9F-327C-BEF5-5B518BBFFE72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\DLSSMoviePipelineSupport\Source\DLSSMoviePipelineSupport">
+      <UniqueIdentifier>{323ADFEE-A93D-34F3-882F-BCBED0B2021C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DLSSMoviePipelineSupport\Source\DLSSMoviePipelineSupport\DLSSMoviePipelineSupport.Build.cs">
+      <Filter>Plugins\DLSSMoviePipelineSupport\Source\DLSSMoviePipelineSupport</Filter>
+    </None>
+    <Filter Include="Plugins\DLSSMoviePipelineSupport\Source\DLSSMoviePipelineSupport\Private">
+      <UniqueIdentifier>{E81FF444-467D-3936-BEDE-3D8CB4C841DE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\DLSSMoviePipelineSupport\Source\DLSSMoviePipelineSupport\Private\DLSSMoviePipelineSupportModule.cpp">
+      <Filter>Plugins\DLSSMoviePipelineSupport\Source\DLSSMoviePipelineSupport\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\DLSSMoviePipelineSupport\Source\DLSSMoviePipelineSupport\Private\MoviePipelineDLSSSetting.cpp">
+      <Filter>Plugins\DLSSMoviePipelineSupport\Source\DLSSMoviePipelineSupport\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\DLSSMoviePipelineSupport\Source\DLSSMoviePipelineSupport\Public">
+      <UniqueIdentifier>{3620EC8C-8F98-38E0-B501-21AE78405C23}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\DLSSMoviePipelineSupport\Source\DLSSMoviePipelineSupport\Public\MoviePipelineDLSSSetting.h">
+      <Filter>Plugins\DLSSMoviePipelineSupport\Source\DLSSMoviePipelineSupport\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\DLSS\Source">
+      <UniqueIdentifier>{095721E9-7112-362B-A65F-D4C3735A234E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\DLSS\Source\DLSSBlueprint">
+      <UniqueIdentifier>{38B81CEC-BCA7-3E8C-AB8F-2298C9BD8EF6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DLSS\Source\DLSSBlueprint\DLSSBlueprint.Build.cs">
+      <Filter>Plugins\DLSS\Source\DLSSBlueprint</Filter>
+    </None>
+    <Filter Include="Plugins\DLSS\Source\DLSSBlueprint\Private">
+      <UniqueIdentifier>{682F86AB-F8B3-32DC-9760-241FB505256F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\DLSS\Source\DLSSBlueprint\Private\DLSSLibrary.cpp">
+      <Filter>Plugins\DLSS\Source\DLSSBlueprint\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\DLSS\Source\DLSSBlueprint\Public">
+      <UniqueIdentifier>{4ADF1750-BD42-34B9-849B-234750EE8229}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\DLSSBlueprint\Public\DLSSLibrary.h">
+      <Filter>Plugins\DLSS\Source\DLSSBlueprint\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\DLSS\Source\DLSSEditor">
+      <UniqueIdentifier>{26D08ED7-4C0C-36AA-B550-DACB37990FBE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DLSS\Source\DLSSEditor\DLSSEditor.Build.cs">
+      <Filter>Plugins\DLSS\Source\DLSSEditor</Filter>
+    </None>
+    <Filter Include="Plugins\DLSS\Source\DLSSEditor\Private">
+      <UniqueIdentifier>{26390370-47F5-3F66-973D-76F134430FB5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\DLSS\Source\DLSSEditor\Private\DLSSEditor.cpp">
+      <Filter>Plugins\DLSS\Source\DLSSEditor\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\DLSS\Source\DLSSEditor\Public">
+      <UniqueIdentifier>{AC13DA30-C80C-3269-BD61-FA1F512A6702}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\DLSSEditor\Public\DLSSEditor.h">
+      <Filter>Plugins\DLSS\Source\DLSSEditor\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\DLSS\Source\DLSSUtility">
+      <UniqueIdentifier>{18A070D9-33E1-308A-B3D4-3AA685386D4A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DLSS\Source\DLSSUtility\DLSSUtility.Build.cs">
+      <Filter>Plugins\DLSS\Source\DLSSUtility</Filter>
+    </None>
+    <Filter Include="Plugins\DLSS\Source\DLSSUtility\Private">
+      <UniqueIdentifier>{473F9A9A-4B47-30F1-B29F-90938F436688}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\DLSS\Source\DLSSUtility\Private\DLSSUtility.cpp">
+      <Filter>Plugins\DLSS\Source\DLSSUtility\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\DLSS\Source\DLSSUtility\Private\GBufferResolvePass.cpp">
+      <Filter>Plugins\DLSS\Source\DLSSUtility\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\DLSS\Source\DLSSUtility\Private\VelocityCombinePass.cpp">
+      <Filter>Plugins\DLSS\Source\DLSSUtility\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\DLSS\Source\DLSSUtility\Public">
+      <UniqueIdentifier>{E9440797-A443-3B5C-B897-EA157B4E0173}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\DLSSUtility\Public\DLSSUtility.h">
+      <Filter>Plugins\DLSS\Source\DLSSUtility\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\DLSSUtility\Public\GBufferResolvePass.h">
+      <Filter>Plugins\DLSS\Source\DLSSUtility\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\DLSSUtility\Public\VelocityCombinePass.h">
+      <Filter>Plugins\DLSS\Source\DLSSUtility\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\DLSS\Source\DLSS">
+      <UniqueIdentifier>{13D54732-3903-3912-B627-903539FA3F68}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DLSS\Source\DLSS\DLSS.Build.cs">
+      <Filter>Plugins\DLSS\Source\DLSS</Filter>
+    </None>
+    <Filter Include="Plugins\DLSS\Source\DLSS\Private">
+      <UniqueIdentifier>{35D3525A-ECE4-3879-82B3-BC5FB7A38DEE}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\DLSS\Source\DLSS\Private\DLSS.cpp">
+      <Filter>Plugins\DLSS\Source\DLSS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\DLSS\Source\DLSS\Private\DLSSDenoiser.cpp">
+      <Filter>Plugins\DLSS\Source\DLSS\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\DLSS\Private\DLSSDenoiser.h">
+      <Filter>Plugins\DLSS\Source\DLSS\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\DLSS\Source\DLSS\Private\DLSSUpscaler.cpp">
+      <Filter>Plugins\DLSS\Source\DLSS\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\DLSS\Source\DLSS\Private\DLSSUpscalerHistory.cpp">
+      <Filter>Plugins\DLSS\Source\DLSS\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\DLSS\Private\DLSSUpscalerHistory.h">
+      <Filter>Plugins\DLSS\Source\DLSS\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\DLSS\Private\DLSSUpscalerPrivate.h">
+      <Filter>Plugins\DLSS\Source\DLSS\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\DLSS\Source\DLSS\Public">
+      <UniqueIdentifier>{8F5697F7-9357-3696-978E-87678C1292F4}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\DLSS\Public\DLSS.h">
+      <Filter>Plugins\DLSS\Source\DLSS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\DLSS\Public\DLSSSettings.h">
+      <Filter>Plugins\DLSS\Source\DLSS\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\DLSS\Public\DLSSUpscaler.h">
+      <Filter>Plugins\DLSS\Source\DLSS\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\DLSS\Source\NGXD3D11RHI">
+      <UniqueIdentifier>{8ABC8339-48E3-3CF0-AF21-2C045A3B941E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DLSS\Source\NGXD3D11RHI\NGXD3D11RHI.Build.cs">
+      <Filter>Plugins\DLSS\Source\NGXD3D11RHI</Filter>
+    </None>
+    <Filter Include="Plugins\DLSS\Source\NGXD3D11RHI\Private">
+      <UniqueIdentifier>{B4064E97-B5ED-364E-B585-377DF9FD072F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\DLSS\Source\NGXD3D11RHI\Private\NGXD3D11RHI.cpp">
+      <Filter>Plugins\DLSS\Source\NGXD3D11RHI\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\DLSS\Source\NGXD3D11RHI\Public">
+      <UniqueIdentifier>{0A8DD7F4-80F2-3BDE-8E47-DDE182F5ACD4}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\NGXD3D11RHI\Public\NGXD3D11RHI.h">
+      <Filter>Plugins\DLSS\Source\NGXD3D11RHI\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\DLSS\Source\NGXD3D12RHI">
+      <UniqueIdentifier>{82B6A870-EB08-3906-B9BB-C827A01B7C24}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DLSS\Source\NGXD3D12RHI\NGXD3D12RHI.Build.cs">
+      <Filter>Plugins\DLSS\Source\NGXD3D12RHI</Filter>
+    </None>
+    <Filter Include="Plugins\DLSS\Source\NGXD3D12RHI\Private">
+      <UniqueIdentifier>{213266A9-A2B9-3A1D-ABF1-CFA0EE51A019}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\DLSS\Source\NGXD3D12RHI\Private\NGXD3D12RHI.cpp">
+      <Filter>Plugins\DLSS\Source\NGXD3D12RHI\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\DLSS\Source\NGXD3D12RHI\Public">
+      <UniqueIdentifier>{39ED93AA-2469-3597-8AC1-BEFFD572EDBC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\NGXD3D12RHI\Public\NGXD3D12RHI.h">
+      <Filter>Plugins\DLSS\Source\NGXD3D12RHI\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\DLSS\Source\NGXRHI">
+      <UniqueIdentifier>{E91B9FFD-DF83-3B75-8D96-61F43DF0526A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DLSS\Source\NGXRHI\NGXRHI.Build.cs">
+      <Filter>Plugins\DLSS\Source\NGXRHI</Filter>
+    </None>
+    <Filter Include="Plugins\DLSS\Source\NGXRHI\Private">
+      <UniqueIdentifier>{8DA2CA04-3D78-3A03-A4FD-1CDC70896B75}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\DLSS\Source\NGXRHI\Private\NGXRHI.cpp">
+      <Filter>Plugins\DLSS\Source\NGXRHI\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\DLSS\Source\NGXRHI\Public">
+      <UniqueIdentifier>{9693D19C-6AAF-348C-BA2E-ADA5BB9EE612}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\NGXRHI\Public\NGXRHI.h">
+      <Filter>Plugins\DLSS\Source\NGXRHI\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\DLSS\Source\NGXVulkanRHIPreInit">
+      <UniqueIdentifier>{4D1695D4-0EA1-3E10-91A4-E34FEB390A22}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DLSS\Source\NGXVulkanRHIPreInit\NGXVulkanRHIPreInit.Build.cs">
+      <Filter>Plugins\DLSS\Source\NGXVulkanRHIPreInit</Filter>
+    </None>
+    <Filter Include="Plugins\DLSS\Source\NGXVulkanRHIPreInit\Private">
+      <UniqueIdentifier>{FA61CCCE-CBAA-3C9E-A200-45F5F758C142}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\DLSS\Source\NGXVulkanRHIPreInit\Private\NGXVulkanRHIPreInit.cpp">
+      <Filter>Plugins\DLSS\Source\NGXVulkanRHIPreInit\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\DLSS\Source\NGXVulkanRHIPreInit\Public">
+      <UniqueIdentifier>{E6AA7F60-5C35-3F6F-AB88-70C2A4D321DA}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\NGXVulkanRHIPreInit\Public\NGXVulkanRHIPreInit.h">
+      <Filter>Plugins\DLSS\Source\NGXVulkanRHIPreInit\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\DLSS\Source\NGXVulkanRHI">
+      <UniqueIdentifier>{AA70F8D8-4BA4-37E3-9254-4060271CDB94}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DLSS\Source\NGXVulkanRHI\NGXVulkanRHI.Build.cs">
+      <Filter>Plugins\DLSS\Source\NGXVulkanRHI</Filter>
+    </None>
+    <Filter Include="Plugins\DLSS\Source\NGXVulkanRHI\Private">
+      <UniqueIdentifier>{7A0E0D89-071D-3CA2-BDD1-33AC4AF0239F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\DLSS\Source\NGXVulkanRHI\Private\NGXVulkanRHI.cpp">
+      <Filter>Plugins\DLSS\Source\NGXVulkanRHI\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\DLSS\Source\NGXVulkanRHI\Public">
+      <UniqueIdentifier>{2FBDE505-B41A-35D9-9189-326F2E6D4CDC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\NGXVulkanRHI\Public\NGXVulkanRHI.h">
+      <Filter>Plugins\DLSS\Source\NGXVulkanRHI\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\DLSS\Source\ThirdParty">
+      <UniqueIdentifier>{6853F756-BFE6-32AD-8329-CEB1D6011B25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\DLSS\Source\ThirdParty\NGX">
+      <UniqueIdentifier>{43232E86-2548-3808-AABF-DD6700F9D954}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\LICENSE.txt">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX</Filter>
+    </None>
+    <None Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\NGX.Build.cs">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX</Filter>
+    </None>
+    <None Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\NGX.tps">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX</Filter>
+    </None>
+    <Filter Include="Plugins\DLSS\Source\ThirdParty\NGX\Include">
+      <UniqueIdentifier>{AC7356D0-55EF-3187-9C8E-215C24058511}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\Include\nvsdk_ngx.h">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\Include\nvsdk_ngx_defs.h">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\Include\nvsdk_ngx_defs_dlssd.h">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\Include\nvsdk_ngx_helpers.h">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\Include\nvsdk_ngx_helpers_dlssd.h">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\Include\nvsdk_ngx_helpers_dlssd_vk.h">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\Include\nvsdk_ngx_helpers_vk.h">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\Include\nvsdk_ngx_params.h">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\Include\nvsdk_ngx_params_dlssd.h">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\Include\nvsdk_ngx_vk.h">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX\Include</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\DLSS\Source\ThirdParty\NGX\Lib">
+      <UniqueIdentifier>{9D9D6F05-E704-3528-9C9E-449E23FBD574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\DLSS\Source\ThirdParty\NGX\Lib\x64">
+      <UniqueIdentifier>{539F4119-BBA8-36D0-858B-9345DC21FA75}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\Lib\x64\nvsdk_ngx_d.lib">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX\Lib\x64</Filter>
+    </None>
+    <None Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\Lib\x64\nvsdk_ngx_d_dbg.lib">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX\Lib\x64</Filter>
+    </None>
+    <None Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\Lib\x64\nvsdk_ngx_s.lib">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX\Lib\x64</Filter>
+    </None>
+    <None Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\Lib\x64\nvsdk_ngx_s_dbg.lib">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX\Lib\x64</Filter>
+    </None>
+    <Filter Include="Plugins\DLSS\Source\ThirdParty\NGX\Utils">
+      <UniqueIdentifier>{A3E215EC-BF5A-3669-A812-D71A73F491B6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\Utils\DLSS_Debug_Jitter_Configs.txt">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX\Utils</Filter>
+    </None>
+    <None Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\Utils\ngx_driver_onscreenindicator.reg">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX\Utils</Filter>
+    </None>
+    <None Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\Utils\ngx_driver_onscreenindicator_off.reg">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX\Utils</Filter>
+    </None>
+    <None Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\Utils\ngx_log_off.reg">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX\Utils</Filter>
+    </None>
+    <None Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\Utils\ngx_log_on.reg">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX\Utils</Filter>
+    </None>
+    <None Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\Utils\ngx_log_verbose.reg">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX\Utils</Filter>
+    </None>
+    <None Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\Utils\ngx_log_window_off.reg">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX\Utils</Filter>
+    </None>
+    <None Include="..\..\Plugins\DLSS\Source\ThirdParty\NGX\Utils\ngx_log_window_on.reg">
+      <Filter>Plugins\DLSS\Source\ThirdParty\NGX\Utils</Filter>
+    </None>
+    <Filter Include="Plugins\HoverDrone\Source">
+      <UniqueIdentifier>{BDFFE94B-2B49-34D5-BA9B-D6FB37FCFF61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\HoverDrone\Source\HoverDrone">
+      <UniqueIdentifier>{FBBCEFAF-3EC3-3279-A071-5553AE6B5542}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\HoverDrone\Source\HoverDrone\HoverDrone.Build.cs">
+      <Filter>Plugins\HoverDrone\Source\HoverDrone</Filter>
+    </None>
+    <Filter Include="Plugins\HoverDrone\Source\HoverDrone\Private">
+      <UniqueIdentifier>{F86CADC4-6160-3582-82A3-F4DE4070056D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\HoverDrone\Source\HoverDrone\Private\HoverDrone.cpp">
+      <Filter>Plugins\HoverDrone\Source\HoverDrone\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HoverDrone\Source\HoverDrone\Private\HoverDroneMovementComponent.cpp">
+      <Filter>Plugins\HoverDrone\Source\HoverDrone\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HoverDrone\Source\HoverDrone\Private\HoverDronePawn.cpp">
+      <Filter>Plugins\HoverDrone\Source\HoverDrone\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HoverDrone\Source\HoverDrone\Private\HoverDronePawnBase.cpp">
+      <Filter>Plugins\HoverDrone\Source\HoverDrone\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HoverDrone\Source\HoverDrone\Private\HoverDroneSpeedLimitBox.cpp">
+      <Filter>Plugins\HoverDrone\Source\HoverDrone\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HoverDrone\Source\HoverDrone\Private\HoverDroneUtils.cpp">
+      <Filter>Plugins\HoverDrone\Source\HoverDrone\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\HoverDrone\Source\HoverDrone\Private\HoverDroneVolumeManager.cpp">
+      <Filter>Plugins\HoverDrone\Source\HoverDrone\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\HoverDrone\Source\HoverDrone\Public">
+      <UniqueIdentifier>{6B1F4F96-8BE3-3E1C-8ECD-0D9630C2E8BE}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\HoverDrone\Source\HoverDrone\Public\HoverDrone.h">
+      <Filter>Plugins\HoverDrone\Source\HoverDrone\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HoverDrone\Source\HoverDrone\Public\HoverDroneMovementComponent.h">
+      <Filter>Plugins\HoverDrone\Source\HoverDrone\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HoverDrone\Source\HoverDrone\Public\HoverDronePawn.h">
+      <Filter>Plugins\HoverDrone\Source\HoverDrone\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HoverDrone\Source\HoverDrone\Public\HoverDronePawnBase.h">
+      <Filter>Plugins\HoverDrone\Source\HoverDrone\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HoverDrone\Source\HoverDrone\Public\HoverDroneSpeedLimitBox.h">
+      <Filter>Plugins\HoverDrone\Source\HoverDrone\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HoverDrone\Source\HoverDrone\Public\HoverDroneTypes.h">
+      <Filter>Plugins\HoverDrone\Source\HoverDrone\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HoverDrone\Source\HoverDrone\Public\HoverDroneUtils.h">
+      <Filter>Plugins\HoverDrone\Source\HoverDrone\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\HoverDrone\Source\HoverDrone\Public\HoverDroneVolumeManager.h">
+      <Filter>Plugins\HoverDrone\Source\HoverDrone\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\NIS\Source">
+      <UniqueIdentifier>{0CB8DA1A-E69E-3CB1-A637-C3FBEE749922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\NIS\Source\NISBlueprint">
+      <UniqueIdentifier>{6F708478-B042-3EA5-BED1-DC36F997F226}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\NIS\Source\NISBlueprint\NISBlueprint.Build.cs">
+      <Filter>Plugins\NIS\Source\NISBlueprint</Filter>
+    </None>
+    <Filter Include="Plugins\NIS\Source\NISBlueprint\Private">
+      <UniqueIdentifier>{BE0A179F-0324-356C-9A2F-63A84313ABA4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\NIS\Source\NISBlueprint\Private\NISLibrary.cpp">
+      <Filter>Plugins\NIS\Source\NISBlueprint\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\NIS\Source\NISBlueprint\Public">
+      <UniqueIdentifier>{0EF31EDC-0EE0-3C38-9B6E-9CE275ECAD2F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\NIS\Source\NISBlueprint\Public\NISLibrary.h">
+      <Filter>Plugins\NIS\Source\NISBlueprint\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\NIS\Source\NISCore">
+      <UniqueIdentifier>{2389FBBF-EB72-37A6-97AF-E26E1F5BEAE1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\NIS\Source\NISCore\NISCore.Build.cs">
+      <Filter>Plugins\NIS\Source\NISCore</Filter>
+    </None>
+    <Filter Include="Plugins\NIS\Source\NISCore\Private">
+      <UniqueIdentifier>{B2FF21AA-17DA-34B7-8FA7-E220F0298E08}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\NIS\Source\NISCore\Private\NISCore.cpp">
+      <Filter>Plugins\NIS\Source\NISCore\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\NIS\Source\NISCore\Private\NISUpscaler.cpp">
+      <Filter>Plugins\NIS\Source\NISCore\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\NIS\Source\NISCore\Private\NISUpscaler.h">
+      <Filter>Plugins\NIS\Source\NISCore\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\NIS\Source\NISCore\Public">
+      <UniqueIdentifier>{F53FDB7C-A0DD-3FA1-967B-6F49C7BBFEB5}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\NIS\Source\NISCore\Public\NISCore.h">
+      <Filter>Plugins\NIS\Source\NISCore\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\NIS\Source\NISShaders">
+      <UniqueIdentifier>{E85FB974-6E7E-317D-BA27-A4B4EC24FE78}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\NIS\Source\NISShaders\NISShaders.Build.cs">
+      <Filter>Plugins\NIS\Source\NISShaders</Filter>
+    </None>
+    <Filter Include="Plugins\NIS\Source\NISShaders\Private">
+      <UniqueIdentifier>{76AE2B0E-7CDF-302C-8204-4A694B698F1E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\NIS\Source\NISShaders\Private\NISShaders.cpp">
+      <Filter>Plugins\NIS\Source\NISShaders\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\NIS\Source\NISShaders\Private\NIS_Config.h">
+      <Filter>Plugins\NIS\Source\NISShaders\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\NIS\Source\NISShaders\Public">
+      <UniqueIdentifier>{B656CEA5-F29E-3969-8751-ED5DE347E58B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\NIS\Source\NISShaders\Public\NISShaders.h">
+      <Filter>Plugins\NIS\Source\NISShaders\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\RuleProcessor\Source">
+      <UniqueIdentifier>{6E5B6C4C-046E-3559-91BE-551DA68B1BC7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\RuleProcessor\Source\PointCloudEditor">
+      <UniqueIdentifier>{FC0A9558-23BE-35BD-98E2-B6E6E2802432}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\PointCloudEditor.Build.cs">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor</Filter>
+    </None>
+    <Filter Include="Plugins\RuleProcessor\Source\PointCloudEditor\Private">
+      <UniqueIdentifier>{38CDE6BF-B285-384A-94B4-8D3A49F0B3C5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\PointCloudEditorModule.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\RuleProcessor\Source\PointCloudEditor\Private\AssetTools">
+      <UniqueIdentifier>{63A71A28-E307-3F74-B00B-D381EDF41152}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\AssetTools\PointCloudActions.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\AssetTools</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\AssetTools\PointCloudActions.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\AssetTools</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\AssetTools\PointCloudAssetHelpers.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\AssetTools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\AssetTools\PointCloudBlueprintActions.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\AssetTools</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\AssetTools\PointCloudBlueprintActions.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\AssetTools</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\AssetTools\PointCloudSliceAndDiceRulesActions.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\AssetTools</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\AssetTools\PointCloudSliceAndDiceRulesActions.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\AssetTools</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\RuleProcessor\Source\PointCloudEditor\Private\Blueprints">
+      <UniqueIdentifier>{F10E52D4-440D-3A3F-A50B-06E0CB124797}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Blueprints\PointCloudBlueprint.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Blueprints</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Blueprints\PointCloudBlueprint.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Blueprints</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\RuleProcessor\Source\PointCloudEditor\Private\Factories">
+      <UniqueIdentifier>{86D3A920-F7A3-3FF9-8F02-776E33B46F5E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Factories\PointCloudBlueprintFactory.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Factories</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Factories\PointCloudBlueprintFactory.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Factories</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Factories\PointCloudFactory.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Factories</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Factories\PointCloudFactory.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Factories</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Factories\PointCloudFactoryNew.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Factories</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Factories\PointCloudFactoryNew.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Factories</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Factories\PointCloudSliceAndDiceRulesFactoryNew.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Factories</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Factories\PointCloudSliceAndDiceRulesFactoryNew.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Factories</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules">
+      <UniqueIdentifier>{F3161EA1-6C7E-3012-9B3A-AA100674AAED}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\ConsolidateBlueprintISMsToActorBuildRule.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\ConsolidateBlueprintISMsToActorBuildRule.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\DebugBuildRule.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\DebugBuildRule.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\ExecuteBlueprintRule.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\ExecuteBlueprintRule.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\ExportFBXRule.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\ExportFBXRule.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\ExternalRule.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\ExternalRule.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\FilterOnBoundingBox.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\FilterOnBoundingBox.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\FilterOnOrientedBoundingBoxIterator.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\FilterOnOrientedBoundingBoxIterator.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\FilterOnTile.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\FilterOnTile.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\FilterOnTileIterator.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\FilterOnTileIterator.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\MetadataFilterRule.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\MetadataFilterRule.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\MetadataIteratorRule.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\MetadataIteratorRule.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\MultiActorBuildRule.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\MultiActorBuildRule.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\OneActorBuildRule.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\OneActorBuildRule.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\PerPointIterator.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\PerPointIterator.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\SequenceRule.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\SequenceRule.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\SpawnBlueprintsBuildRule.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\SpawnBlueprintsBuildRule.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\SpawnNiagaraRule.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\SpawnNiagaraRule.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\SpawnPackedBlueprintsBuildRule.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\SpawnPackedBlueprintsBuildRule.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\VertexExpressionRule.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules\VertexExpressionRule.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Rules</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\RuleProcessor\Source\PointCloudEditor\Private\Shared">
+      <UniqueIdentifier>{B85F66E2-72E0-3747-A73A-F58027FF387B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Shared\PointCloudEditorSettings.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Shared</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Shared\PointCloudEditorSettings.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Shared</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\RuleProcessor\Source\PointCloudEditor\Private\Styles">
+      <UniqueIdentifier>{57C78E91-CABF-3E72-8DA7-850604B5DE7D}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Styles\PointCloudEditorStyle.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Styles</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\RuleProcessor\Source\PointCloudEditor\Private\Toolkits">
+      <UniqueIdentifier>{556081C1-EBB6-31FD-8B90-92FAAFF92D37}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Toolkits\PointCloudEditorToolkit.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Toolkits</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Toolkits\PointCloudEditorToolkit.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Toolkits</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Toolkits\PointCloudSliceAndDiceRulesEditorOptions.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Toolkits</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Toolkits\PointCloudSliceAndDiceRulesEditorToolkit.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Toolkits</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Toolkits\PointCloudSliceAndDiceRulesEditorToolkit.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Toolkits</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\RuleProcessor\Source\PointCloudEditor\Private\Widgets">
+      <UniqueIdentifier>{05D7F8D6-12F0-33A8-B51D-D5192B431024}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Widgets\SPointCloudEditor.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Widgets\SPointCloudEditor.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Widgets\SSliceAndDiceDataLayerPicker.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Widgets\SSliceAndDiceDataLayerPicker.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Widgets\SSliceAndDiceManagerWidget.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Widgets\SSliceAndDiceManagerWidget.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Widgets\SSliceAndDicePickerWidget.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Widgets\SSliceAndDicePickerWidget.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Widgets</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Widgets\SSliceAndDiceRulesEditor.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Widgets</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Private\Widgets\SSliceAndDiceRulesEditor.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Private\Widgets</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\RuleProcessor\Source\PointCloudEditor\Public">
+      <UniqueIdentifier>{1EDB076D-A915-3D38-8FB4-F1756CCBE5BA}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Public\PointCloudAssetHelpers.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Public\PointCloudEditorModule.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloudEditor\Public\PointCloudSliceAndDiceRulesEditorOptions.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloudEditor\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\RuleProcessor\Source\PointCloud">
+      <UniqueIdentifier>{B18366FA-6336-38E3-9EAE-6A4A712ED718}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\RuleProcessor\Source\PointCloud\PointCloud.Build.cs">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud</Filter>
+    </None>
+    <Filter Include="Plugins\RuleProcessor\Source\PointCloud\Private">
+      <UniqueIdentifier>{431C4290-1501-33E9-B33C-300795B33626}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloud.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudAlembicHelpers.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudCsv.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudImpl.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudModule.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudQuery.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudQuery.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSchema.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSliceAndDiceCommandlet.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSliceAndDiceContext.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSliceAndDiceCustomOverrides.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSliceAndDiceExecutionContext.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSliceAndDiceManager.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSliceAndDiceReport.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSliceAndDiceRule.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSliceAndDiceRuleData.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSliceAndDiceRuleFactory.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSliceAndDiceRuleInstance.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSliceAndDiceRuleSet.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSliceAndDiceRuleSetExecutor.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSliceAndDiceRuleSetExecutor.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSliceAndDiceRuleSlot.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSliceAndDiceShared.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSQLExtensions.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSQLExtensions.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudSqliteHelpers.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudStats.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudTablesCache.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudTransactionHolder.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudTransactionHolder.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudUtils.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudUtils.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudView.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudWorldPartitionHelpers.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\PointCloudWorldPartitionHelpers.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </ClInclude>
+    <None Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\SQLite_Sha3.tps">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private</Filter>
+    </None>
+    <Filter Include="Plugins\RuleProcessor\Source\PointCloud\Private\Test">
+      <UniqueIdentifier>{68D1B7C5-0FE9-3F46-8F50-22B56F39490F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\Test\PointCloudTestBase.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private\Test</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\Test\PointCloudTestBase.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private\Test</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\Test\PointCloudTests.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\Test\PointCloudViewTests.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\Test\TestingCommon.cpp">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private\Test</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Private\Test\TestingCommon.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Private\Test</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\RuleProcessor\Source\PointCloud\Public">
+      <UniqueIdentifier>{210B1575-C1C6-327F-AB30-01D4F80BAF92}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Public\PointCloud.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Public\PointCloudAlembicHelpers.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Public\PointCloudConfig.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Public\PointCloudCsv.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Public\PointCloudImpl.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Public\PointCloudSliceAndDiceCommandlet.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Public\PointCloudSliceAndDiceContext.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Public\PointCloudSliceAndDiceCustomOverrides.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Public\PointCloudSliceAndDiceExecutionContext.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Public\PointCloudSliceAndDiceManager.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Public\PointCloudSliceAndDiceReport.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Public\PointCloudSliceAndDiceRule.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Public\PointCloudSliceAndDiceRuleData.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Public\PointCloudSliceAndDiceRuleFactory.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Public\PointCloudSliceAndDiceRuleInstance.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Public\PointCloudSliceAndDiceRuleSet.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Public\PointCloudSliceAndDiceRuleSlot.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Public\PointCloudSliceAndDiceShared.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Public\PointCloudSqliteHelpers.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Public\PointCloudStats.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Public\PointCloudTablesCache.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\RuleProcessor\Source\PointCloud\Public\PointCloudView.h">
+      <Filter>Plugins\RuleProcessor\Source\PointCloud\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\SoundScape\Source">
+      <UniqueIdentifier>{4C6E36CB-AC96-33CC-9381-04FDB8E914F1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\SoundScape\Source\SoundScapeEditor">
+      <UniqueIdentifier>{3FBF7D65-F8F7-3F13-85CB-B9D76CA52573}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\SoundScape\Source\SoundScapeEditor\SoundScapeEditor.Build.cs">
+      <Filter>Plugins\SoundScape\Source\SoundScapeEditor</Filter>
+    </None>
+    <Filter Include="Plugins\SoundScape\Source\SoundScapeEditor\Private">
+      <UniqueIdentifier>{146D4B06-2E85-3DF1-9FDC-47BDEFC2E8AB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScapeEditor\Private\AssetTypeActions_SoundscapeColor.cpp">
+      <Filter>Plugins\SoundScape\Source\SoundScapeEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScapeEditor\Private\AssetTypeActions_SoundscapeColor.h">
+      <Filter>Plugins\SoundScape\Source\SoundScapeEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScapeEditor\Private\AssetTypeActions_SoundScapePalette.cpp">
+      <Filter>Plugins\SoundScape\Source\SoundScapeEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScapeEditor\Private\AssetTypeActions_SoundScapePalette.h">
+      <Filter>Plugins\SoundScape\Source\SoundScapeEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScapeEditor\Private\SoundscapeColorFactory.cpp">
+      <Filter>Plugins\SoundScape\Source\SoundScapeEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScapeEditor\Private\SoundscapeColorFactory.h">
+      <Filter>Plugins\SoundScape\Source\SoundScapeEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScapeEditor\Private\SoundScapeEditorModule.cpp">
+      <Filter>Plugins\SoundScape\Source\SoundScapeEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScapeEditor\Private\SoundScapePaletteFactory.cpp">
+      <Filter>Plugins\SoundScape\Source\SoundScapeEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScapeEditor\Private\SoundScapePaletteFactory.h">
+      <Filter>Plugins\SoundScape\Source\SoundScapeEditor\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\SoundScape\Source\SoundScapeEditor\Public">
+      <UniqueIdentifier>{65D0E3C8-545C-311D-AE47-8837E35CAD9E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScapeEditor\Public\SoundScapeEditorModule.h">
+      <Filter>Plugins\SoundScape\Source\SoundScapeEditor\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\SoundScape\Source\SoundScape">
+      <UniqueIdentifier>{B0D0FA9B-05BE-3E98-B63C-C4B4D05BF10F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\SoundScape\Source\SoundScape\SoundScape.Build.cs">
+      <Filter>Plugins\SoundScape\Source\SoundScape</Filter>
+    </None>
+    <Filter Include="Plugins\SoundScape\Source\SoundScape\Private">
+      <UniqueIdentifier>{741408F7-DBF8-3EFF-BD22-34A9ADADD12F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScape\Private\SoundScape.cpp">
+      <Filter>Plugins\SoundScape\Source\SoundScape\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScape\Private\SoundscapeColor.cpp">
+      <Filter>Plugins\SoundScape\Source\SoundScape\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScape\Private\SoundscapeColorPoint.cpp">
+      <Filter>Plugins\SoundScape\Source\SoundScape\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScape\Private\SoundScapeModule.cpp">
+      <Filter>Plugins\SoundScape\Source\SoundScape\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScape\Private\SoundScapePalette.cpp">
+      <Filter>Plugins\SoundScape\Source\SoundScape\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScape\Private\SoundscapeSettings.cpp">
+      <Filter>Plugins\SoundScape\Source\SoundScape\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\SoundScape\Source\SoundScape\Private\SoundscapeSubsystem.cpp">
+      <Filter>Plugins\SoundScape\Source\SoundScape\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\SoundScape\Source\SoundScape\Public">
+      <UniqueIdentifier>{D786100F-56C0-3F16-BF1E-8069DFCEC79B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScape\Public\SoundScape.h">
+      <Filter>Plugins\SoundScape\Source\SoundScape\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScape\Public\SoundscapeColor.h">
+      <Filter>Plugins\SoundScape\Source\SoundScape\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScape\Public\SoundscapeColorPoint.h">
+      <Filter>Plugins\SoundScape\Source\SoundScape\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScape\Public\SoundScapeModule.h">
+      <Filter>Plugins\SoundScape\Source\SoundScape\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScape\Public\SoundScapePalette.h">
+      <Filter>Plugins\SoundScape\Source\SoundScape\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScape\Public\SoundscapeSettings.h">
+      <Filter>Plugins\SoundScape\Source\SoundScape\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\SoundScape\Source\SoundScape\Public\SoundscapeSubsystem.h">
+      <Filter>Plugins\SoundScape\Source\SoundScape\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Streamline\Source">
+      <UniqueIdentifier>{90DD261C-0F5B-35D9-9F6B-D15C6E072DB7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Streamline\Source\StreamlineBlueprint">
+      <UniqueIdentifier>{C1A8F4B8-2BE3-377B-989D-8E54C1B4F653}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Streamline\Source\StreamlineBlueprint\StreamlineBlueprint.Build.cs">
+      <Filter>Plugins\Streamline\Source\StreamlineBlueprint</Filter>
+    </None>
+    <Filter Include="Plugins\Streamline\Source\StreamlineBlueprint\Private">
+      <UniqueIdentifier>{328B53D4-2798-3B83-913C-CE6466C7FECB}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Streamline\Source\StreamlineBlueprint\Private\StreamlineLibrary.cpp">
+      <Filter>Plugins\Streamline\Source\StreamlineBlueprint\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Streamline\Source\StreamlineBlueprint\Private\StreamlineLibraryDLSSG.cpp">
+      <Filter>Plugins\Streamline\Source\StreamlineBlueprint\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\StreamlineBlueprint\Private\StreamlineLibraryPrivate.h">
+      <Filter>Plugins\Streamline\Source\StreamlineBlueprint\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Streamline\Source\StreamlineBlueprint\Private\StreamlineLibraryReflex.cpp">
+      <Filter>Plugins\Streamline\Source\StreamlineBlueprint\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Streamline\Source\StreamlineBlueprint\Public">
+      <UniqueIdentifier>{29E1C445-4FE6-3AE2-891A-BFCCFE196CF1}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\StreamlineBlueprint\Public\StreamlineLibrary.h">
+      <Filter>Plugins\Streamline\Source\StreamlineBlueprint\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\StreamlineBlueprint\Public\StreamlineLibraryDLSSG.h">
+      <Filter>Plugins\Streamline\Source\StreamlineBlueprint\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\StreamlineBlueprint\Public\StreamlineLibraryReflex.h">
+      <Filter>Plugins\Streamline\Source\StreamlineBlueprint\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Streamline\Source\StreamlineCore">
+      <UniqueIdentifier>{4B99FF3F-7A31-3A22-8FFF-AC7D75816793}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Streamline\Source\StreamlineCore\StreamlineCore.Build.cs">
+      <Filter>Plugins\Streamline\Source\StreamlineCore</Filter>
+    </None>
+    <Filter Include="Plugins\Streamline\Source\StreamlineCore\Private">
+      <UniqueIdentifier>{BCFE787C-A8CE-39CB-A952-BABB22A9640E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Streamline\Source\StreamlineCore\Private\StreamlineCore.cpp">
+      <Filter>Plugins\Streamline\Source\StreamlineCore\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\StreamlineCore\Private\StreamlineCorePrivate.h">
+      <Filter>Plugins\Streamline\Source\StreamlineCore\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Streamline\Source\StreamlineCore\Private\StreamlineDLSSG.cpp">
+      <Filter>Plugins\Streamline\Source\StreamlineCore\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Streamline\Source\StreamlineCore\Private\StreamlineReflex.cpp">
+      <Filter>Plugins\Streamline\Source\StreamlineCore\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Streamline\Source\StreamlineCore\Private\StreamlineViewExtension.cpp">
+      <Filter>Plugins\Streamline\Source\StreamlineCore\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\StreamlineCore\Private\StreamlineViewExtension.h">
+      <Filter>Plugins\Streamline\Source\StreamlineCore\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Streamline\Source\StreamlineCore\Public">
+      <UniqueIdentifier>{0C19DDD9-1646-324E-BB74-F0BF89AF30B8}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\StreamlineCore\Public\StreamlineCore.h">
+      <Filter>Plugins\Streamline\Source\StreamlineCore\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\StreamlineCore\Public\StreamlineDLSSG.h">
+      <Filter>Plugins\Streamline\Source\StreamlineCore\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\StreamlineCore\Public\StreamlineReflex.h">
+      <Filter>Plugins\Streamline\Source\StreamlineCore\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Streamline\Source\StreamlineCore\ThirdParty">
+      <UniqueIdentifier>{0B9E7EB2-A422-3344-B62D-537A3950B291}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\StreamlineCore\ThirdParty\reflexstats.h">
+      <Filter>Plugins\Streamline\Source\StreamlineCore\ThirdParty</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Streamline\Source\StreamlineD3D11RHI">
+      <UniqueIdentifier>{F2B60B0E-6EB7-3184-B868-C45E1CBCC881}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Streamline\Source\StreamlineD3D11RHI\StreamlineD3D11RHI.Build.cs">
+      <Filter>Plugins\Streamline\Source\StreamlineD3D11RHI</Filter>
+    </None>
+    <Filter Include="Plugins\Streamline\Source\StreamlineD3D11RHI\Private">
+      <UniqueIdentifier>{CD270CA6-5D5A-3136-A72C-57D075AF5D3C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Streamline\Source\StreamlineD3D11RHI\Private\StreamlineD3D11RHI.cpp">
+      <Filter>Plugins\Streamline\Source\StreamlineD3D11RHI\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Streamline\Source\StreamlineD3D11RHI\Public">
+      <UniqueIdentifier>{97333AC2-1D2E-3746-91BB-9F145095BBEA}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\StreamlineD3D11RHI\Public\StreamlineD3D11RHI.h">
+      <Filter>Plugins\Streamline\Source\StreamlineD3D11RHI\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Streamline\Source\StreamlineD3D12RHI">
+      <UniqueIdentifier>{BD05BDF9-1FFE-3487-BC99-B6499C641B34}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Streamline\Source\StreamlineD3D12RHI\StreamlineD3D12RHI.Build.cs">
+      <Filter>Plugins\Streamline\Source\StreamlineD3D12RHI</Filter>
+    </None>
+    <Filter Include="Plugins\Streamline\Source\StreamlineD3D12RHI\Private">
+      <UniqueIdentifier>{8E2D72FA-5835-3E55-B311-5290556E865F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Streamline\Source\StreamlineD3D12RHI\Private\StreamlineD3D12RHI.cpp">
+      <Filter>Plugins\Streamline\Source\StreamlineD3D12RHI\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Streamline\Source\StreamlineD3D12RHI\Public">
+      <UniqueIdentifier>{8FFF518F-7781-355D-9A17-04C21F67A0A5}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\StreamlineD3D12RHI\Public\StreamlineD3D12RHI.h">
+      <Filter>Plugins\Streamline\Source\StreamlineD3D12RHI\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Streamline\Source\StreamlineRHI">
+      <UniqueIdentifier>{9294A02E-F1CF-306C-B1B6-152E07FDC83B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Streamline\Source\StreamlineRHI\StreamlineRHI.Build.cs">
+      <Filter>Plugins\Streamline\Source\StreamlineRHI</Filter>
+    </None>
+    <Filter Include="Plugins\Streamline\Source\StreamlineRHI\Private">
+      <UniqueIdentifier>{12C18CE4-D7FC-3310-99B2-9F6F126A67AF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Streamline\Source\StreamlineRHI\Private\StreamlineAPI.cpp">
+      <Filter>Plugins\Streamline\Source\StreamlineRHI\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Streamline\Source\StreamlineRHI\Private\StreamlineRHI.cpp">
+      <Filter>Plugins\Streamline\Source\StreamlineRHI\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\StreamlineRHI\Private\StreamlineRHIPrivate.h">
+      <Filter>Plugins\Streamline\Source\StreamlineRHI\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\Streamline\Source\StreamlineRHI\Private\StreamlineSecureLoad.cpp">
+      <Filter>Plugins\Streamline\Source\StreamlineRHI\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Streamline\Source\StreamlineRHI\Public">
+      <UniqueIdentifier>{E123E0E0-5F06-31B2-BB9A-8F2044A829AF}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\StreamlineRHI\Public\StreamlineAPI.h">
+      <Filter>Plugins\Streamline\Source\StreamlineRHI\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\StreamlineRHI\Public\StreamlineConversions.h">
+      <Filter>Plugins\Streamline\Source\StreamlineRHI\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\StreamlineRHI\Public\StreamlineRHI.h">
+      <Filter>Plugins\Streamline\Source\StreamlineRHI\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\StreamlineRHI\Public\StreamlineSettings.h">
+      <Filter>Plugins\Streamline\Source\StreamlineRHI\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Streamline\Source\StreamlineShaders">
+      <UniqueIdentifier>{8016ECB8-FD09-3019-889B-C68DC92DAD7B}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Streamline\Source\StreamlineShaders\StreamlineShaders.Build.cs">
+      <Filter>Plugins\Streamline\Source\StreamlineShaders</Filter>
+    </None>
+    <Filter Include="Plugins\Streamline\Source\StreamlineShaders\Private">
+      <UniqueIdentifier>{05B73BBF-E121-3C53-BBFC-46EDB0856094}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Streamline\Source\StreamlineShaders\Private\StreamlineShaders.cpp">
+      <Filter>Plugins\Streamline\Source\StreamlineShaders\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Streamline\Source\StreamlineShaders\Private\UIHintExtractionPass.cpp">
+      <Filter>Plugins\Streamline\Source\StreamlineShaders\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Streamline\Source\StreamlineShaders\Private\VelocityCombinePass.cpp">
+      <Filter>Plugins\Streamline\Source\StreamlineShaders\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Streamline\Source\StreamlineShaders\Public">
+      <UniqueIdentifier>{9D93A3A6-5E9E-3702-9379-1874667A7D50}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\StreamlineShaders\Public\StreamlineShaders.h">
+      <Filter>Plugins\Streamline\Source\StreamlineShaders\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\StreamlineShaders\Public\UIHintExtractionPass.h">
+      <Filter>Plugins\Streamline\Source\StreamlineShaders\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\StreamlineShaders\Public\VelocityCombinePass.h">
+      <Filter>Plugins\Streamline\Source\StreamlineShaders\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Streamline\Source\ThirdParty">
+      <UniqueIdentifier>{F80F3865-5621-37AC-AD8F-61AA66088ED0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Streamline\Source\ThirdParty\Streamline">
+      <UniqueIdentifier>{E5C92B81-D0E6-3F6F-BF40-35CDF006FD64}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Streamline\Source\ThirdParty\Streamline\Streamline.Build.cs">
+      <Filter>Plugins\Streamline\Source\ThirdParty\Streamline</Filter>
+    </None>
+    <None Include="..\..\Plugins\Streamline\Source\ThirdParty\Streamline\Streamline.tps">
+      <Filter>Plugins\Streamline\Source\ThirdParty\Streamline</Filter>
+    </None>
+    <Filter Include="Plugins\Streamline\Source\ThirdParty\Streamline\include">
+      <UniqueIdentifier>{0B521418-302A-3EC4-BB93-2D6824856B65}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\ThirdParty\Streamline\include\sl.h">
+      <Filter>Plugins\Streamline\Source\ThirdParty\Streamline\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\ThirdParty\Streamline\include\sl_consts.h">
+      <Filter>Plugins\Streamline\Source\ThirdParty\Streamline\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\ThirdParty\Streamline\include\sl_dlss.h">
+      <Filter>Plugins\Streamline\Source\ThirdParty\Streamline\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\ThirdParty\Streamline\include\sl_dlss_g.h">
+      <Filter>Plugins\Streamline\Source\ThirdParty\Streamline\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\ThirdParty\Streamline\include\sl_helpers.h">
+      <Filter>Plugins\Streamline\Source\ThirdParty\Streamline\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\ThirdParty\Streamline\include\sl_helpers_vk.h">
+      <Filter>Plugins\Streamline\Source\ThirdParty\Streamline\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\ThirdParty\Streamline\include\sl_hooks.h">
+      <Filter>Plugins\Streamline\Source\ThirdParty\Streamline\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\ThirdParty\Streamline\include\sl_matrix_helpers.h">
+      <Filter>Plugins\Streamline\Source\ThirdParty\Streamline\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\ThirdParty\Streamline\include\sl_nis.h">
+      <Filter>Plugins\Streamline\Source\ThirdParty\Streamline\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\ThirdParty\Streamline\include\sl_nrd.h">
+      <Filter>Plugins\Streamline\Source\ThirdParty\Streamline\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\ThirdParty\Streamline\include\sl_reflex.h">
+      <Filter>Plugins\Streamline\Source\ThirdParty\Streamline\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\ThirdParty\Streamline\include\sl_result.h">
+      <Filter>Plugins\Streamline\Source\ThirdParty\Streamline\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\ThirdParty\Streamline\include\sl_security.h">
+      <Filter>Plugins\Streamline\Source\ThirdParty\Streamline\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\ThirdParty\Streamline\include\sl_struct.h">
+      <Filter>Plugins\Streamline\Source\ThirdParty\Streamline\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Streamline\Source\ThirdParty\Streamline\include\sl_version.h">
+      <Filter>Plugins\Streamline\Source\ThirdParty\Streamline\include</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Streamline\Source\ThirdParty\Streamline\lib">
+      <UniqueIdentifier>{4477B712-D0BB-3052-BA5C-EC8ADEE91CA1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Streamline\Source\ThirdParty\Streamline\lib\x64">
+      <UniqueIdentifier>{032EF81A-5D4B-3FBE-BAE3-D029C95C24C6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Streamline\Source\ThirdParty\Streamline\lib\x64\sl.interposer.lib">
+      <Filter>Plugins\Streamline\Source\ThirdParty\Streamline\lib\x64</Filter>
+    </None>
+    <Filter Include="Plugins\Traffic\Source">
+      <UniqueIdentifier>{72F75B87-5B08-3707-9C17-D1A4C8CADEB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\Traffic\Source\MassTrafficEditor">
+      <UniqueIdentifier>{9AC8FEB1-FF1F-3CD7-971C-D057711A1F12}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Traffic\Source\MassTrafficEditor\MassTrafficEditor.Build.cs">
+      <Filter>Plugins\Traffic\Source\MassTrafficEditor</Filter>
+    </None>
+    <Filter Include="Plugins\Traffic\Source\MassTrafficEditor\Private">
+      <UniqueIdentifier>{F1554F52-9974-302B-B7D6-00016A149472}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTrafficEditor\Private\MassTrafficBuilderBaseActor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTrafficEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTrafficEditor\Private\MassTrafficBuilderMarkerActor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTrafficEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTrafficEditor\Private\MassTrafficEditor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTrafficEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTrafficEditor\Private\MassTrafficEditorBaseActor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTrafficEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTrafficEditor\Private\MassTrafficEditorFunctionLibrary.cpp">
+      <Filter>Plugins\Traffic\Source\MassTrafficEditor\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTrafficEditor\Private\MassTrafficZoneGraphDataModifier.cpp">
+      <Filter>Plugins\Traffic\Source\MassTrafficEditor\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Traffic\Source\MassTrafficEditor\Public">
+      <UniqueIdentifier>{949BFC3E-F85F-3BC3-80E9-5CA1455C8D65}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTrafficEditor\Public\MassTrafficBuilderBaseActor.h">
+      <Filter>Plugins\Traffic\Source\MassTrafficEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTrafficEditor\Public\MassTrafficBuilderMarkerActor.h">
+      <Filter>Plugins\Traffic\Source\MassTrafficEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTrafficEditor\Public\MassTrafficBuilderTypes.h">
+      <Filter>Plugins\Traffic\Source\MassTrafficEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTrafficEditor\Public\MassTrafficEditor.h">
+      <Filter>Plugins\Traffic\Source\MassTrafficEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTrafficEditor\Public\MassTrafficEditorBaseActor.h">
+      <Filter>Plugins\Traffic\Source\MassTrafficEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTrafficEditor\Public\MassTrafficEditorFunctionLibrary.h">
+      <Filter>Plugins\Traffic\Source\MassTrafficEditor\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTrafficEditor\Public\MassTrafficZoneGraphDataModifier.h">
+      <Filter>Plugins\Traffic\Source\MassTrafficEditor\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\Traffic\Source\MassTraffic">
+      <UniqueIdentifier>{358384CF-99D6-3D0A-9A73-EBE617C79BF4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\Traffic\Source\MassTraffic\MassTraffic.Build.cs">
+      <Filter>Plugins\Traffic\Source\MassTraffic</Filter>
+    </None>
+    <Filter Include="Plugins\Traffic\Source\MassTraffic\Private">
+      <UniqueIdentifier>{F4935208-44E1-33D3-9FC5-9BFF2736EAF1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTraffic.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficActorVehiclePhysicsProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficBubble.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficChooseNextLaneProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficConstrainedTrailerTrait.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficDamageRepairProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficDebugHelpers.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficDelegates.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficDriverVisualizationProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficDriverVisualizationTrait.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficEvaluateSequenceAnimInstance.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficFieldActor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficFieldComponent.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficFieldOperations.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficFindDeviantParkedVehiclesProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficFindDeviantTrafficVehiclesProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficFindNextVehicleProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficFindObstaclesProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficFragments.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficFunctionLibrary.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficInitInterpolationProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficInitIntersectionsProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficInitParkedVehiclesProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficInitTrafficVehicleSpeedProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficInitTrafficVehiclesProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficInitTrailersProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficInstancePlaybackHelpers.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficInterpolation.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficInterpolationProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficIntersections.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficIntersectionSimulationTrait.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficIntersectionSpawnDataGenerator.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficLaneChange.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficLaneChangingProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficLightRepresentationActorManagement.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficLights.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficLightVisualizationProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficLightVisualizationTrait.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficLightweightMontageInstance.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficMovement.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficObstacleTrait.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficOverseerProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficParkedVehicleRepresentationActorManagement.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficParkedVehicles.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficParkedVehicleSpawnDataGenerator.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficParkedVehicleVisualizationProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficParkedVehicleVisualizationTrait.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficPhysics.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficPlayerVehicleLODProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficPostPhysicsUpdateDisturbedVehiclesProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficPostPhysicsUpdateTrafficVehiclesProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficPostPhysicsUpdateTrailersProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficProcessorBase.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficRecycleVehiclesOverlappingPlayersProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficReplicator.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficSubsystem.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficTrailerRepresentationActorManagement.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficTrailerSimulationTrait.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficTrailerSpawnDataGenerator.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficTrailerVisualizationProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficTrailerVisualizationTrait.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficTypes.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficUpdateDistanceToNearestObstacleProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficUpdateIntersectionsProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficUpdateTrailersProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficUpdateVelocityProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficUtils.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficValidationProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficVehicleComponent.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficVehicleControlInterface.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficVehicleControlProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficVehicleDimensionsTrait.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficVehicleInterface.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficVehiclePhysicsProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficVehicleRepresentationActorManagement.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficVehicleSimulationLODProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficVehicleSimulationTrait.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficVehicleSpawnDataGenerator.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficVehicleVisualizationLODProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficVehicleVisualizationProcessor.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\Traffic\Source\MassTraffic\Private\MassTrafficVehicleVisualizationTrait.cpp">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\Traffic\Source\MassTraffic\Public">
+      <UniqueIdentifier>{54449321-F094-3612-A47B-6214EA19935F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTraffic.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficActorVehiclePhysicsProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficBubble.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficChooseNextLaneProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficConstrainedTrailerTrait.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficDamage.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficDamageRepairProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficDebugHelpers.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficDelegates.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficDrivers.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficDriverVisualizationProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficDriverVisualizationTrait.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficEvaluateSequenceAnimInstance.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficFieldActor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficFieldComponent.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficFieldOperations.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficFindDeviantParkedVehiclesProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficFindDeviantTrafficVehiclesProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficFindNextVehicleProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficFindObstaclesProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficFragments.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficFunctionLibrary.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficInitInterpolationProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficInitIntersectionsProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficInitParkedVehiclesProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficInitTrafficVehicleSpeedProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficInitTrafficVehiclesProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficInitTrailersProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficInstancePlaybackHelpers.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficInterpolation.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficInterpolationProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficIntersections.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficIntersectionSimulationTrait.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficIntersectionSpawnDataGenerator.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficLaneChange.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficLaneChangingProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficLightRepresentationActorManagement.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficLights.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficLightVisualizationProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficLightVisualizationTrait.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficLightweightMontageInstance.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficMovement.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficObstacleTrait.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficOverseerProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficParkedVehicleRepresentationActorManagement.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficParkedVehicles.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficParkedVehicleSpawnDataGenerator.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficParkedVehicleVisualizationProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficParkedVehicleVisualizationTrait.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficPhysics.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficPIDController.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficPlayerVehicleLODProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficPostPhysicsUpdateDisturbedVehiclesProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficPostPhysicsUpdateTrafficVehiclesProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficPostPhysicsUpdateTrailersProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficProcessorBase.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficRecycleVehiclesOverlappingPlayersProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficReplicatedAgent.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficReplicator.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficSettings.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficSubsystem.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficTrailerRepresentationActorManagement.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficTrailerSimulationTrait.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficTrailerSpawnDataGenerator.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficTrailerVisualizationProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficTrailerVisualizationTrait.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficTypes.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficUpdateDistanceToNearestObstacleProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficUpdateIntersectionsProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficUpdateTrailersProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficUpdateVelocityProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficUtils.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficValidationProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficVehicleComponent.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficVehicleControlInterface.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficVehicleControlProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficVehicleDimensionsTrait.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficVehicleInterface.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficVehiclePhysicsProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficVehicleRepresentationActorManagement.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficVehicleSimulationLODProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficVehicleSimulationTrait.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficVehicleSpawnDataGenerator.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficVehicleVisualizationLODProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficVehicleVisualizationProcessor.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\Traffic\Source\MassTraffic\Public\MassTrafficVehicleVisualizationTrait.h">
+      <Filter>Plugins\Traffic\Source\MassTraffic\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\WorldAudioDataSystem\Source">
+      <UniqueIdentifier>{B8E4D36D-5210-3C47-AEC8-A7F04AAE4FF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystemEditor">
+      <UniqueIdentifier>{44AD1CE7-E6E2-3A0C-AB8B-6DBDC6193E32}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystemEditor\WorldAudioDataSystemEditor.Build.cs">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystemEditor</Filter>
+    </None>
+    <Filter Include="Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystemEditor\Private">
+      <UniqueIdentifier>{F5349A22-5317-31EB-B89E-3B88305085E4}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystemEditor\Private\AssetTypeActions_WADVehAudioPreset.cpp">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystemEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystemEditor\Private\AssetTypeActions_WADVehAudioPreset.h">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystemEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystemEditor\Private\SpawnWorldAudioDataRule.cpp">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystemEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystemEditor\Private\SpawnWorldAudioDataRule.h">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystemEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystemEditor\Private\WADVehAudioPresetFactory.cpp">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystemEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystemEditor\Private\WADVehAudioPresetFactory.h">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystemEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystemEditor\Private\WorldAudioDataSystemEditor.cpp">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystemEditor\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystemEditor\Public">
+      <UniqueIdentifier>{887D4F1B-96BC-3C51-A4BE-D58F7659DC5E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystemEditor\Public\WorldAudioDataSystemEditor.h">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystemEditor\Public</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem">
+      <UniqueIdentifier>{4E5C8B5D-2649-3D8F-8D6D-E18F1C5D2C34}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\WorldAudioDataSystem.Build.cs">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem</Filter>
+    </None>
+    <Filter Include="Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Private">
+      <UniqueIdentifier>{F9DB9A6D-73A9-3C47-A28B-F5A26F8EFA41}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Private\WorldAudioDataClusterActor.cpp">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Private\WorldAudioDataGameplayScript.cpp">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Private\WorldAudioDataSettings.cpp">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Private\WorldAudioDataSubsystem.cpp">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Private\WorldAudioDataSystem.cpp">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Private\WorldAudioDataVehAudioController.cpp">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Private\WorldAudioDataVehAudioPreset.cpp">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Private\WorldAudioMassEntityTrait.cpp">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Private\WorldAudioMassProcessor.cpp">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Private</Filter>
+    </ClCompile>
+    <Filter Include="Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Public">
+      <UniqueIdentifier>{1F2C7E11-C977-34B6-A7DA-3AD0AE703600}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Public\WorldAudioDataClusterActor.h">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Public\WorldAudioDataGameplayScript.h">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Public\WorldAudioDataSettings.h">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Public\WorldAudioDataSubsystem.h">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Public\WorldAudioDataSystem.h">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Public\WorldAudioDataVehAudioController.h">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Public\WorldAudioDataVehAudioPreset.h">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Public\WorldAudioMassEntityTrait.h">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Public\WorldAudioMassProcessor.h">
+      <Filter>Plugins\WorldAudioDataSystem\Source\WorldAudioDataSystem\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\PFE_JournalisteV2">
+      <UniqueIdentifier>{502A2D2F-FF8A-33F2-9E43-724754888A6F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PFE_JournalisteV2\MyArrayDouble.cpp">
+      <Filter>Source\PFE_JournalisteV2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFE_JournalisteV2\MyArrayDouble.h">
+      <Filter>Source\PFE_JournalisteV2</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\PFE_JournalisteV2\PFE_JournalisteV2.Build.cs">
+      <Filter>Source\PFE_JournalisteV2</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PFE_JournalisteV2\PFE_JournalisteV2.cpp">
+      <Filter>Source\PFE_JournalisteV2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PFE_JournalisteV2\PFE_JournalisteV2.h">
+      <Filter>Source\PFE_JournalisteV2</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
