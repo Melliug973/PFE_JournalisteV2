@@ -2,7 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.PointCloudEditor.1.cpp.obj": [
-			"PointCloudActions.cpp.obj",
 			"ConsolidateBlueprintISMsToActorBuildRule.gen.cpp.obj",
 			"DebugBuildRule.gen.cpp.obj",
 			"ExecuteBlueprintRule.gen.cpp.obj",
@@ -17,7 +16,9 @@
 			"MultiActorBuildRule.gen.cpp.obj",
 			"OneActorBuildRule.gen.cpp.obj",
 			"PerPointIterator.gen.cpp.obj",
-			"PointCloudAssetHelpers.gen.cpp.obj",
+			"PointCloudAssetHelpers.gen.cpp.obj"
+		],
+		"Module.PointCloudEditor.2.cpp.obj": [
 			"PointCloudBlueprint.gen.cpp.obj",
 			"PointCloudBlueprintFactory.gen.cpp.obj",
 			"PointCloudEditor.init.gen.cpp.obj",
@@ -30,9 +31,8 @@
 			"SpawnBlueprintsBuildRule.gen.cpp.obj",
 			"SpawnNiagaraRule.gen.cpp.obj",
 			"SpawnPackedBlueprintsBuildRule.gen.cpp.obj",
-			"VertexExpressionRule.gen.cpp.obj"
-		],
-		"Module.PointCloudEditor.2.cpp.obj": [
+			"VertexExpressionRule.gen.cpp.obj",
+			"PointCloudActions.cpp.obj",
 			"PointCloudAssetHelpers.cpp.obj",
 			"PointCloudBlueprintActions.cpp.obj",
 			"PointCloudSliceAndDiceRulesActions.cpp.obj",
@@ -67,7 +67,9 @@
 			"PointCloudSliceAndDiceRulesEditorToolkit.cpp.obj",
 			"SPointCloudEditor.cpp.obj",
 			"SSliceAndDiceDataLayerPicker.cpp.obj",
-			"SSliceAndDiceManagerWidget.cpp.obj",
+			"SSliceAndDiceManagerWidget.cpp.obj"
+		],
+		"Module.PointCloudEditor.3.cpp.obj": [
 			"SSliceAndDicePickerWidget.cpp.obj",
 			"SSliceAndDiceRulesEditor.cpp.obj"
 		]
