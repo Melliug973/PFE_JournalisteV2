@@ -564,14 +564,10 @@ template<> STREAMLINEBLUEPRINT_API UScriptStruct* StaticStruct<FStreamlineFeatur
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UStreamlineLibrary_BreakStreamlineFeatureRequirements_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Streamline" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/*DisplayName = \"Get Streamline Feature Requirements\", */" },
-#endif
 		{ "Keywords", "Reflex, DLSS-G" },
 		{ "ModuleRelativePath", "Public/StreamlineLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "DisplayName = \"Get Streamline Feature Requirements\"," },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UStreamlineLibrary_BreakStreamlineFeatureRequirements_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UStreamlineLibrary, nullptr, "BreakStreamlineFeatureRequirements", nullptr, nullptr, Z_Construct_UFunction_UStreamlineLibrary_BreakStreamlineFeatureRequirements_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UStreamlineLibrary_BreakStreamlineFeatureRequirements_Statics::PropPointers), sizeof(Z_Construct_UFunction_UStreamlineLibrary_BreakStreamlineFeatureRequirements_Statics::StreamlineLibrary_eventBreakStreamlineFeatureRequirements_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422403, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UStreamlineLibrary_BreakStreamlineFeatureRequirements_Statics::Function_MetaDataParams), Z_Construct_UFunction_UStreamlineLibrary_BreakStreamlineFeatureRequirements_Statics::Function_MetaDataParams) };
@@ -613,15 +609,11 @@ template<> STREAMLINEBLUEPRINT_API UScriptStruct* StaticStruct<FStreamlineFeatur
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UStreamlineLibrary_GetStreamlineFeatureInformation_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Streamline" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Checks whether a Streamline feature is supported by the current GPU. Further details can be retrieved via QueryStreamlineFeatureSupport*/" },
-#endif
 		{ "DisplayName", "Get NVIDIA Streamline Feature information" },
 		{ "Keywords", "Reflex, DLSS-G" },
 		{ "ModuleRelativePath", "Public/StreamlineLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Checks whether a Streamline feature is supported by the current GPU. Further details can be retrieved via QueryStreamlineFeatureSupport" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UStreamlineLibrary_GetStreamlineFeatureInformation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UStreamlineLibrary, nullptr, "GetStreamlineFeatureInformation", nullptr, nullptr, Z_Construct_UFunction_UStreamlineLibrary_GetStreamlineFeatureInformation_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UStreamlineLibrary_GetStreamlineFeatureInformation_Statics::PropPointers), sizeof(Z_Construct_UFunction_UStreamlineLibrary_GetStreamlineFeatureInformation_Statics::StreamlineLibrary_eventGetStreamlineFeatureInformation_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022403, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UStreamlineLibrary_GetStreamlineFeatureInformation_Statics::Function_MetaDataParams), Z_Construct_UFunction_UStreamlineLibrary_GetStreamlineFeatureInformation_Statics::Function_MetaDataParams) };
@@ -668,15 +660,11 @@ template<> STREAMLINEBLUEPRINT_API UScriptStruct* StaticStruct<FStreamlineFeatur
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UStreamlineLibrary_IsStreamlineFeatureSupported_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Streamline" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Checks whether a Streamline feature is supported by the current GPU. Further details can be retrieved via QueryStreamlineFeatureSupport*/" },
-#endif
 		{ "DisplayName", "Is NVIDIA Streamline Feature Supported" },
 		{ "Keywords", "Reflex, DLSS-G" },
 		{ "ModuleRelativePath", "Public/StreamlineLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Checks whether a Streamline feature is supported by the current GPU. Further details can be retrieved via QueryStreamlineFeatureSupport" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UStreamlineLibrary_IsStreamlineFeatureSupported_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UStreamlineLibrary, nullptr, "IsStreamlineFeatureSupported", nullptr, nullptr, Z_Construct_UFunction_UStreamlineLibrary_IsStreamlineFeatureSupported_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UStreamlineLibrary_IsStreamlineFeatureSupported_Statics::PropPointers), sizeof(Z_Construct_UFunction_UStreamlineLibrary_IsStreamlineFeatureSupported_Statics::StreamlineLibrary_eventIsStreamlineFeatureSupported_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022403, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UStreamlineLibrary_IsStreamlineFeatureSupported_Statics::Function_MetaDataParams), Z_Construct_UFunction_UStreamlineLibrary_IsStreamlineFeatureSupported_Statics::Function_MetaDataParams) };
@@ -721,15 +709,11 @@ template<> STREAMLINEBLUEPRINT_API UScriptStruct* StaticStruct<FStreamlineFeatur
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UStreamlineLibrary_QueryStreamlineFeatureSupport_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Streamline" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Checks whether Streamline feature  is supported by the current GPU\x09*/" },
-#endif
 		{ "DisplayName", "Query NVIDIA Streamline Feature Support" },
 		{ "Keywords", "Reflex, DLSS-G" },
 		{ "ModuleRelativePath", "Public/StreamlineLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Checks whether Streamline feature  is supported by the current GPU" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UStreamlineLibrary_QueryStreamlineFeatureSupport_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UStreamlineLibrary, nullptr, "QueryStreamlineFeatureSupport", nullptr, nullptr, Z_Construct_UFunction_UStreamlineLibrary_QueryStreamlineFeatureSupport_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UStreamlineLibrary_QueryStreamlineFeatureSupport_Statics::PropPointers), sizeof(Z_Construct_UFunction_UStreamlineLibrary_QueryStreamlineFeatureSupport_Statics::StreamlineLibrary_eventQueryStreamlineFeatureSupport_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022403, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UStreamlineLibrary_QueryStreamlineFeatureSupport_Statics::Function_MetaDataParams), Z_Construct_UFunction_UStreamlineLibrary_QueryStreamlineFeatureSupport_Statics::Function_MetaDataParams) };
@@ -765,10 +749,10 @@ template<> STREAMLINEBLUEPRINT_API UScriptStruct* StaticStruct<FStreamlineFeatur
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UStreamlineLibrary_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UStreamlineLibrary_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UStreamlineLibrary_BreakStreamlineFeatureRequirements, "BreakStreamlineFeatureRequirements" }, // 1506087985
-		{ &Z_Construct_UFunction_UStreamlineLibrary_GetStreamlineFeatureInformation, "GetStreamlineFeatureInformation" }, // 1221161404
-		{ &Z_Construct_UFunction_UStreamlineLibrary_IsStreamlineFeatureSupported, "IsStreamlineFeatureSupported" }, // 2984874815
-		{ &Z_Construct_UFunction_UStreamlineLibrary_QueryStreamlineFeatureSupport, "QueryStreamlineFeatureSupport" }, // 1714581512
+		{ &Z_Construct_UFunction_UStreamlineLibrary_BreakStreamlineFeatureRequirements, "BreakStreamlineFeatureRequirements" }, // 390449749
+		{ &Z_Construct_UFunction_UStreamlineLibrary_GetStreamlineFeatureInformation, "GetStreamlineFeatureInformation" }, // 1356345290
+		{ &Z_Construct_UFunction_UStreamlineLibrary_IsStreamlineFeatureSupported, "IsStreamlineFeatureSupported" }, // 3152378096
+		{ &Z_Construct_UFunction_UStreamlineLibrary_QueryStreamlineFeatureSupport, "QueryStreamlineFeatureSupport" }, // 2900986419
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UStreamlineLibrary_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -810,26 +794,26 @@ template<> STREAMLINEBLUEPRINT_API UScriptStruct* StaticStruct<FStreamlineFeatur
 	UStreamlineLibrary::UStreamlineLibrary(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UStreamlineLibrary);
 	UStreamlineLibrary::~UStreamlineLibrary() {}
-	struct Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibrary_h_Statics
+	struct Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibrary_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FStructRegisterCompiledInInfo ScriptStructInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibrary_h_Statics::EnumInfo[] = {
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibrary_h_Statics::EnumInfo[] = {
 		{ UStreamlineFeature_StaticEnum, TEXT("UStreamlineFeature"), &Z_Registration_Info_UEnum_UStreamlineFeature, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2527791186U) },
 		{ UStreamlineFeatureSupport_StaticEnum, TEXT("UStreamlineFeatureSupport"), &Z_Registration_Info_UEnum_UStreamlineFeatureSupport, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 633177639U) },
 		{ UStreamlineFeatureRequirementsFlags_StaticEnum, TEXT("UStreamlineFeatureRequirementsFlags"), &Z_Registration_Info_UEnum_UStreamlineFeatureRequirementsFlags, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 309842106U) },
 	};
-	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibrary_h_Statics::ScriptStructInfo[] = {
+	const FStructRegisterCompiledInInfo Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibrary_h_Statics::ScriptStructInfo[] = {
 		{ FStreamlineVersion::StaticStruct, Z_Construct_UScriptStruct_FStreamlineVersion_Statics::NewStructOps, TEXT("StreamlineVersion"), &Z_Registration_Info_UScriptStruct_StreamlineVersion, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FStreamlineVersion), 2451085195U) },
 		{ FStreamlineFeatureRequirements::StaticStruct, Z_Construct_UScriptStruct_FStreamlineFeatureRequirements_Statics::NewStructOps, TEXT("StreamlineFeatureRequirements"), &Z_Registration_Info_UScriptStruct_StreamlineFeatureRequirements, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FStreamlineFeatureRequirements), 682433987U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibrary_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UStreamlineLibrary, UStreamlineLibrary::StaticClass, TEXT("UStreamlineLibrary"), &Z_Registration_Info_UClass_UStreamlineLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UStreamlineLibrary), 1451079167U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibrary_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UStreamlineLibrary, UStreamlineLibrary::StaticClass, TEXT("UStreamlineLibrary"), &Z_Registration_Info_UClass_UStreamlineLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UStreamlineLibrary), 2558970611U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibrary_h_3869166627(TEXT("/Script/StreamlineBlueprint"),
-		Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibrary_h_Statics::ClassInfo),
-		Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibrary_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibrary_h_Statics::ScriptStructInfo),
-		Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibrary_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibrary_h_Statics::EnumInfo));
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibrary_h_1578298472(TEXT("/Script/StreamlineBlueprint"),
+		Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibrary_h_Statics::ClassInfo),
+		Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibrary_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibrary_h_Statics::ScriptStructInfo),
+		Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibrary_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibrary_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,11 +1,11 @@
-"C:\Users\dudas\OneDrive\Desktop\PFE_JournalisteV2\PFE_JournalisteV2\Plugins\Streamline\Intermediate\Build\Win64\x64\UnrealEditor\Development\StreamlineShaders\Module.StreamlineShaders.cpp"
-/FI"C:\Users\dudas\OneDrive\Desktop\PFE_JournalisteV2\PFE_JournalisteV2\Intermediate\Build\Win64\x64\PFE_JournalisteV2Editor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h"
-/FI"C:\Users\dudas\OneDrive\Desktop\PFE_JournalisteV2\PFE_JournalisteV2\Plugins\Streamline\Intermediate\Build\Win64\x64\UnrealEditor\Development\StreamlineShaders\Definitions.StreamlineShaders.h"
-/Yu"C:\Users\dudas\OneDrive\Desktop\PFE_JournalisteV2\PFE_JournalisteV2\Intermediate\Build\Win64\x64\PFE_JournalisteV2Editor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h"
-/Fp"C:\Users\dudas\OneDrive\Desktop\PFE_JournalisteV2\PFE_JournalisteV2\Intermediate\Build\Win64\x64\PFE_JournalisteV2Editor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.pch"
-/Fo"C:\Users\dudas\OneDrive\Desktop\PFE_JournalisteV2\PFE_JournalisteV2\Plugins\Streamline\Intermediate\Build\Win64\x64\UnrealEditor\Development\StreamlineShaders\Module.StreamlineShaders.cpp.obj"
-/sourceDependencies "C:\Users\dudas\OneDrive\Desktop\PFE_JournalisteV2\PFE_JournalisteV2\Plugins\Streamline\Intermediate\Build\Win64\x64\UnrealEditor\Development\StreamlineShaders\Module.StreamlineShaders.cpp.dep.json"
-@"C:\Users\dudas\OneDrive\Desktop\PFE_JournalisteV2\PFE_JournalisteV2\Plugins\Streamline\Intermediate\Build\Win64\x64\UnrealEditor\Development\StreamlineShaders\StreamlineShaders.Shared.rsp"
+"F:\GitHub\PFE_JournalisteV2\Plugins\Streamline\Intermediate\Build\Win64\x64\UnrealEditor\Development\StreamlineShaders\Module.StreamlineShaders.cpp"
+/FI"F:\GitHub\PFE_JournalisteV2\Intermediate\Build\Win64\x64\PFE_JournalisteV2Editor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h"
+/FI"F:\GitHub\PFE_JournalisteV2\Plugins\Streamline\Intermediate\Build\Win64\x64\UnrealEditor\Development\StreamlineShaders\Definitions.StreamlineShaders.h"
+/Yu"F:\GitHub\PFE_JournalisteV2\Intermediate\Build\Win64\x64\PFE_JournalisteV2Editor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h"
+/Fp"F:\GitHub\PFE_JournalisteV2\Intermediate\Build\Win64\x64\PFE_JournalisteV2Editor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.pch"
+/Fo"F:\GitHub\PFE_JournalisteV2\Plugins\Streamline\Intermediate\Build\Win64\x64\UnrealEditor\Development\StreamlineShaders\Module.StreamlineShaders.cpp.obj"
+/sourceDependencies "F:\GitHub\PFE_JournalisteV2\Plugins\Streamline\Intermediate\Build\Win64\x64\UnrealEditor\Development\StreamlineShaders\Module.StreamlineShaders.cpp.dep.json"
+@"F:\GitHub\PFE_JournalisteV2\Plugins\Streamline\Intermediate\Build\Win64\x64\UnrealEditor\Development\StreamlineShaders\StreamlineShaders.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi

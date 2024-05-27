@@ -172,14 +172,10 @@ void EmptyLinkFunctionForGeneratedCodeStreamlineLibraryDLSSG() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDefaultDLSSGMode_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Streamline|DLSS-FG" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Find a reasonable default DLSS-FG mode based on current hardware */" },
-#endif
 		{ "DisplayName", "Get Default DLSS-FG Mode" },
 		{ "ModuleRelativePath", "Public/StreamlineLibraryDLSSG.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Find a reasonable default DLSS-FG mode based on current hardware" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDefaultDLSSGMode_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UStreamlineLibraryDLSSG, nullptr, "GetDefaultDLSSGMode", nullptr, nullptr, Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDefaultDLSSGMode_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDefaultDLSSGMode_Statics::PropPointers), sizeof(Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDefaultDLSSGMode_Statics::StreamlineLibraryDLSSG_eventGetDefaultDLSSGMode_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022403, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDefaultDLSSGMode_Statics::Function_MetaDataParams), Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDefaultDLSSGMode_Statics::Function_MetaDataParams) };
@@ -218,14 +214,10 @@ void EmptyLinkFunctionForGeneratedCodeStreamlineLibraryDLSSG() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDLSSGFrameTiming_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Streamline|DLSS-FG" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Returns the actual framerate and number of frames presented, whether DLSS-FG is active or not */" },
-#endif
 		{ "DisplayName", "Get DLSS-FG frame frame rate and presented frames" },
 		{ "ModuleRelativePath", "Public/StreamlineLibraryDLSSG.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the actual framerate and number of frames presented, whether DLSS-FG is active or not" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDLSSGFrameTiming_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UStreamlineLibraryDLSSG, nullptr, "GetDLSSGFrameTiming", nullptr, nullptr, Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDLSSGFrameTiming_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDLSSGFrameTiming_Statics::PropPointers), sizeof(Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDLSSGFrameTiming_Statics::StreamlineLibraryDLSSG_eventGetDLSSGFrameTiming_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422403, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDLSSGFrameTiming_Statics::Function_MetaDataParams), Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDLSSGFrameTiming_Statics::Function_MetaDataParams) };
@@ -263,14 +255,10 @@ void EmptyLinkFunctionForGeneratedCodeStreamlineLibraryDLSSG() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDLSSGMode_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Streamline|DLSS-FG" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Reads the console variables to infer the current DLSS-FG mode*/" },
-#endif
 		{ "DisplayName", "Get DLSS-FG Mode" },
 		{ "ModuleRelativePath", "Public/StreamlineLibraryDLSSG.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Reads the console variables to infer the current DLSS-FG mode" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDLSSGMode_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UStreamlineLibraryDLSSG, nullptr, "GetDLSSGMode", nullptr, nullptr, Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDLSSGMode_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDLSSGMode_Statics::PropPointers), sizeof(Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDLSSGMode_Statics::StreamlineLibraryDLSSG_eventGetDLSSGMode_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022403, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDLSSGMode_Statics::Function_MetaDataParams), Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDLSSGMode_Statics::Function_MetaDataParams) };
@@ -311,14 +299,10 @@ void EmptyLinkFunctionForGeneratedCodeStreamlineLibraryDLSSG() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetSupportedDLSSGModes_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Streamline|DLSS-FG" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Retrieves all supported DLSS-FG modes. Can be used to populate UI */" },
-#endif
 		{ "DisplayName", "Get Supported DLSS-FG Modes" },
 		{ "ModuleRelativePath", "Public/StreamlineLibraryDLSSG.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Retrieves all supported DLSS-FG modes. Can be used to populate UI" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetSupportedDLSSGModes_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UStreamlineLibraryDLSSG, nullptr, "GetSupportedDLSSGModes", nullptr, nullptr, Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetSupportedDLSSGModes_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetSupportedDLSSGModes_Statics::PropPointers), sizeof(Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetSupportedDLSSGModes_Statics::StreamlineLibraryDLSSG_eventGetSupportedDLSSGModes_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022403, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetSupportedDLSSGModes_Statics::Function_MetaDataParams), Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetSupportedDLSSGModes_Statics::Function_MetaDataParams) };
@@ -365,14 +349,10 @@ void EmptyLinkFunctionForGeneratedCodeStreamlineLibraryDLSSG() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UStreamlineLibraryDLSSG_IsDLSSGModeSupported_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Streamline|DLSS-FG" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Checks whether a DLSS-FG mode is supported */" },
-#endif
 		{ "DisplayName", "Is DLSS-FG Mode Supported" },
 		{ "ModuleRelativePath", "Public/StreamlineLibraryDLSSG.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Checks whether a DLSS-FG mode is supported" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UStreamlineLibraryDLSSG_IsDLSSGModeSupported_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UStreamlineLibraryDLSSG, nullptr, "IsDLSSGModeSupported", nullptr, nullptr, Z_Construct_UFunction_UStreamlineLibraryDLSSG_IsDLSSGModeSupported_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UStreamlineLibraryDLSSG_IsDLSSGModeSupported_Statics::PropPointers), sizeof(Z_Construct_UFunction_UStreamlineLibraryDLSSG_IsDLSSGModeSupported_Statics::StreamlineLibraryDLSSG_eventIsDLSSGModeSupported_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022403, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UStreamlineLibraryDLSSG_IsDLSSGModeSupported_Statics::Function_MetaDataParams), Z_Construct_UFunction_UStreamlineLibraryDLSSG_IsDLSSGModeSupported_Statics::Function_MetaDataParams) };
@@ -412,14 +392,10 @@ void EmptyLinkFunctionForGeneratedCodeStreamlineLibraryDLSSG() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UStreamlineLibraryDLSSG_IsDLSSGSupported_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Streamline|DLSS-FG" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Checks whether DLSS-FG is supported by the current GPU. Further details can be retrieved via QueryDLSSGSupport*/" },
-#endif
 		{ "DisplayName", "Is NVIDIA DLSS-FG Supported" },
 		{ "ModuleRelativePath", "Public/StreamlineLibraryDLSSG.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Checks whether DLSS-FG is supported by the current GPU. Further details can be retrieved via QueryDLSSGSupport" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UStreamlineLibraryDLSSG_IsDLSSGSupported_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UStreamlineLibraryDLSSG, nullptr, "IsDLSSGSupported", nullptr, nullptr, Z_Construct_UFunction_UStreamlineLibraryDLSSG_IsDLSSGSupported_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UStreamlineLibraryDLSSG_IsDLSSGSupported_Statics::PropPointers), sizeof(Z_Construct_UFunction_UStreamlineLibraryDLSSG_IsDLSSGSupported_Statics::StreamlineLibraryDLSSG_eventIsDLSSGSupported_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022403, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UStreamlineLibraryDLSSG_IsDLSSGSupported_Statics::Function_MetaDataParams), Z_Construct_UFunction_UStreamlineLibraryDLSSG_IsDLSSGSupported_Statics::Function_MetaDataParams) };
@@ -457,14 +433,10 @@ void EmptyLinkFunctionForGeneratedCodeStreamlineLibraryDLSSG() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UStreamlineLibraryDLSSG_QueryDLSSGSupport_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Streamline|DLSS-FG" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Checks whether DLSS-FG is supported by the current GPU\x09*/" },
-#endif
 		{ "DisplayName", "Query NVIDIA DLSS-FG Support" },
 		{ "ModuleRelativePath", "Public/StreamlineLibraryDLSSG.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Checks whether DLSS-FG is supported by the current GPU" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UStreamlineLibraryDLSSG_QueryDLSSGSupport_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UStreamlineLibraryDLSSG, nullptr, "QueryDLSSGSupport", nullptr, nullptr, Z_Construct_UFunction_UStreamlineLibraryDLSSG_QueryDLSSGSupport_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UStreamlineLibraryDLSSG_QueryDLSSGSupport_Statics::PropPointers), sizeof(Z_Construct_UFunction_UStreamlineLibraryDLSSG_QueryDLSSGSupport_Statics::StreamlineLibraryDLSSG_eventQueryDLSSGSupport_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022403, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UStreamlineLibraryDLSSG_QueryDLSSGSupport_Statics::Function_MetaDataParams), Z_Construct_UFunction_UStreamlineLibraryDLSSG_QueryDLSSGSupport_Statics::Function_MetaDataParams) };
@@ -502,14 +474,10 @@ void EmptyLinkFunctionForGeneratedCodeStreamlineLibraryDLSSG() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UStreamlineLibraryDLSSG_SetDLSSGMode_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Streamline|DLSS-FG" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Sets the console variables to enable/disable DLSS-FG\n\x09 * Off = DLSS-FG disabled\n\x09 * On = DLSS-FG always enabled\n\x09 * Auto = DLSS-FG may be temporarily disabled if it could hurt frame rate\n\x09 */" },
-#endif
 		{ "DisplayName", "Set DLSS-FG Mode" },
 		{ "ModuleRelativePath", "Public/StreamlineLibraryDLSSG.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets the console variables to enable/disable DLSS-FG\nOff = DLSS-FG disabled\nOn = DLSS-FG always enabled\nAuto = DLSS-FG may be temporarily disabled if it could hurt frame rate" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UStreamlineLibraryDLSSG_SetDLSSGMode_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UStreamlineLibraryDLSSG, nullptr, "SetDLSSGMode", nullptr, nullptr, Z_Construct_UFunction_UStreamlineLibraryDLSSG_SetDLSSGMode_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UStreamlineLibraryDLSSG_SetDLSSGMode_Statics::PropPointers), sizeof(Z_Construct_UFunction_UStreamlineLibraryDLSSG_SetDLSSGMode_Statics::StreamlineLibraryDLSSG_eventSetDLSSGMode_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022403, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UStreamlineLibraryDLSSG_SetDLSSGMode_Statics::Function_MetaDataParams), Z_Construct_UFunction_UStreamlineLibraryDLSSG_SetDLSSGMode_Statics::Function_MetaDataParams) };
@@ -545,14 +513,14 @@ void EmptyLinkFunctionForGeneratedCodeStreamlineLibraryDLSSG() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UStreamlineLibraryDLSSG_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UStreamlineLibraryDLSSG_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDefaultDLSSGMode, "GetDefaultDLSSGMode" }, // 206212033
-		{ &Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDLSSGFrameTiming, "GetDLSSGFrameTiming" }, // 3547100662
-		{ &Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDLSSGMode, "GetDLSSGMode" }, // 3229572693
-		{ &Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetSupportedDLSSGModes, "GetSupportedDLSSGModes" }, // 2334223162
-		{ &Z_Construct_UFunction_UStreamlineLibraryDLSSG_IsDLSSGModeSupported, "IsDLSSGModeSupported" }, // 1713484931
-		{ &Z_Construct_UFunction_UStreamlineLibraryDLSSG_IsDLSSGSupported, "IsDLSSGSupported" }, // 613469245
-		{ &Z_Construct_UFunction_UStreamlineLibraryDLSSG_QueryDLSSGSupport, "QueryDLSSGSupport" }, // 1094457092
-		{ &Z_Construct_UFunction_UStreamlineLibraryDLSSG_SetDLSSGMode, "SetDLSSGMode" }, // 35997781
+		{ &Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDefaultDLSSGMode, "GetDefaultDLSSGMode" }, // 2927754774
+		{ &Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDLSSGFrameTiming, "GetDLSSGFrameTiming" }, // 2662415834
+		{ &Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetDLSSGMode, "GetDLSSGMode" }, // 88682479
+		{ &Z_Construct_UFunction_UStreamlineLibraryDLSSG_GetSupportedDLSSGModes, "GetSupportedDLSSGModes" }, // 1427891037
+		{ &Z_Construct_UFunction_UStreamlineLibraryDLSSG_IsDLSSGModeSupported, "IsDLSSGModeSupported" }, // 860929271
+		{ &Z_Construct_UFunction_UStreamlineLibraryDLSSG_IsDLSSGSupported, "IsDLSSGSupported" }, // 3907625306
+		{ &Z_Construct_UFunction_UStreamlineLibraryDLSSG_QueryDLSSGSupport, "QueryDLSSGSupport" }, // 1961410505
+		{ &Z_Construct_UFunction_UStreamlineLibraryDLSSG_SetDLSSGMode, "SetDLSSGMode" }, // 2940472768
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UStreamlineLibraryDLSSG_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -594,19 +562,19 @@ void EmptyLinkFunctionForGeneratedCodeStreamlineLibraryDLSSG() {}
 	UStreamlineLibraryDLSSG::UStreamlineLibraryDLSSG(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UStreamlineLibraryDLSSG);
 	UStreamlineLibraryDLSSG::~UStreamlineLibraryDLSSG() {}
-	struct Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibraryDLSSG_h_Statics
+	struct Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibraryDLSSG_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibraryDLSSG_h_Statics::EnumInfo[] = {
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibraryDLSSG_h_Statics::EnumInfo[] = {
 		{ UStreamlineDLSSGMode_StaticEnum, TEXT("UStreamlineDLSSGMode"), &Z_Registration_Info_UEnum_UStreamlineDLSSGMode, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 4283410598U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibraryDLSSG_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UStreamlineLibraryDLSSG, UStreamlineLibraryDLSSG::StaticClass, TEXT("UStreamlineLibraryDLSSG"), &Z_Registration_Info_UClass_UStreamlineLibraryDLSSG, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UStreamlineLibraryDLSSG), 3090956755U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibraryDLSSG_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UStreamlineLibraryDLSSG, UStreamlineLibraryDLSSG::StaticClass, TEXT("UStreamlineLibraryDLSSG"), &Z_Registration_Info_UClass_UStreamlineLibraryDLSSG, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UStreamlineLibraryDLSSG), 3030890400U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibraryDLSSG_h_2585397526(TEXT("/Script/StreamlineBlueprint"),
-		Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibraryDLSSG_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibraryDLSSG_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibraryDLSSG_h_1976682249(TEXT("/Script/StreamlineBlueprint"),
+		Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibraryDLSSG_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibraryDLSSG_h_Statics::ClassInfo),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibraryDLSSG_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibraryDLSSG_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibraryDLSSG_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineBlueprint_Public_StreamlineLibraryDLSSG_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

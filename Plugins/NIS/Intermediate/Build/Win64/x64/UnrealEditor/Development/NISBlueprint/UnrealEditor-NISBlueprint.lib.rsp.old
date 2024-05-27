@@ -6,7 +6,7 @@
 /NAME:"UnrealEditor-NISBlueprint.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\Users\dudas\OneDrive\Desktop\PFE_JournalisteV2\Intermediate\Build\Win64\x64\PFE_JournalisteV2Editor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.obj"
-"C:\Users\dudas\OneDrive\Desktop\PFE_JournalisteV2\Plugins\NIS\Intermediate\Build\Win64\x64\UnrealEditor\Development\NISBlueprint\Module.NISBlueprint.cpp.obj"
-"C:\Users\dudas\OneDrive\Desktop\PFE_JournalisteV2\Plugins\NIS\Intermediate\Build\Win64\x64\UnrealEditor\Development\NISBlueprint\Default.rc2.res"
-/OUT:"C:\Users\dudas\OneDrive\Desktop\PFE_JournalisteV2\Plugins\NIS\Intermediate\Build\Win64\x64\UnrealEditor\Development\NISBlueprint\UnrealEditor-NISBlueprint.lib"
+"F:\GitHub\PFE_JournalisteV2\Intermediate\Build\Win64\x64\PFE_JournalisteV2Editor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.obj"
+"F:\GitHub\PFE_JournalisteV2\Plugins\NIS\Intermediate\Build\Win64\x64\UnrealEditor\Development\NISBlueprint\Module.NISBlueprint.cpp.obj"
+"F:\GitHub\PFE_JournalisteV2\Plugins\NIS\Intermediate\Build\Win64\x64\UnrealEditor\Development\NISBlueprint\Default.rc2.res"
+/OUT:"F:\GitHub\PFE_JournalisteV2\Plugins\NIS\Intermediate\Build\Win64\x64\UnrealEditor\Development\NISBlueprint\UnrealEditor-NISBlueprint.lib"
