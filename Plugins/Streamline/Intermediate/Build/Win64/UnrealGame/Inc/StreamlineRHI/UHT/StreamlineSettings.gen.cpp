@@ -117,14 +117,10 @@ void EmptyLinkFunctionForGeneratedCodeStreamlineSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStreamlineOverrideSettings_Statics::NewProp_EnableDLSSFGInPlayInEditorViewportsOverride_MetaData[] = {
 		{ "Category", "Level Editor - Viewport (Local)" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Enable DLSS Frame Generation in New Editor Window Play In Editor mode.\n\x09 * Saved to local user config only.\n\x09 * Note: DLSS Frame Generation is not supported in editor viewports\n\x09 */" },
-#endif
 		{ "DisplayName", "Enable DLSS-FG in New Editor Window (PIE) mode" },
 		{ "ModuleRelativePath", "Public/StreamlineSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Enable DLSS Frame Generation in New Editor Window Play In Editor mode.\nSaved to local user config only.\nNote: DLSS Frame Generation is not supported in editor viewports" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UStreamlineOverrideSettings_Statics::NewProp_EnableDLSSFGInPlayInEditorViewportsOverride = { "EnableDLSSFGInPlayInEditorViewportsOverride", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UStreamlineOverrideSettings, EnableDLSSFGInPlayInEditorViewportsOverride), Z_Construct_UEnum_StreamlineRHI_EStreamlineSettingOverride, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UStreamlineOverrideSettings_Statics::NewProp_EnableDLSSFGInPlayInEditorViewportsOverride_MetaData), Z_Construct_UClass_UStreamlineOverrideSettings_Statics::NewProp_EnableDLSSFGInPlayInEditorViewportsOverride_MetaData) }; // 421387610
@@ -132,14 +128,10 @@ void EmptyLinkFunctionForGeneratedCodeStreamlineSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStreamlineOverrideSettings_Statics::NewProp_LoadDebugOverlayOverride_MetaData[] = {
 		{ "Category", "General Settings" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Load the Streamline debug overlay in non-Shipping configurations. Note that the overlay requires DLSS Frame Generation to be available.\n\x09 * Modifying this setting requires an editor restart to take effect. Saved to local user config only\n\x09 */" },
-#endif
 		{ "DisplayName", "Load Debug Overlay" },
 		{ "ModuleRelativePath", "Public/StreamlineSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Load the Streamline debug overlay in non-Shipping configurations. Note that the overlay requires DLSS Frame Generation to be available.\nModifying this setting requires an editor restart to take effect. Saved to local user config only" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UStreamlineOverrideSettings_Statics::NewProp_LoadDebugOverlayOverride = { "LoadDebugOverlayOverride", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UStreamlineOverrideSettings, LoadDebugOverlayOverride), Z_Construct_UEnum_StreamlineRHI_EStreamlineSettingOverride, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UStreamlineOverrideSettings_Statics::NewProp_LoadDebugOverlayOverride_MetaData), Z_Construct_UClass_UStreamlineOverrideSettings_Statics::NewProp_LoadDebugOverlayOverride_MetaData) }; // 421387610
@@ -245,14 +237,10 @@ void EmptyLinkFunctionForGeneratedCodeStreamlineSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStreamlineSettings_Statics::NewProp_bEnableStreamlineD3D12_MetaData[] = {
 		{ "Category", "Platforms" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Enable plugin features for D3D12, if the driver supports it at runtime */" },
-#endif
 		{ "DisplayName", "Enable plugin features for the D3D12RHI" },
 		{ "ModuleRelativePath", "Public/StreamlineSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Enable plugin features for D3D12, if the driver supports it at runtime" },
-#endif
 	};
 #endif
 	void Z_Construct_UClass_UStreamlineSettings_Statics::NewProp_bEnableStreamlineD3D12_SetBit(void* Obj)
@@ -263,14 +251,10 @@ void EmptyLinkFunctionForGeneratedCodeStreamlineSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStreamlineSettings_Statics::NewProp_bEnableStreamlineD3D11_MetaData[] = {
 		{ "Category", "Platforms" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Enable plugin features for D3D11, if the driver supports it at runtime */" },
-#endif
 		{ "DisplayName", "Enable plugin features for the D3D11RHI (Reflex only)" },
 		{ "ModuleRelativePath", "Public/StreamlineSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Enable plugin features for D3D11, if the driver supports it at runtime" },
-#endif
 	};
 #endif
 	void Z_Construct_UClass_UStreamlineSettings_Statics::NewProp_bEnableStreamlineD3D11_SetBit(void* Obj)
@@ -281,14 +265,10 @@ void EmptyLinkFunctionForGeneratedCodeStreamlineSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStreamlineSettings_Statics::NewProp_bEnableDLSSFGInPlayInEditorViewports_MetaData[] = {
 		{ "Category", "Level Editor - Viewport" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Enable DLSS Frame Generation in New Editor Window Play In Editor mode.\n\x09 * This project wide setting can be locally overridden in the NVIDIA DLSS Frame Generation (Local) settings.\n\x09 * Note: DLSS Frame Generation is not supported in editor viewports\n\x09 */" },
-#endif
 		{ "DisplayName", "Enable DLSS-FG in New Editor Window (PIE) mode" },
 		{ "ModuleRelativePath", "Public/StreamlineSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Enable DLSS Frame Generation in New Editor Window Play In Editor mode.\nThis project wide setting can be locally overridden in the NVIDIA DLSS Frame Generation (Local) settings.\nNote: DLSS Frame Generation is not supported in editor viewports" },
-#endif
 	};
 #endif
 	void Z_Construct_UClass_UStreamlineSettings_Statics::NewProp_bEnableDLSSFGInPlayInEditorViewports_SetBit(void* Obj)
@@ -299,14 +279,10 @@ void EmptyLinkFunctionForGeneratedCodeStreamlineSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStreamlineSettings_Statics::NewProp_bLoadDebugOverlay_MetaData[] = {
 		{ "Category", "General Settings" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n\x09 * Load the Streamline debug overlay in non-Shipping configurations. Note that the overlay requires DLSS Frame Generation to be available.\n\x09 * This project wide setting can be locally overridden in the NVIDIA DLSS Frame Generation (Local) settings.\n\x09 * Modifying this setting requires an editor restart to take effect\n\x09 */" },
-#endif
 		{ "DisplayName", "Load Debug Overlay" },
 		{ "ModuleRelativePath", "Public/StreamlineSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Load the Streamline debug overlay in non-Shipping configurations. Note that the overlay requires DLSS Frame Generation to be available.\nThis project wide setting can be locally overridden in the NVIDIA DLSS Frame Generation (Local) settings.\nModifying this setting requires an editor restart to take effect" },
-#endif
 	};
 #endif
 	void Z_Construct_UClass_UStreamlineSettings_Statics::NewProp_bLoadDebugOverlay_SetBit(void* Obj)
@@ -317,14 +293,10 @@ void EmptyLinkFunctionForGeneratedCodeStreamlineSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStreamlineSettings_Statics::NewProp_bAllowOTAUpdate_MetaData[] = {
 		{ "Category", "General Settings" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Allow OTA updates of Streamline features */" },
-#endif
 		{ "DisplayName", "Allow OTA update" },
 		{ "ModuleRelativePath", "Public/StreamlineSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Allow OTA updates of Streamline features" },
-#endif
 	};
 #endif
 	void Z_Construct_UClass_UStreamlineSettings_Statics::NewProp_bAllowOTAUpdate_SetBit(void* Obj)
@@ -335,14 +307,10 @@ void EmptyLinkFunctionForGeneratedCodeStreamlineSettings() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStreamlineSettings_Statics::NewProp_NVIDIANGXApplicationId_MetaData[] = {
 		{ "Category", "General Settings" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** By default the DLSS Frame Generation plugin uses the UE Project ID to initialize Streamline. In some cases NVIDIA might provide a separate NVIDIA Application ID, which should be put here. */" },
-#endif
 		{ "DisplayName", "NVIDIA NGX Application ID" },
 		{ "ModuleRelativePath", "Public/StreamlineSettings.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "By default the DLSS Frame Generation plugin uses the UE Project ID to initialize Streamline. In some cases NVIDIA might provide a separate NVIDIA Application ID, which should be put here." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_UStreamlineSettings_Statics::NewProp_NVIDIANGXApplicationId = { "NVIDIANGXApplicationId", nullptr, (EPropertyFlags)0x0010040000004001, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UStreamlineSettings, NVIDIANGXApplicationId), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_UStreamlineSettings_Statics::NewProp_NVIDIANGXApplicationId_MetaData), Z_Construct_UClass_UStreamlineSettings_Statics::NewProp_NVIDIANGXApplicationId_MetaData) };
@@ -388,20 +356,20 @@ void EmptyLinkFunctionForGeneratedCodeStreamlineSettings() {}
 	UStreamlineSettings::UStreamlineSettings(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UStreamlineSettings);
 	UStreamlineSettings::~UStreamlineSettings() {}
-	struct Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineRHI_Public_StreamlineSettings_h_Statics
+	struct Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineRHI_Public_StreamlineSettings_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineRHI_Public_StreamlineSettings_h_Statics::EnumInfo[] = {
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineRHI_Public_StreamlineSettings_h_Statics::EnumInfo[] = {
 		{ EStreamlineSettingOverride_StaticEnum, TEXT("EStreamlineSettingOverride"), &Z_Registration_Info_UEnum_EStreamlineSettingOverride, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 421387610U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineRHI_Public_StreamlineSettings_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UStreamlineOverrideSettings, UStreamlineOverrideSettings::StaticClass, TEXT("UStreamlineOverrideSettings"), &Z_Registration_Info_UClass_UStreamlineOverrideSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UStreamlineOverrideSettings), 2239595428U) },
-		{ Z_Construct_UClass_UStreamlineSettings, UStreamlineSettings::StaticClass, TEXT("UStreamlineSettings"), &Z_Registration_Info_UClass_UStreamlineSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UStreamlineSettings), 2098210177U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineRHI_Public_StreamlineSettings_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UStreamlineOverrideSettings, UStreamlineOverrideSettings::StaticClass, TEXT("UStreamlineOverrideSettings"), &Z_Registration_Info_UClass_UStreamlineOverrideSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UStreamlineOverrideSettings), 4129266319U) },
+		{ Z_Construct_UClass_UStreamlineSettings, UStreamlineSettings::StaticClass, TEXT("UStreamlineSettings"), &Z_Registration_Info_UClass_UStreamlineSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UStreamlineSettings), 153953114U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineRHI_Public_StreamlineSettings_h_795823287(TEXT("/Script/StreamlineRHI"),
-		Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineRHI_Public_StreamlineSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineRHI_Public_StreamlineSettings_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineRHI_Public_StreamlineSettings_h_465250081(TEXT("/Script/StreamlineRHI"),
+		Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineRHI_Public_StreamlineSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineRHI_Public_StreamlineSettings_h_Statics::ClassInfo),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineRHI_Public_StreamlineSettings_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_Streamline_Source_StreamlineRHI_Public_StreamlineSettings_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineRHI_Public_StreamlineSettings_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID__stage_plugin_Plugins_Streamline_HostProject_Plugins_Streamline_Source_StreamlineRHI_Public_StreamlineSettings_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

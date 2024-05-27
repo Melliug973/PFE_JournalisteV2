@@ -68,12 +68,20 @@
 /DRHI_RAYTRACING=1
 /DNDEBUG=1
 /DUE_BUILD_DEVELOPMENT=1
+<<<<<<<< HEAD:Plugins/Streamline/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/StreamlineBlueprint/Default.rc2.res.rsp
 /DORIGINAL_FILE_NAME="UnrealEditor-StreamlineBlueprint-Win64-DebugGame.dll"
+========
+/DORIGINAL_FILE_NAME="UnrealEditor-CitySampleMassCrowd.dll"
+>>>>>>>> Develop:Plugins/CitySampleMassCrowd/Intermediate/Build/Win64/x64/UnrealEditor/Development/CitySampleMassCrowd/Default.rc2.res.rsp.old
 /DBUILT_FROM_CHANGELIST=29314046
 /DBUILD_VERSION=++UE5+Release-5.3-CL-29314046
 /DBUILD_ICON_FILE_NAME="\"..\\Build\\Windows\\Resources\\Default.ico\""
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_NAME="Third Person BP Game Template"
 /DPROJECT_PRODUCT_IDENTIFIER=PFE_JournalisteV2
+<<<<<<<< HEAD:Plugins/Streamline/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/StreamlineBlueprint/Default.rc2.res.rsp
 /fo "D:\PFE\PFE_JournalisteV2\Plugins\Streamline\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\StreamlineBlueprint\Default.rc2.res"
+========
+/fo "F:\GitHub\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Intermediate\Build\Win64\x64\UnrealEditor\Development\CitySampleMassCrowd\Default.rc2.res"
+>>>>>>>> Develop:Plugins/CitySampleMassCrowd/Intermediate/Build/Win64/x64/UnrealEditor/Development/CitySampleMassCrowd/Default.rc2.res.rsp.old
 "..\Build\Windows\Resources\Default.rc2"

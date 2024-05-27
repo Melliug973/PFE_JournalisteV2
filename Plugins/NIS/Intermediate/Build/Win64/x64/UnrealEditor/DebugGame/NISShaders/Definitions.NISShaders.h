@@ -1,4 +1,8 @@
+<<<<<<<< HEAD:Plugins/NIS/Intermediate/Build/Win64/x64/UnrealEditor/DebugGame/NISShaders/Definitions.NISShaders.h
 #include "D:/PFE/PFE_JournalisteV2/Intermediate/Build/Win64/x64/PFE_JournalisteV2Editor/DebugGame/Engine/SharedDefinitions.Engine.NonOptimized.Cpp20.InclOrderUnreal5_0.h"
+========
+#include "F:/GitHub/PFE_JournalisteV2/Intermediate/Build/Win64/x64/PFE_JournalisteV2Editor/Development/Engine/SharedDefinitions.Engine.Cpp20.InclOrderUnreal5_0.h"
+>>>>>>>> Develop:Plugins/NIS/Intermediate/Build/Win64/x64/UnrealEditor/Development/NISShaders/Definitions.NISShaders.h.old
 #undef UE_IS_ENGINE_MODULE
 #undef DEPRECATED_FORGAME
 #define DEPRECATED_FORGAME DEPRECATED

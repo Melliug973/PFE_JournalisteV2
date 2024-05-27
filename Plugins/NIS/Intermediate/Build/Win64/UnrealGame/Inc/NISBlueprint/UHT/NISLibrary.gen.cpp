@@ -247,14 +247,10 @@ void EmptyLinkFunctionForGeneratedCodeNISLibrary() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UNISLibrary_GetDefaultNISMode_Statics::Function_MetaDataParams[] = {
 		{ "Category", "NIS" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "///* Find a reasonable default NIS mode based on current hardware */\n" },
-#endif
 		{ "DisplayName", "Get Default NIS Mode" },
 		{ "ModuleRelativePath", "Public/NISLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Find a reasonable default NIS mode based on current hardware" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UNISLibrary_GetDefaultNISMode_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UNISLibrary, nullptr, "GetDefaultNISMode", nullptr, nullptr, Z_Construct_UFunction_UNISLibrary_GetDefaultNISMode_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UNISLibrary_GetDefaultNISMode_Statics::PropPointers), sizeof(Z_Construct_UFunction_UNISLibrary_GetDefaultNISMode_Statics::NISLibrary_eventGetDefaultNISMode_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022403, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UNISLibrary_GetDefaultNISMode_Statics::Function_MetaDataParams), Z_Construct_UFunction_UNISLibrary_GetDefaultNISMode_Statics::Function_MetaDataParams) };
@@ -296,14 +292,10 @@ void EmptyLinkFunctionForGeneratedCodeNISLibrary() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UNISLibrary_GetNISRecommendedScreenPercentage_Statics::Function_MetaDataParams[] = {
 		{ "Category", "NIS" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Returns the recommended screen percentage for a given NIS mode. Returns CustomScreenPercentage if NISMode is UNISMode::Custom */" },
-#endif
 		{ "DisplayName", "Get NIS Recommended Screen Percentage" },
 		{ "ModuleRelativePath", "Public/NISLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Returns the recommended screen percentage for a given NIS mode. Returns CustomScreenPercentage if NISMode is UNISMode::Custom" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UNISLibrary_GetNISRecommendedScreenPercentage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UNISLibrary, nullptr, "GetNISRecommendedScreenPercentage", nullptr, nullptr, Z_Construct_UFunction_UNISLibrary_GetNISRecommendedScreenPercentage_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UNISLibrary_GetNISRecommendedScreenPercentage_Statics::PropPointers), sizeof(Z_Construct_UFunction_UNISLibrary_GetNISRecommendedScreenPercentage_Statics::NISLibrary_eventGetNISRecommendedScreenPercentage_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022403, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UNISLibrary_GetNISRecommendedScreenPercentage_Statics::Function_MetaDataParams), Z_Construct_UFunction_UNISLibrary_GetNISRecommendedScreenPercentage_Statics::Function_MetaDataParams) };
@@ -342,14 +334,10 @@ void EmptyLinkFunctionForGeneratedCodeNISLibrary() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UNISLibrary_GetNISScreenPercentageRange_Statics::Function_MetaDataParams[] = {
 		{ "Category", "NIS" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The global screen percentage range that NIS supports. */" },
-#endif
 		{ "DisplayName", "Get NIS Screen Percentage Range" },
 		{ "ModuleRelativePath", "Public/NISLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The global screen percentage range that NIS supports." },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UNISLibrary_GetNISScreenPercentageRange_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UNISLibrary, nullptr, "GetNISScreenPercentageRange", nullptr, nullptr, Z_Construct_UFunction_UNISLibrary_GetNISScreenPercentageRange_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UNISLibrary_GetNISScreenPercentageRange_Statics::PropPointers), sizeof(Z_Construct_UFunction_UNISLibrary_GetNISScreenPercentageRange_Statics::NISLibrary_eventGetNISScreenPercentageRange_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14422403, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UNISLibrary_GetNISScreenPercentageRange_Statics::Function_MetaDataParams), Z_Construct_UFunction_UNISLibrary_GetNISScreenPercentageRange_Statics::Function_MetaDataParams) };
@@ -390,14 +378,10 @@ void EmptyLinkFunctionForGeneratedCodeNISLibrary() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UNISLibrary_GetSupportedNISModes_Statics::Function_MetaDataParams[] = {
 		{ "Category", "NIS" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Retrieves all supported NIS modes. Can be used to populate UI */" },
-#endif
 		{ "DisplayName", "Get Supported NIS Modes" },
 		{ "ModuleRelativePath", "Public/NISLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Retrieves all supported NIS modes. Can be used to populate UI" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UNISLibrary_GetSupportedNISModes_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UNISLibrary, nullptr, "GetSupportedNISModes", nullptr, nullptr, Z_Construct_UFunction_UNISLibrary_GetSupportedNISModes_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UNISLibrary_GetSupportedNISModes_Statics::PropPointers), sizeof(Z_Construct_UFunction_UNISLibrary_GetSupportedNISModes_Statics::NISLibrary_eventGetSupportedNISModes_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022403, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UNISLibrary_GetSupportedNISModes_Statics::Function_MetaDataParams), Z_Construct_UFunction_UNISLibrary_GetSupportedNISModes_Statics::Function_MetaDataParams) };
@@ -444,14 +428,10 @@ void EmptyLinkFunctionForGeneratedCodeNISLibrary() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UNISLibrary_IsNISModeSupported_Statics::Function_MetaDataParams[] = {
 		{ "Category", "NIS" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Checks whether a NIS mode is supported */" },
-#endif
 		{ "DisplayName", "Is NIS Mode Supported" },
 		{ "ModuleRelativePath", "Public/NISLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Checks whether a NIS mode is supported" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UNISLibrary_IsNISModeSupported_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UNISLibrary, nullptr, "IsNISModeSupported", nullptr, nullptr, Z_Construct_UFunction_UNISLibrary_IsNISModeSupported_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UNISLibrary_IsNISModeSupported_Statics::PropPointers), sizeof(Z_Construct_UFunction_UNISLibrary_IsNISModeSupported_Statics::NISLibrary_eventIsNISModeSupported_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022403, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UNISLibrary_IsNISModeSupported_Statics::Function_MetaDataParams), Z_Construct_UFunction_UNISLibrary_IsNISModeSupported_Statics::Function_MetaDataParams) };
@@ -491,14 +471,10 @@ void EmptyLinkFunctionForGeneratedCodeNISLibrary() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UNISLibrary_IsNISSupported_Statics::Function_MetaDataParams[] = {
 		{ "Category", "NIS" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Checks whether NIS is supported by the current GPU. Further details can be retrieved via QueryNISSupport*/" },
-#endif
 		{ "DisplayName", "Is NVIDIA NIS Supported" },
 		{ "ModuleRelativePath", "Public/NISLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Checks whether NIS is supported by the current GPU. Further details can be retrieved via QueryNISSupport" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UNISLibrary_IsNISSupported_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UNISLibrary, nullptr, "IsNISSupported", nullptr, nullptr, Z_Construct_UFunction_UNISLibrary_IsNISSupported_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UNISLibrary_IsNISSupported_Statics::PropPointers), sizeof(Z_Construct_UFunction_UNISLibrary_IsNISSupported_Statics::NISLibrary_eventIsNISSupported_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14022403, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UNISLibrary_IsNISSupported_Statics::Function_MetaDataParams), Z_Construct_UFunction_UNISLibrary_IsNISSupported_Statics::Function_MetaDataParams) };
@@ -533,15 +509,11 @@ void EmptyLinkFunctionForGeneratedCodeNISLibrary() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UNISLibrary_SetNISCustomScreenPercentage_Statics::Function_MetaDataParams[] = {
 		{ "Category", "NIS" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set the screen percentage used for Custom mode (100% by default) */" },
-#endif
 		{ "CPP_Default_CustomScreenPercentage", "100.000000" },
 		{ "DisplayName", "Set NIS Custom Screen Percentage" },
 		{ "ModuleRelativePath", "Public/NISLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set the screen percentage used for Custom mode (100% by default)" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UNISLibrary_SetNISCustomScreenPercentage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UNISLibrary, nullptr, "SetNISCustomScreenPercentage", nullptr, nullptr, Z_Construct_UFunction_UNISLibrary_SetNISCustomScreenPercentage_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UNISLibrary_SetNISCustomScreenPercentage_Statics::PropPointers), sizeof(Z_Construct_UFunction_UNISLibrary_SetNISCustomScreenPercentage_Statics::NISLibrary_eventSetNISCustomScreenPercentage_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022403, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UNISLibrary_SetNISCustomScreenPercentage_Statics::Function_MetaDataParams), Z_Construct_UFunction_UNISLibrary_SetNISCustomScreenPercentage_Statics::Function_MetaDataParams) };
@@ -579,14 +551,10 @@ void EmptyLinkFunctionForGeneratedCodeNISLibrary() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UNISLibrary_SetNISMode_Statics::Function_MetaDataParams[] = {
 		{ "Category", "NIS" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Sets the console variables to enable/disable NIS (r.NIS.Enable, r.NIS.Upscaling, r.ScreenPercentage, r.TemporalAA.Upsampling, r.TemporalAA.Upscaler)*/" },
-#endif
 		{ "DisplayName", "Set NIS Mode" },
 		{ "ModuleRelativePath", "Public/NISLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets the console variables to enable/disable NIS (r.NIS.Enable, r.NIS.Upscaling, r.ScreenPercentage, r.TemporalAA.Upsampling, r.TemporalAA.Upscaler)" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UNISLibrary_SetNISMode_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UNISLibrary, nullptr, "SetNISMode", nullptr, nullptr, Z_Construct_UFunction_UNISLibrary_SetNISMode_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UNISLibrary_SetNISMode_Statics::PropPointers), sizeof(Z_Construct_UFunction_UNISLibrary_SetNISMode_Statics::NISLibrary_eventSetNISMode_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022403, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UNISLibrary_SetNISMode_Statics::Function_MetaDataParams), Z_Construct_UFunction_UNISLibrary_SetNISMode_Statics::Function_MetaDataParams) };
@@ -621,14 +589,10 @@ void EmptyLinkFunctionForGeneratedCodeNISLibrary() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UNISLibrary_SetNISSharpness_Statics::Function_MetaDataParams[] = {
 		{ "Category", "NIS" },
-#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Sets the console variables to enable additional NIS sharpening. Set to 0 to disable (r.NGX.NIS.Sharpness) */" },
-#endif
 		{ "DisplayName", "Set NIS Sharpness" },
 		{ "ModuleRelativePath", "Public/NISLibrary.h" },
-#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Sets the console variables to enable additional NIS sharpening. Set to 0 to disable (r.NGX.NIS.Sharpness)" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UNISLibrary_SetNISSharpness_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UNISLibrary, nullptr, "SetNISSharpness", nullptr, nullptr, Z_Construct_UFunction_UNISLibrary_SetNISSharpness_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UNISLibrary_SetNISSharpness_Statics::PropPointers), sizeof(Z_Construct_UFunction_UNISLibrary_SetNISSharpness_Statics::NISLibrary_eventSetNISSharpness_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04022403, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_UNISLibrary_SetNISSharpness_Statics::Function_MetaDataParams), Z_Construct_UFunction_UNISLibrary_SetNISSharpness_Statics::Function_MetaDataParams) };
@@ -664,15 +628,15 @@ void EmptyLinkFunctionForGeneratedCodeNISLibrary() {}
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UNISLibrary_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_UNISLibrary_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_UNISLibrary_GetDefaultNISMode, "GetDefaultNISMode" }, // 1535857266
-		{ &Z_Construct_UFunction_UNISLibrary_GetNISRecommendedScreenPercentage, "GetNISRecommendedScreenPercentage" }, // 2920017252
-		{ &Z_Construct_UFunction_UNISLibrary_GetNISScreenPercentageRange, "GetNISScreenPercentageRange" }, // 1567587951
-		{ &Z_Construct_UFunction_UNISLibrary_GetSupportedNISModes, "GetSupportedNISModes" }, // 658931124
-		{ &Z_Construct_UFunction_UNISLibrary_IsNISModeSupported, "IsNISModeSupported" }, // 861884823
-		{ &Z_Construct_UFunction_UNISLibrary_IsNISSupported, "IsNISSupported" }, // 2214911298
-		{ &Z_Construct_UFunction_UNISLibrary_SetNISCustomScreenPercentage, "SetNISCustomScreenPercentage" }, // 563082015
-		{ &Z_Construct_UFunction_UNISLibrary_SetNISMode, "SetNISMode" }, // 2636625307
-		{ &Z_Construct_UFunction_UNISLibrary_SetNISSharpness, "SetNISSharpness" }, // 261378441
+		{ &Z_Construct_UFunction_UNISLibrary_GetDefaultNISMode, "GetDefaultNISMode" }, // 3155419472
+		{ &Z_Construct_UFunction_UNISLibrary_GetNISRecommendedScreenPercentage, "GetNISRecommendedScreenPercentage" }, // 1328951516
+		{ &Z_Construct_UFunction_UNISLibrary_GetNISScreenPercentageRange, "GetNISScreenPercentageRange" }, // 1752487609
+		{ &Z_Construct_UFunction_UNISLibrary_GetSupportedNISModes, "GetSupportedNISModes" }, // 1030794151
+		{ &Z_Construct_UFunction_UNISLibrary_IsNISModeSupported, "IsNISModeSupported" }, // 1877134618
+		{ &Z_Construct_UFunction_UNISLibrary_IsNISSupported, "IsNISSupported" }, // 4243245916
+		{ &Z_Construct_UFunction_UNISLibrary_SetNISCustomScreenPercentage, "SetNISCustomScreenPercentage" }, // 2558549273
+		{ &Z_Construct_UFunction_UNISLibrary_SetNISMode, "SetNISMode" }, // 560470904
+		{ &Z_Construct_UFunction_UNISLibrary_SetNISSharpness, "SetNISSharpness" }, // 2485163020
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_UNISLibrary_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
@@ -714,20 +678,20 @@ void EmptyLinkFunctionForGeneratedCodeNISLibrary() {}
 	UNISLibrary::UNISLibrary(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UNISLibrary);
 	UNISLibrary::~UNISLibrary() {}
-	struct Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_NIS_Source_NISBlueprint_Public_NISLibrary_h_Statics
+	struct Z_CompiledInDeferFile_FID__stage_plugin_Plugins_NIS_HostProject_Plugins_NIS_Source_NISBlueprint_Public_NISLibrary_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_NIS_Source_NISBlueprint_Public_NISLibrary_h_Statics::EnumInfo[] = {
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID__stage_plugin_Plugins_NIS_HostProject_Plugins_NIS_Source_NISBlueprint_Public_NISLibrary_h_Statics::EnumInfo[] = {
 		{ UNISSupport_StaticEnum, TEXT("UNISSupport"), &Z_Registration_Info_UEnum_UNISSupport, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 971070702U) },
 		{ UNISMode_StaticEnum, TEXT("UNISMode"), &Z_Registration_Info_UEnum_UNISMode, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2135030076U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_NIS_Source_NISBlueprint_Public_NISLibrary_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UNISLibrary, UNISLibrary::StaticClass, TEXT("UNISLibrary"), &Z_Registration_Info_UClass_UNISLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UNISLibrary), 929680140U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID__stage_plugin_Plugins_NIS_HostProject_Plugins_NIS_Source_NISBlueprint_Public_NISLibrary_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UNISLibrary, UNISLibrary::StaticClass, TEXT("UNISLibrary"), &Z_Registration_Info_UClass_UNISLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UNISLibrary), 3317955589U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_NIS_Source_NISBlueprint_Public_NISLibrary_h_3527694516(TEXT("/Script/NISBlueprint"),
-		Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_NIS_Source_NISBlueprint_Public_NISLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_NIS_Source_NISBlueprint_Public_NISLibrary_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID__stage_plugin_Plugins_NIS_HostProject_Plugins_NIS_Source_NISBlueprint_Public_NISLibrary_h_1064648401(TEXT("/Script/NISBlueprint"),
+		Z_CompiledInDeferFile_FID__stage_plugin_Plugins_NIS_HostProject_Plugins_NIS_Source_NISBlueprint_Public_NISLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID__stage_plugin_Plugins_NIS_HostProject_Plugins_NIS_Source_NISBlueprint_Public_NISLibrary_h_Statics::ClassInfo),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_NIS_Source_NISBlueprint_Public_NISLibrary_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_dudas_OneDrive_Desktop_PFE_JournalisteV2_PFE_JournalisteV2_Plugins_NIS_Source_NISBlueprint_Public_NISLibrary_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID__stage_plugin_Plugins_NIS_HostProject_Plugins_NIS_Source_NISBlueprint_Public_NISLibrary_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID__stage_plugin_Plugins_NIS_HostProject_Plugins_NIS_Source_NISBlueprint_Public_NISLibrary_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

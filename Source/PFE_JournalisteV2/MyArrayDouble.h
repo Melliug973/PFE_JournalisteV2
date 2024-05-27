@@ -20,6 +20,7 @@ protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
 	TArray<TArray<FString>> DoubleListString;
+	TArray<TArray<int32>> DoubleListInt;
 	TArray<TArray<FText>> DoubleListText;
 	TArray<TArray<FSlateColor>> DoubleListSlateColor;
 	TArray<int32> PhotoIndexArray;
@@ -30,7 +31,12 @@ public:
 	void AddDoubleArrayString(TArray<FString> ListString);
 	UFUNCTION(BlueprintCallable)
 		TArray<FString> GetDoubleArrayString(int Index);
-
+	UFUNCTION(BlueprintCallable)
+		TArray<int32> GetDoubleArrayIntIndex(int Index);
+	UFUNCTION(BlueprintCallable)
+		int32 GetDoubleArrayInt();
+	UFUNCTION(BlueprintCallable)
+		void AddDoubleArrayInt(TArray<int32> ListInt);
 	UFUNCTION(BlueprintCallable)
 		TArray<FText> GetDoubleArrayText(int Index);
 	UFUNCTION(BlueprintCallable)
