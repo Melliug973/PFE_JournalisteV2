@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-NISBlueprint-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\PFE\PFE_JournalisteV2\Intermediate\Build\Win64\x64\PFE_JournalisteV2Editor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.Cpp20.InclOrderUnreal5_0.h.obj"
+"D:\PFE\PFE_JournalisteV2\Plugins\NIS\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\NISBlueprint\Module.NISBlueprint.cpp.obj"
+"D:\PFE\PFE_JournalisteV2\Plugins\NIS\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\NISBlueprint\NISBlueprint.init.gen.cpp.obj"
+"D:\PFE\PFE_JournalisteV2\Plugins\NIS\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\NISBlueprint\NISLibrary.gen.cpp.obj"
+"D:\PFE\PFE_JournalisteV2\Plugins\NIS\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\NISBlueprint\Default.rc2.res"
+/OUT:"D:\PFE\PFE_JournalisteV2\Plugins\NIS\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\NISBlueprint\UnrealEditor-NISBlueprint-Win64-DebugGame.lib"

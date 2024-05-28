@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-StreamlineRHI-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\PFE\PFE_JournalisteV2\Intermediate\Build\Win64\x64\PFE_JournalisteV2Editor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.Cpp20.InclOrderUnreal5_0.h.obj"
+"D:\PFE\PFE_JournalisteV2\Plugins\Streamline\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\StreamlineRHI\Module.StreamlineRHI.cpp.obj"
+"D:\PFE\PFE_JournalisteV2\Plugins\Streamline\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\StreamlineRHI\StreamlineRHI.init.gen.cpp.obj"
+"D:\PFE\PFE_JournalisteV2\Plugins\Streamline\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\StreamlineRHI\StreamlineSettings.gen.cpp.obj"
+"D:\PFE\PFE_JournalisteV2\Plugins\Streamline\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\StreamlineRHI\Default.rc2.res"
+/OUT:"D:\PFE\PFE_JournalisteV2\Plugins\Streamline\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\StreamlineRHI\UnrealEditor-StreamlineRHI-Win64-DebugGame.lib"
