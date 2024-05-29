@@ -1,16 +1,16 @@
-D:\PFE\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\CitySampleDebugVisualization.h
-D:\PFE\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\CitySampleDisplayEntitiesProcessor.h
-D:\PFE\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\CitySampleMassCrowdRepresentationActorManagement.h
-D:\PFE\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\SmartObjectMassInteractionDefinition.h
-D:\PFE\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\MassCrowdAnimationTypes.h
-D:\PFE\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassCharacterMovementInfo_AnimInput.h
-D:\PFE\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassCharacterStopPrediction_AnimInput.h
-D:\PFE\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassPlayerAnimInstance.h
-D:\PFE\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassCharacterProximity_AnimInput.h
-D:\PFE\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassCrowdAnimInstance.h
-D:\PFE\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\MassCrowdUpdateISMVertexAnimationProcessor.h
-D:\PFE\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassCrowdContextualAnimTypes.h
-D:\PFE\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\IMassCrowdActor.h
-D:\PFE\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassCrowdAnimationSettings.h
-D:\PFE\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\MassCrowdAnimationProcessor.h
-D:\PFE\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private\Tasks\MassContextualAnimTask.h
+C:\Users\jules\Unreal Projects\PFE_Journalisme\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\CitySampleDebugVisualization.h
+C:\Users\jules\Unreal Projects\PFE_Journalisme\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\MassCrowdUpdateISMVertexAnimationProcessor.h
+C:\Users\jules\Unreal Projects\PFE_Journalisme\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\SmartObjectMassInteractionDefinition.h
+C:\Users\jules\Unreal Projects\PFE_Journalisme\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\CitySampleMassCrowdRepresentationActorManagement.h
+C:\Users\jules\Unreal Projects\PFE_Journalisme\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\CitySampleDisplayEntitiesProcessor.h
+C:\Users\jules\Unreal Projects\PFE_Journalisme\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\MassCrowdAnimationTypes.h
+C:\Users\jules\Unreal Projects\PFE_Journalisme\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassCharacterMovementInfo_AnimInput.h
+C:\Users\jules\Unreal Projects\PFE_Journalisme\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassPlayerAnimInstance.h
+C:\Users\jules\Unreal Projects\PFE_Journalisme\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassCharacterProximity_AnimInput.h
+C:\Users\jules\Unreal Projects\PFE_Journalisme\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\IMassCrowdActor.h
+C:\Users\jules\Unreal Projects\PFE_Journalisme\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\MassCrowdAnimationProcessor.h
+C:\Users\jules\Unreal Projects\PFE_Journalisme\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassCrowdContextualAnimTypes.h
+C:\Users\jules\Unreal Projects\PFE_Journalisme\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassCrowdAnimationSettings.h
+C:\Users\jules\Unreal Projects\PFE_Journalisme\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassCharacterStopPrediction_AnimInput.h
+C:\Users\jules\Unreal Projects\PFE_Journalisme\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Public\Animation\MassCrowdAnimInstance.h
+C:\Users\jules\Unreal Projects\PFE_Journalisme\PFE_JournalisteV2\Plugins\CitySampleMassCrowd\Source\CitySampleMassCrowd\Private\Tasks\MassContextualAnimTask.h

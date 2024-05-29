@@ -37,6 +37,8 @@
 /NATVIS:"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\RenderCore\RenderCore.natvis"
 "D:\PFE\PFE_JournalisteV2\Intermediate\Build\Win64\x64\PFE_JournalisteV2Editor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.obj"
 "D:\PFE\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSS\Module.DLSS.cpp.obj"
+"D:\PFE\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSS\DLSS.init.gen.cpp.obj"
+"D:\PFE\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSS\DLSSSettings.gen.cpp.obj"
 "D:\PFE\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSS\Default.rc2.res"
 "D:\PFE\PFE_JournalisteV2\Plugins\DLSS\Source\ThirdParty\NGX\Lib\x64\nvsdk_ngx_d.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\UnrealEditor-Core.lib"

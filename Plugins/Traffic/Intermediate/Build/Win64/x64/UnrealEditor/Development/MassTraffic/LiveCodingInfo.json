@@ -2,7 +2,6 @@
 	"RemapUnityFiles": 
 	{
 		"Module.MassTraffic.1.cpp.obj": [
-			"MassTraffic.cpp.obj",
 			"MassTraffic.init.gen.cpp.obj",
 			"MassTrafficActorVehiclePhysicsProcessor.gen.cpp.obj",
 			"MassTrafficBubble.gen.cpp.obj",
@@ -22,7 +21,9 @@
 			"MassTrafficFindNextVehicleProcessor.gen.cpp.obj",
 			"MassTrafficFindObstaclesProcessor.gen.cpp.obj",
 			"MassTrafficFragments.gen.cpp.obj",
-			"MassTrafficFunctionLibrary.gen.cpp.obj",
+			"MassTrafficFunctionLibrary.gen.cpp.obj"
+		],
+		"Module.MassTraffic.2.cpp.obj": [
 			"MassTrafficInitInterpolationProcessor.gen.cpp.obj",
 			"MassTrafficInitIntersectionsProcessor.gen.cpp.obj",
 			"MassTrafficInitParkedVehiclesProcessor.gen.cpp.obj",
@@ -48,7 +49,9 @@
 			"MassTrafficParkedVehicleSpawnDataGenerator.gen.cpp.obj",
 			"MassTrafficParkedVehicleVisualizationProcessor.gen.cpp.obj",
 			"MassTrafficParkedVehicleVisualizationTrait.gen.cpp.obj",
-			"MassTrafficPhysics.gen.cpp.obj",
+			"MassTrafficPhysics.gen.cpp.obj"
+		],
+		"Module.MassTraffic.3.cpp.obj": [
 			"MassTrafficPIDController.gen.cpp.obj",
 			"MassTrafficPlayerVehicleLODProcessor.gen.cpp.obj",
 			"MassTrafficPostPhysicsUpdateDisturbedVehiclesProcessor.gen.cpp.obj",
@@ -75,7 +78,9 @@
 			"MassTrafficVehicleControlInterface.gen.cpp.obj",
 			"MassTrafficVehicleControlProcessor.gen.cpp.obj",
 			"MassTrafficVehicleDimensionsTrait.gen.cpp.obj",
-			"MassTrafficVehicleInterface.gen.cpp.obj",
+			"MassTrafficVehicleInterface.gen.cpp.obj"
+		],
+		"Module.MassTraffic.4.cpp.obj": [
 			"MassTrafficVehiclePhysicsProcessor.gen.cpp.obj",
 			"MassTrafficVehicleRepresentationActorManagement.gen.cpp.obj",
 			"MassTrafficVehicleSimulationLODProcessor.gen.cpp.obj",
@@ -83,9 +88,8 @@
 			"MassTrafficVehicleSpawnDataGenerator.gen.cpp.obj",
 			"MassTrafficVehicleVisualizationLODProcessor.gen.cpp.obj",
 			"MassTrafficVehicleVisualizationProcessor.gen.cpp.obj",
-			"MassTrafficVehicleVisualizationTrait.gen.cpp.obj"
-		],
-		"Module.MassTraffic.2.cpp.obj": [
+			"MassTrafficVehicleVisualizationTrait.gen.cpp.obj",
+			"MassTraffic.cpp.obj",
 			"MassTrafficActorVehiclePhysicsProcessor.cpp.obj",
 			"MassTrafficBubble.cpp.obj",
 			"MassTrafficChooseNextLaneProcessor.cpp.obj",
@@ -114,7 +118,9 @@
 			"MassTrafficInstancePlaybackHelpers.cpp.obj",
 			"MassTrafficInterpolation.cpp.obj",
 			"MassTrafficInterpolationProcessor.cpp.obj",
-			"MassTrafficIntersections.cpp.obj",
+			"MassTrafficIntersections.cpp.obj"
+		],
+		"Module.MassTraffic.5.cpp.obj": [
 			"MassTrafficIntersectionSimulationTrait.cpp.obj",
 			"MassTrafficIntersectionSpawnDataGenerator.cpp.obj",
 			"MassTrafficLaneChange.cpp.obj",
@@ -124,9 +130,7 @@
 			"MassTrafficLightVisualizationProcessor.cpp.obj",
 			"MassTrafficLightVisualizationTrait.cpp.obj",
 			"MassTrafficLightweightMontageInstance.cpp.obj",
-			"MassTrafficMovement.cpp.obj"
-		],
-		"Module.MassTraffic.3.cpp.obj": [
+			"MassTrafficMovement.cpp.obj",
 			"MassTrafficObstacleTrait.cpp.obj",
 			"MassTrafficOverseerProcessor.cpp.obj",
 			"MassTrafficParkedVehicleRepresentationActorManagement.cpp.obj",
@@ -148,7 +152,9 @@
 			"MassTrafficTrailerSpawnDataGenerator.cpp.obj",
 			"MassTrafficTrailerVisualizationProcessor.cpp.obj",
 			"MassTrafficTrailerVisualizationTrait.cpp.obj",
-			"MassTrafficTypes.cpp.obj",
+			"MassTrafficTypes.cpp.obj"
+		],
+		"Module.MassTraffic.6.cpp.obj": [
 			"MassTrafficUpdateDistanceToNearestObstacleProcessor.cpp.obj",
 			"MassTrafficUpdateIntersectionsProcessor.cpp.obj",
 			"MassTrafficUpdateTrailersProcessor.cpp.obj",
@@ -160,9 +166,7 @@
 			"MassTrafficVehicleControlProcessor.cpp.obj",
 			"MassTrafficVehicleDimensionsTrait.cpp.obj",
 			"MassTrafficVehicleInterface.cpp.obj",
-			"MassTrafficVehiclePhysicsProcessor.cpp.obj"
-		],
-		"Module.MassTraffic.4.cpp.obj": [
+			"MassTrafficVehiclePhysicsProcessor.cpp.obj",
 			"MassTrafficVehicleRepresentationActorManagement.cpp.obj",
 			"MassTrafficVehicleSimulationLODProcessor.cpp.obj",
 			"MassTrafficVehicleSimulationTrait.cpp.obj",
