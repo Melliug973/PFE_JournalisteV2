@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-StreamlineBlueprint-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\PFE\PFE_JournalisteV2\Intermediate\Build\Win64\x64\PFE_JournalisteV2Editor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.Cpp20.InclOrderUnreal5_0.h.obj"
+"D:\PFE\PFE_JournalisteV2\Plugins\Streamline\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\StreamlineBlueprint\Module.StreamlineBlueprint.cpp.obj"
+"D:\PFE\PFE_JournalisteV2\Plugins\Streamline\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\StreamlineBlueprint\StreamlineBlueprint.init.gen.cpp.obj"
+"D:\PFE\PFE_JournalisteV2\Plugins\Streamline\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\StreamlineBlueprint\StreamlineLibrary.gen.cpp.obj"
+"D:\PFE\PFE_JournalisteV2\Plugins\Streamline\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\StreamlineBlueprint\StreamlineLibraryDLSSG.gen.cpp.obj"
+"D:\PFE\PFE_JournalisteV2\Plugins\Streamline\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\StreamlineBlueprint\StreamlineLibraryReflex.gen.cpp.obj"
+"D:\PFE\PFE_JournalisteV2\Plugins\Streamline\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\StreamlineBlueprint\Default.rc2.res"
+/OUT:"D:\PFE\PFE_JournalisteV2\Plugins\Streamline\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\StreamlineBlueprint\UnrealEditor-StreamlineBlueprint-Win64-DebugGame.lib"

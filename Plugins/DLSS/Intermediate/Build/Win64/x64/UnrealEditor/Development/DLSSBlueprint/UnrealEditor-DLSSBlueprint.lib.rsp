@@ -6,7 +6,7 @@
 /NAME:"UnrealEditor-DLSSBlueprint.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\Users\paull\OneDrive\Documents\PFE_JournalisteV2\Intermediate\Build\Win64\x64\PFE_JournalisteV2Editor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.obj"
-"C:\Users\paull\OneDrive\Documents\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSSBlueprint\Module.DLSSBlueprint.cpp.obj"
-"C:\Users\paull\OneDrive\Documents\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSSBlueprint\Default.rc2.res"
-/OUT:"C:\Users\paull\OneDrive\Documents\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSSBlueprint\UnrealEditor-DLSSBlueprint.lib"
+"C:\Users\jules\Unreal Projects\PFE_Journalisme\PFE_JournalisteV2\Intermediate\Build\Win64\x64\PFE_JournalisteV2Editor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.obj"
+"C:\Users\jules\Unreal Projects\PFE_Journalisme\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSSBlueprint\Module.DLSSBlueprint.cpp.obj"
+"C:\Users\jules\Unreal Projects\PFE_Journalisme\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSSBlueprint\Default.rc2.res"
+/OUT:"C:\Users\jules\Unreal Projects\PFE_Journalisme\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSSBlueprint\UnrealEditor-DLSSBlueprint.lib"

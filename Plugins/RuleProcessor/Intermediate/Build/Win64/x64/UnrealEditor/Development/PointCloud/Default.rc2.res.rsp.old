@@ -75,5 +75,5 @@
 /DPROJECT_COPYRIGHT_STRING="Fill out your copyright notice in the Description page of Project Settings."
 /DPROJECT_PRODUCT_NAME="Third Person BP Game Template"
 /DPROJECT_PRODUCT_IDENTIFIER=PFE_JournalisteV2
-/fo "F:\GitHub\PFE_JournalisteV2\Plugins\RuleProcessor\Intermediate\Build\Win64\x64\UnrealEditor\Development\PointCloud\Default.rc2.res"
+/fo "D:\PFE\PFE_JournalisteV2\Plugins\RuleProcessor\Intermediate\Build\Win64\x64\UnrealEditor\Development\PointCloud\Default.rc2.res"
 "..\Build\Windows\Resources\Default.rc2"
