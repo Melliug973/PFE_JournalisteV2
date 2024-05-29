@@ -1,11 +1,11 @@
-"C:\Users\dudas\OneDrive\Desktop\PFE_JournalisteV2\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSSEditor\Module.DLSSEditor.cpp"
-/FI"C:\Users\dudas\OneDrive\Desktop\PFE_JournalisteV2\PFE_JournalisteV2\Intermediate\Build\Win64\x64\PFE_JournalisteV2Editor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h"
-/FI"C:\Users\dudas\OneDrive\Desktop\PFE_JournalisteV2\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSSEditor\Definitions.DLSSEditor.h"
-/Yu"C:\Users\dudas\OneDrive\Desktop\PFE_JournalisteV2\PFE_JournalisteV2\Intermediate\Build\Win64\x64\PFE_JournalisteV2Editor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h"
-/Fp"C:\Users\dudas\OneDrive\Desktop\PFE_JournalisteV2\PFE_JournalisteV2\Intermediate\Build\Win64\x64\PFE_JournalisteV2Editor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.pch"
-/Fo"C:\Users\dudas\OneDrive\Desktop\PFE_JournalisteV2\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSSEditor\Module.DLSSEditor.cpp.obj"
-/sourceDependencies "C:\Users\dudas\OneDrive\Desktop\PFE_JournalisteV2\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSSEditor\Module.DLSSEditor.cpp.dep.json"
-@"C:\Users\dudas\OneDrive\Desktop\PFE_JournalisteV2\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSSEditor\DLSSEditor.Shared.rsp"
+"D:\PFE\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSSEditor\Module.DLSSEditor.cpp"
+/FI"D:\PFE\PFE_JournalisteV2\Intermediate\Build\Win64\x64\PFE_JournalisteV2Editor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h"
+/FI"D:\PFE\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSSEditor\Definitions.DLSSEditor.h"
+/Yu"D:\PFE\PFE_JournalisteV2\Intermediate\Build\Win64\x64\PFE_JournalisteV2Editor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h"
+/Fp"D:\PFE\PFE_JournalisteV2\Intermediate\Build\Win64\x64\PFE_JournalisteV2Editor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.pch"
+/Fo"D:\PFE\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSSEditor\Module.DLSSEditor.cpp.obj"
+/sourceDependencies "D:\PFE\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSSEditor\Module.DLSSEditor.cpp.dep.json"
+@"D:\PFE\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSSEditor\DLSSEditor.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi
