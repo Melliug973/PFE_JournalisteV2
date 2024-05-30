@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\steuh\\onedrive\\bureau\\project\\pfe\\pfe_journalisme\\pfe_journalistev2\\plugins\\traffic\\intermediate\\build\\win64\\unrealgame\\inc\\masstraffic\\uht\\masstrafficinstanceplaybackhelpers.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\steuh\\onedrive\\bureau\\project\\pfe\\pfe_journalisme\\pfe_journalistev2\\intermediate\\build\\win64\\x64\\pfe_journalistev2\\development\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\steuh\\onedrive\\bureau\\project\\pfe\\pfe_journalisme\\pfe_journalistev2\\plugins\\traffic\\intermediate\\build\\win64\\x64\\unrealgame\\development\\masstraffic\\definitions.masstraffic.h",
+            "c:\\users\\steuh\\onedrive\\bureau\\project\\pfe\\pfe_journalisme\\pfe_journalistev2\\plugins\\traffic\\source\\masstraffic\\public\\masstrafficinstanceplaybackhelpers.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\instancedstaticmeshcomponent.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\public\\elements\\sminstance\\sminstancemanager.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\public\\elements\\sminstance\\sminstanceelementid.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\public\\instancedstaticmeshdelegates.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\sminstanceelementid.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\sminstancemanager.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\public\\primitiveinstanceupdatecommand.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\instancedstaticmeshcomponent.generated.h",
+            "c:\\users\\steuh\\onedrive\\bureau\\project\\pfe\\pfe_journalisme\\pfe_journalistev2\\plugins\\traffic\\intermediate\\build\\win64\\unrealgame\\inc\\masstraffic\\uht\\masstrafficinstanceplaybackhelpers.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -2,8 +2,8 @@
 	"RemapUnityFiles": 
 	{
 		"Module.DLSSBlueprint.cpp.obj": [
-			"DLSSBlueprint.init.gen.cpp.obj",
-			"DLSSLibrary.cpp.obj"
+			"DLSSLibrary.cpp.obj",
+			"DLSSBlueprint.init.gen.cpp.obj"
 		]
 	}
 }
