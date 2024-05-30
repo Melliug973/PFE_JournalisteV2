@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-DLSSUtility-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\PFE\PFE_JournalisteV2\Intermediate\Build\Win64\x64\PFE_JournalisteV2Editor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.Cpp20.InclOrderUnreal5_0.h.obj"
+"D:\PFE\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\DLSSUtility\Module.DLSSUtility.cpp.obj"
+"D:\PFE\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\DLSSUtility\Default.rc2.res"
+/OUT:"D:\PFE\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\DLSSUtility\UnrealEditor-DLSSUtility-Win64-DebugGame.lib"

@@ -6,7 +6,9 @@
 /NAME:"UnrealEditor-DLSS.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"F:\GitHub\PFE_JournalisteV2\Intermediate\Build\Win64\x64\PFE_JournalisteV2Editor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.obj"
-"F:\GitHub\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSS\Module.DLSS.cpp.obj"
-"F:\GitHub\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSS\Default.rc2.res"
-/OUT:"F:\GitHub\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSS\UnrealEditor-DLSS.lib"
+"D:\PFE\PFE_JournalisteV2\Intermediate\Build\Win64\x64\PFE_JournalisteV2Editor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.obj"
+"D:\PFE\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSS\Module.DLSS.cpp.obj"
+"D:\PFE\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSS\DLSS.init.gen.cpp.obj"
+"D:\PFE\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSS\DLSSSettings.gen.cpp.obj"
+"D:\PFE\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSS\Default.rc2.res"
+/OUT:"D:\PFE\PFE_JournalisteV2\Plugins\DLSS\Intermediate\Build\Win64\x64\UnrealEditor\Development\DLSS\UnrealEditor-DLSS.lib"
