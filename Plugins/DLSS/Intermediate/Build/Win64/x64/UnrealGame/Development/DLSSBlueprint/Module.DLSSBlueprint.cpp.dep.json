@@ -6,6 +6,7 @@
         "PCH": "c:\\users\\steuh\\onedrive\\bureau\\project\\pfe\\pfe_journalisme\\pfe_journalistev2\\intermediate\\build\\win64\\x64\\pfe_journalistev2\\development\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
         "Includes": [
             "c:\\users\\steuh\\onedrive\\bureau\\project\\pfe\\pfe_journalisme\\pfe_journalistev2\\plugins\\dlss\\intermediate\\build\\win64\\x64\\unrealgame\\development\\dlssblueprint\\definitions.dlssblueprint.h",
+            "c:\\users\\steuh\\onedrive\\bureau\\project\\pfe\\pfe_journalisme\\pfe_journalistev2\\plugins\\dlss\\intermediate\\build\\win64\\unrealgame\\inc\\dlssblueprint\\uht\\dlssblueprint.init.gen.cpp",
             "c:\\users\\steuh\\onedrive\\bureau\\project\\pfe\\pfe_journalisme\\pfe_journalistev2\\plugins\\dlss\\source\\dlssblueprint\\private\\dlsslibrary.cpp",
             "c:\\users\\steuh\\onedrive\\bureau\\project\\pfe\\pfe_journalisme\\pfe_journalistev2\\plugins\\dlss\\source\\dlssblueprint\\public\\dlsslibrary.h",
             "c:\\users\\steuh\\onedrive\\bureau\\project\\pfe\\pfe_journalisme\\pfe_journalistev2\\plugins\\dlss\\intermediate\\build\\win64\\unrealgame\\inc\\dlssblueprint\\uht\\dlsslibrary.generated.h",
