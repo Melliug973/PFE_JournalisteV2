@@ -146,11 +146,6 @@
 			"Name": "RadialMenu",
 			"Enabled": false,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/be623df092c442609c20a840630031fb"
-		},
-		{
-			"Name": "FlatNodes",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/b719437f3fb54c259b34227363df8cab"
 		}
 	]
 }
