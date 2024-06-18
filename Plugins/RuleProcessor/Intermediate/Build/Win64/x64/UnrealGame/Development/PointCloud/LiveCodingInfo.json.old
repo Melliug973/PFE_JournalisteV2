@@ -2,6 +2,7 @@
 	"RemapUnityFiles": 
 	{
 		"Module.PointCloud.1.cpp.obj": [
+			"PointCloud.cpp.obj",
 			"PointCloud.gen.cpp.obj",
 			"PointCloud.init.gen.cpp.obj",
 			"PointCloudImpl.gen.cpp.obj",
@@ -16,7 +17,6 @@
 			"PointCloudView.gen.cpp.obj"
 		],
 		"Module.PointCloud.2.cpp.obj": [
-			"PointCloud.cpp.obj",
 			"PointCloudAlembicHelpers.cpp.obj",
 			"PointCloudCsv.cpp.obj",
 			"PointCloudImpl.cpp.obj",

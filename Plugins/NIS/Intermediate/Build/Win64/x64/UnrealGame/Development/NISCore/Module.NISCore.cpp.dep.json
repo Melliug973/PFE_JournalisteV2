@@ -1,14 +1,14 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\users\\steuh\\onedrive\\bureau\\project\\pfe\\pfe_journalisme\\pfe_journalistev2\\plugins\\nis\\intermediate\\build\\win64\\x64\\unrealgame\\development\\niscore\\module.niscore.cpp",
+        "Source": "c:\\users\\$iq3000-v5ihjsiorjhv\\desktop\\safelife\\pfe_journalistev2\\plugins\\nis\\intermediate\\build\\win64\\x64\\unrealgame\\development\\niscore\\module.niscore.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\users\\steuh\\onedrive\\bureau\\project\\pfe\\pfe_journalisme\\pfe_journalistev2\\intermediate\\build\\win64\\x64\\pfe_journalistev2\\development\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
+        "PCH": "c:\\users\\$iq3000-v5ihjsiorjhv\\desktop\\safelife\\pfe_journalistev2\\intermediate\\build\\win64\\x64\\pfe_journalistev2\\development\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
         "Includes": [
-            "c:\\users\\steuh\\onedrive\\bureau\\project\\pfe\\pfe_journalisme\\pfe_journalistev2\\plugins\\nis\\intermediate\\build\\win64\\x64\\unrealgame\\development\\niscore\\definitions.niscore.h",
-            "c:\\users\\steuh\\onedrive\\bureau\\project\\pfe\\pfe_journalisme\\pfe_journalistev2\\plugins\\nis\\source\\niscore\\private\\niscore.cpp",
-            "c:\\users\\steuh\\onedrive\\bureau\\project\\pfe\\pfe_journalisme\\pfe_journalistev2\\plugins\\nis\\source\\niscore\\public\\niscore.h",
-            "c:\\users\\steuh\\onedrive\\bureau\\project\\pfe\\pfe_journalisme\\pfe_journalistev2\\plugins\\nis\\source\\nisshaders\\public\\nisshaders.h",
+            "c:\\users\\$iq3000-v5ihjsiorjhv\\desktop\\safelife\\pfe_journalistev2\\plugins\\nis\\intermediate\\build\\win64\\x64\\unrealgame\\development\\niscore\\definitions.niscore.h",
+            "c:\\users\\$iq3000-v5ihjsiorjhv\\desktop\\safelife\\pfe_journalistev2\\plugins\\nis\\source\\niscore\\private\\niscore.cpp",
+            "c:\\users\\$iq3000-v5ihjsiorjhv\\desktop\\safelife\\pfe_journalistev2\\plugins\\nis\\source\\niscore\\public\\niscore.h",
+            "c:\\users\\$iq3000-v5ihjsiorjhv\\desktop\\safelife\\pfe_journalistev2\\plugins\\nis\\source\\nisshaders\\public\\nisshaders.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\renderer\\private\\postprocess\\postprocessupscale.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\renderer\\private\\overridepasssequence.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\renderer\\public\\screenpass.h",
@@ -31,7 +31,7 @@
             "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\sceneviewextensioncontext.generated.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\public\\scenetexturesconfig.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\rendercore\\public\\gbufferinfo.h",
-            "c:\\users\\steuh\\onedrive\\bureau\\project\\pfe\\pfe_journalisme\\pfe_journalistev2\\plugins\\nis\\source\\niscore\\private\\nisupscaler.h",
+            "c:\\users\\$iq3000-v5ihjsiorjhv\\desktop\\safelife\\pfe_journalistev2\\plugins\\nis\\source\\niscore\\private\\nisupscaler.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\projects\\public\\interfaces\\ipluginmanager.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\projects\\public\\plugindescriptor.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\projects\\public\\custombuildsteps.h",
@@ -41,7 +41,7 @@
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\projects\\public\\versescope.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\enginesettings\\classes\\generalprojectsettings.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\enginesettings\\uht\\generalprojectsettings.generated.h",
-            "c:\\users\\steuh\\onedrive\\bureau\\project\\pfe\\pfe_journalisme\\pfe_journalistev2\\plugins\\nis\\source\\niscore\\private\\nisupscaler.cpp",
+            "c:\\users\\$iq3000-v5ihjsiorjhv\\desktop\\safelife\\pfe_journalistev2\\plugins\\nis\\source\\niscore\\private\\nisupscaler.cpp",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\public\\dynamicresolutionstate.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\public\\legacyscreenpercentagedriver.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\legacyscreenpercentagedriver.generated.h"
